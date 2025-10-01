@@ -1,0 +1,49 @@
+# CH1 : La Consommation - Banque de questions Text2Quiz (avec explications, corrections)
+
+### Définitions et concepts de base
+QCM || En macro, la consommation inclut : || V:Biens et services achetés|V:Biens autoconsommés|Services publics gratuits || Explication : Sont inclus achats des ménages et biens autoconsommés ; les services publics totalement gratuits n’entrent pas dans la consommation finale.
+QR  || Au sens strict, la consommation correspond à : || V:Destruction par l’usage pour satisfaire un besoin|Accumulation de patrimoine|Investissement net|Production publique || Explication : Sens strict = usage qui détruit le bien/épuisement du service pour satisfaire directement un besoin.
+VF  || La consommation élargie inclut les services gratuits publics (enseignement, santé). || V || Explication : En consommation élargie, on ajoute les services publics gratuits.
+
+### Revenus et équilibres
+QRC || Donne la formule du revenu disponible brut (Yd). || Revenu primaire + prestations sociales - prélèvements obligatoires|Revenu primaire + transferts nets - impôts || Explication : Yd = revenus primaires + transferts reçus – prélèvements obligatoires.
+Trous || Yd se répartit entre {{V:consommation finale|investissement}} et {{V:épargne|dette}}. || Explication : Emploi du revenu disponible : C + S.
+Flashcard || Équation d’emploi-ressource (ménages) || Yd = C + S || Explication : Le revenu disponible brut finance la consommation et l’épargne.
+
+### Typologies de consommation
+QCM || Par durabilité, on distingue : || V:Biens durables|V:Biens semi‑durables|V:Biens non durables|Services collectifs gratuits || Explication : Trois catégories de biens selon la durée d’usage ; les services collectifs gratuits ne sont pas une catégorie de durabilité.
+QR  || Le coefficient budgétaire b_i vaut : || V:(C_i/C) x 100|C/C_i x 100|C_i - C|C - C_i || Explication : Part de la dépense i dans la consommation totale.
+Flashcard || Loi d’Engel (1857) || Part alimentaire ↓ quand revenu ↑ ; logement/habillement suivent, autres postes ↑ plus vite. || Explication : Structure de consommation se déforme avec le revenu.
+
+### Élasticités et propensions
+Trous || La PmC mesure {{V:la part du revenu supplémentaire consacrée à la consommation|la part totale du revenu}}. || Explication : PmC = ΔC/ΔYd ; fraction de revenu additionnel consommée.
+QR  || La PMC est généralement : || V:décrécroissante avec le revenu|constante|croissante|indépendante || Explication : À mesure que le revenu ↑, la part moyenne consacrée à C ↓.
+VF  || Selon Keynes, C augmente moins vite que Yd. || V || Explication : Loi psychologique fondamentale.
+
+### Théories (Keynes et extensions)
+QCM || Formes compatibles avec Keynes : || V:Linéaire|V:Affine|V:Concave|Exponentielle || Explication : Trois formes compatibles ; l’exponentielle ne l’est pas.
+QR  || Dans C = cYd + C0, C0 est : || V:Consommation incompressible|Investissement autonome|Revenu permanent|Épargne nette || Explication : C0 = consommation minimale au revenu nul.
+Flashcard || Effet de cliquet (Duesenberry, 1948) || C influencée par le plus haut revenu passé. || Explication : Habitudes freinent la baisse de C en récession.
+Flashcard || Inertie (Brown, 1952) || C dépend de C_{t-1}. || Explication : Lissage via habitudes récentes.
+Flashcard || Effet de démonstration (Duesenberry, 1949) || C dépend du revenu relatif. || Explication : Imitation/comparaison sociale.
+
+### Approches intertemporelles
+Flashcard || Cycle de vie (Modigliani‑Brumberg, 1954) || Lissage de C ; patrimoine en “bosse”. || Explication : Épargne en activité, désépargne à la retraite.
+Flashcard || Revenu permanent (Friedman, 1957) || C dépend du revenu permanent anticipé. || Explication : Fondé sur richesse/anticipations, pas seul revenu courant.
+Trous || Yp est {{V:la somme consommable sans entamer le capital|le revenu courant}}. || Explication : Yp = consommation soutenable à long terme.
+
+### Déterminants de l’épargne
+QCM || Déterminants à court terme : || V:Pouvoir d’achat|V:Chômage|V:Inflation|V:Taux d’intérêt || Explication : Pouvoir d’achat ↓ → on puise dans l’épargne ; incertitude (chômage) ↑ → épargne de précaution ; inflation et i influencent S.
+QCM || Déterminants à long terme : || V:Vieillissement|V:Système de retraite|Exportations nettes|Progrès technique || Explication : Vieillissement et régimes de retraite modifient le profil d’épargne agrégé.
+VF  || Inflation élevée → à court terme, “fuite devant la monnaie”. || V || Explication : On consomme vite pour éviter l’érosion de valeur.
+VF  || À long terme, inflation peut ↑ l’épargne (effet d’encaisses réelles). || V || Explication : On épargne pour reconstituer la valeur réelle des encaisses.
+
+### Vérifications empiriques et débats
+QCM || Résultats de Kuznets (séries longues) : || V:PmC ≈ PMC|V:Relation proche de linéaire|PMC croît avec le revenu|Aucune relation C‑Yd || Explication : Sur longue période US, PMC ≈ PmC, contredisant la version affine stricte.
+QR  || Études en coupe instantanée montrent : || V:C augmente moins que proportionnellement au revenu|C proportionnelle|C indépendante|C baisse avec le revenu || Explication : Confirme intuition keynésienne au niveau micro.
+
+### Réflexion (style examen)
+QR  || Que devient la part alimentaire quand le revenu ↑ (Engel) ? || V:Elle diminue|Elle reste constante|Elle augmente || Explication : Effet de substitution/qualité ; part budgétaire ↓.
+QCM || Keynes vs Kuznets : || V:Keynes → PMC décroissante|V:Kuznets → PmC ≈ PMC|Keynes → strictement proportionnelle|Kuznets → PmC croissante || Explication : Keynes = lois comportementales ; Kuznets = constats statistiques.
+TrousRC || Deux limites de la fonction keynésienne : || Sous‑estimation d’après‑guerre|Contradictions séries courtes/longues || Explication : Les données post‑guerre et longues séries ne collent pas à la forme simple.
+Flashcard || Différence PmC vs PMC || PmC = ΔC/ΔYd ; PMC = C/Yd. || Explication : Marginale vs moyenne.

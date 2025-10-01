@@ -1,0 +1,22 @@
+### Version examen réaliste
+QCM || Pour Malthus, la population croît : || V:en progression géométrique|en progression arithmétique|au rythme de la production|au rythme des innovations
+QCM || Pour Malthus, les subsistances croissent : || en progression géométrique|V:en progression arithmétique|au même rythme que la population|de façon illimitée
+QCM || La loi de population de Malthus implique : || un enrichissement continu des travailleurs|V:une tendance à la misère si la population augmente trop vite|une hausse des profits pour tous|une disparition de la rente
+QCM || La « triple paupérisation » touche : || uniquement les capitalistes|uniquement les propriétaires terriens|V:l’ensemble de la population, surtout les plus pauvres|aucune catégorie
+QCM || Malthus critique l’optimisme de Smith car : || V:la croissance démographique peut annuler les gains économiques|la main invisible supprime les crises|la concurrence empêche la misère|l’État intervient trop
+
+### Version complète
+VF || Pour Malthus, la population augmente en progression géométrique tandis que les subsistances augmentent en progression arithmétique. || V || 2, 4, 8 vs 2, 4, 6, 8.
+VF || La croissance démographique entraîne un enrichissement global durable. || F || Elle conduit à la pauvreté si non contrôlée.
+VF || La triple paupérisation concerne les travailleurs, les capitalistes et les propriétaires fonciers. || V || Tout le monde en souffre mais surtout les plus pauvres.
+VF || Malthus pense que la croissance profite toujours aux ouvriers. || F || Elle fait baisser les salaires réels et accroît la misère.
+VF || Pour Malthus, la population doit être limitée par des freins (moraux ou naturels). || V || Contrôle des naissances, famines, guerres, maladies.
+VF || La loi de population de Malthus s’oppose à l’idée de Jean Bodin « il n’est de richesse que d’hommes ». || V || Pour Malthus, trop d’hommes = misère.
+
+QCM || La loi de population de Malthus énonce : || V:la population croît plus vite que les ressources|les ressources croissent plus vite que la population|les deux croissent au même rythme|la rareté n’existe pas
+QCM || Les « freins positifs » chez Malthus sont : || V:famines, épidémies, guerres|contrôle des naissances volontaire|les progrès techniques|la migration
+QCM || Les « freins préventifs » chez Malthus sont : || V:contrôle volontaire de la natalité, abstinence, mariage tardif|épidémies|guerres|famine
+QCM || La triple paupérisation se traduit par : || V:hausse prix agricoles + baisse salaires réels + baisse production par tête|hausse salaires réels + hausse profits + baisse rentes|baisse chômage + hausse salaires nominaux + hausse productivité|redistribution équitable
+QCM || Malthus propose comme solution : || V:freins à la croissance démographique|hausse des salaires|suppression de la rente|intervention massive de l’État
+
+### Questions tombées en examen (2022, 2023, 2024)

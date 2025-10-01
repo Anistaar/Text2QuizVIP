@@ -1,0 +1,41 @@
+# Examen Macroéconomie - Version fidèle (Text2Quiz avec explications)
+
+QCM || Le PIB nominal est de 1500 unités l’année n, l’inflation sur l’année n est de 50% le PIB réel est ? || 1235|2536|3000|V:1000 || Explication : 1500 / 1,5 = 1000.
+
+QCM || Pour déflater un PIB nominal, il faut : || Diviser par le PIB en valeur x100|Diviser par le PIB en volume x100|V:Diviser par l’indice des prix x100|Aucune de ces réponses n’est juste || Explication : Déflater = corriger de l’inflation avec l’indice des prix.
+
+QCM || Une grandeur en volume est égale : || V:Grandeur réelle sur indice des prix x100|Grandeur en valeur sur grandeur en volume x100|Grandeur en valeur sur indice des prix x100|Aucune de ces réponses n’est juste || Explication : Volume = valeur ÷ indice des prix ×100.
+
+QCM || c dans la fonction de consommation keynésienne représente : || La propension moyenne à consommer|La propension moyenne à épargner|V:La propension marginale à consommer|Aucune de ces réponses n’est juste || Explication : c est la pente de la fonction C = C0 + cYd.
+
+QCM || Dans une économie nationale la PMC s’établit respectivement à 0,50 et 0,80 le revenu national passe de 100 unités à 200 unités. Quelle sera la PmC ? || 0,18|0,20|V:0,11|Aucune de ces réponses n’est juste || Explication : PmC = ΔC/ΔY.
+
+QCM || Chez Keynes l’épargne est : || V:Un résidu|Un surplus|Partie du revenu consommée|Aucune de ces réponses n’est juste || Explication : Épargne = Yd – C.
+
+QCM || L’intersection OG et DG déterminent : || Le prix d’équilibre|L’investissement d’équilibre|V:Ye d’équilibre|Aucune de ces réponses n’est juste || Explication : Croisement OG et DG = revenu d’équilibre.
+
+QCM || Un taux de variation de –0,2% correspond : || 99|V:99,8|199|Aucune de ces réponses n’est juste || Explication : –0,2% → indice = 100 – 0,2 = 99,8.
+
+QCM || Chez KEYNES la consommation : || Augmente plus vite que le revenu|V:Augmente moins vite que le revenu|Augmente en même temps que le revenu|Aucune de ces réponses n’est juste || Explication : Loi psychologique fondamentale.
+
+QCM || Une propension moyenne à consommer supérieure à 1 signifie : || Le revenu est supérieur à la consommation|V:La consommation est supérieure au revenu|Le revenu augmente proportionnellement à la consommation|Aucune de ces réponses n’est juste || Explication : Si PMC > 1 → les ménages consomment plus que leur revenu.
+
+QCM || Le PIB en volume correspond au : || PIB nominal|V:PIB réel|PIB à prix courant|Aucune de ces réponses n’est juste || Explication : PIB en volume = PIB réel = corrigé de l’inflation.
+
+QCM || La théorie keynésienne de la consommation est vérifiée : || A long terme|A moyen terme|V:A court terme|Aucune de ces réponses n’est juste || Explication : Confirmée empiriquement sur courtes périodes.
+
+QCM || Un phénomène qui augmente de 30% la première année et qui augmente de 30% la deuxième année et baisse de 30% la troisième année ; augmente de combien au total ? || 30%|30,3%|V:18,3%|Aucune de ces réponses n’est juste || Explication : Variation cumulée = (1,3 × 1,3 × 0,7 – 1) = 0,183 soit 18,3%.
+
+QCM || Qu’étudie la macroéconomie : || La production globale|V:Le revenu global|Le consommateur|Une entreprise || Explication : La macroéconomie analyse les agrégats globaux.
+
+QCM || Une grandeur économique mesurée en valeur est synonyme : || V:De grandeur en valeur nominale|De grandeur en valeur à prix courant|De grandeur en valeur réelle|De grandeur en valeur à prix constant || Explication : Mesure aux prix courants.
+
+QCM || La PMC plus la PME doit être égale : || V:A 1|Inférieur à 1|Supérieur à 1|Aucune de ces réponses n’est juste || Explication : PMC + PME = 1.
+
+QCM || Soit une économie fermée dans une optique keynésienne nous avons Co =100 milliards d’euros, c=0,75 et Io=10 milliards d’euros. Calculer le revenu national d’équilibre Ye, cochez la bonne réponse. || 500 milliards|800 milliards|V:440 milliards|Aucune de ces réponses n’est juste || Explication : Ye = (Co+I)/(1–c) = 110/0,25 = 440.
+
+QCM || Une grandeur qui double est à : || 100|400|V:200|Aucune de ces réponses n’est juste || Explication : Base 100 → doublement = 200.
+
+QCM || La fonction de consommation est : || V:Une relation croissante à court terme entre le revenu (Y) et la consommation (C)|Une relation décroissante à court terme entre le revenu (Y) et la consommation (C)|Une relation proportionnelle à court terme entre le revenu (Y) et la consommation (C)|Aucune de ces réponses n’est juste || Explication : C croît avec Y mais moins vite.
+
+QCM || La loi psychologique fondamentale montre : || A mesure que le revenu augmente, une part décroissante du revenu est épargnée|V:A mesure que le revenu augmente une part croissante du revenu est épargnée|A mesure que le revenu augmente une part proportionnelle du revenu est épargnée|Aucune de ces réponses n’est juste || Explication : La consommation croît moins vite que le revenu, donc l’épargne augmente.

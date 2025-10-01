@@ -1,0 +1,28 @@
+### Version examen réaliste
+QCM || Pour David Ricardo, la valeur d’un bien correspond à : || sa rareté|V:la quantité de travail incorporé|le profit qu’il génère|la rente foncière
+QCM || Selon Ricardo, la rente existe uniquement dans : || l’industrie|le commerce|V:l’agriculture|la production artisanale
+QCM || La rente ricardienne rémunère : || le capital investi|V:la fertilité différentielle du sol|le travail indirect incorporé|le risque pris par les capitalistes
+QCM || Chez Ricardo, le salaire naturel correspond : || au salaire moyen observé|V:au salaire de subsistance|au salaire du marché|au salaire minimum légal
+QCM || La baisse tendancielle du taux de profit s’explique par : || la concurrence accrue|la hausse des salaires nominaux|V:la mise en culture de terres moins fertiles|la fiscalité trop lourde
+QCM || L’état stationnaire chez Ricardo signifie : || un équilibre temporaire|V:une stagnation durable avec profit nul|un optimum de Pareto|une crise conjoncturelle
+
+### Version complète
+VF || Ricardo adopte la théorie de la valeur travail incorporé, en rupture avec Smith. || V || Valeur déterminée par quantité de travail direct + indirect.
+VF || La valeur d’un bien dépend chez Ricardo de sa rareté. || F || Valeur ≠ rareté, sauf biens rares (ex : vins anciens).
+VF || La rente ricardienne apparaît aussi dans l’industrie. || F || Elle n’existe qu’en agriculture.
+VF || Chez Ricardo, le salaire naturel est fixé par les lois du marché. || F || Salaire naturel = subsistance, lié à la démographie (loi de population).
+VF || Ricardo voit la rente comme un coût nécessaire à la production. || F || C’est un prélèvement, pas un coût productif.
+VF || Ricardo explique la baisse tendancielle du taux de profit par la loi des rendements décroissants. || V || Moins de terres fertiles cultivées → hausse salaires → baisse profits.
+VF || L’état stationnaire est une phase dynamique de croissance. || F || C’est une stagnation durable.
+
+QCM || La valeur chez Ricardo est déterminée par : || sa valeur d’usage|la demande|V:la quantité de travail direct et indirect incorporé|la rente foncière
+QCM || La rente ricardienne correspond à : || V:un revenu différentiel lié à la fertilité des terres|un coût supplémentaire imposé aux capitalistes|un salaire dissimulé|une subvention publique
+QCM || Selon Ricardo, quelle relation entre salaire, profit et rente ? || V:Une hausse des salaires réels réduit les profits|V:Une hausse de la rente réduit aussi les profits|Les profits sont indépendants de la rente|Les salaires réels augmentent toujours les profits
+QCM || Pour éviter l’état stationnaire, Ricardo propose : || V:le commerce international (loi des avantages comparatifs)|la baisse des salaires nominaux|l’abolition de la rente|l’intervention publique massive
+QCM || La loi des avantages comparatifs de Ricardo stipule : || V:un pays a intérêt à se spécialiser dans le bien pour lequel son désavantage est le plus faible|un pays doit produire tout ce qu’il fait le mieux|le libre-échange profite uniquement aux pays les plus forts|la valeur dépend de l’autarcie
+QCM || Chez Ricardo, l’état stationnaire se traduit par : || un chômage massif|V:profits nuls et croissance stoppée|rente et salaires absorbant tout|V:une économie figée sur l’agriculture
+QCM || Quelle est la différence centrale Smith/Ricardo ? || V:Smith = valeur travail commandé ; Ricardo = valeur travail incorporé|Ricardo = utilité marginale ; Smith = rareté|Smith = salaire naturel = subsistance ; Ricardo = salaire naturel = marché|Ils disent la même chose
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || En reprenant les termes de David Ricardo et d’Adam Smith, le prix naturel d’un bien est supérieur à son prix de marché si : || ...
+QCM || Supposons qu’un bien nécessite 1h de travail pour être produit. L’heure de travail vaut 15€. Ce bien, vendu 18€, voit son prix baisser à 15€. Adam Smith et David Ricardo expliquent cette évolution par : || ...

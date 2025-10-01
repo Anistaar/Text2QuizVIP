@@ -1,0 +1,127 @@
+VF || L'économie est considérée comme une science exacte au même titre que les mathématiques || F || Les phénomènes économiques ne sont pas parfaitement reproductibles et dépendent d’institutions et de comportements. || Méthodo
+VF || Selon le cours, les connaissances passées en économie continuent d'influencer celles du futur || V || Les paradigmes ne s’effacent pas d’un coup ; ils laissent des traces conceptuelles. || Méthodo
+VF || Le prix Nobel d'économie est identique au prix Nobel de physique || F || Le « prix Nobel d’économie » est un prix en mémoire d’Alfred Nobel décerné par la Banque de Suède. || Méthodo
+VF || Pour Thomas Kuhn, l'histoire de la science est utile pour les pratiques scientifiques actuelles || F || Chez Kuhn, l’historien reconstruit les révolutions ; ce n’est pas un manuel de méthode. || Méthodo
+VF || Selon le cours, en économie on peut revenir en arrière sur les outils utilisés || V || Des outils anciens peuvent redevenir pertinents selon le contexte (crises, institutions…). || Méthodo
+VF || La révolution keynésienne a définitivement remplacé le paradigme classique || F || Plusieurs programmes coexistent ; pas d’effacement total. || HPE
+VF || Selon Karl Popper, une expérience peut valider définitivement une théorie || F || Pour Popper, on ne vérifie pas définitivement ; on cherche à réfuter. || Méthodo
+VF || La concurrence pure et parfaite correspond à des conditions réelles de marché || F || C’est un modèle théorique très exigeant, rarement observé. || Microéconomie
+VF || Tous les économistes classiques partagent la même idéologie politique || F || Ils partagent des schèmes analytiques, pas nécessairement des positions politiques identiques. || HPE
+VF || Adam Smith et Karl Marx appartiennent tous deux à l'école classique || V || Tous deux écrivent dans la tradition de l’« économie politique classique » (au sens large). || HPE
+VF || Selon Smith, valeur d'usage et valeur d'échange sont toujours proportionnelles || F || Le « paradoxe de l’eau et du diamant » montre l’absence de proportionnalité. || Valeur
+VF || Pour les classiques, le travail est l'unité de mesure de la valeur || V || Travail commandé (Smith) puis incorporé (Ricardo). || Valeur
+VF || Ricardo critique la théorie du travail commandé de Smith || V || Il privilégie le travail incorporé (direct + indirect). || Valeur
+VF || Selon Marx, le travail concret et le travail abstrait sont identiques || F || Le concret est qualitatif et spécifique ; l’abstrait est homogène et comparable. || Valeur
+VF || Pour Adam Smith, le salaire est déterminé avant le profit et la rente || F || Dans les sociétés avancées, profit et rente sont déduits avant le salaire (double déduction). || Répartition
+VF || Selon Ricardo, la rente existe aussi bien dans l'agriculture que dans l'industrie || F || Chez Ricardo, la rente différentielle est agricole (fertilité/rareté des terres). || Répartition
+VF || Malthus pense que la population croît plus vite que la production agricole || V || Population géométrique vs production arithmétique. || HPE
+VF || Les marginalistes et les classiques utilisent les mêmes outils d'analyse || F || Classiques : classes sociales/valeur-travail ; marginalistes : choix individuels/utilité. || HPE
+VF || Pour les marginalistes, la valeur repose sur l'utilité marginale || V || Utilité de la dernière unité consommée. || Valeur
+VF || Selon Carl Menger, l'air est un bien économique || F || L’air libre n’est pas rare : pas un bien économique. || Valeur
+VF || L'utilité marginale est croissante selon Jevons || F || Elle est décroissante : chaque unité supplémentaire apporte moins d’utilité. || Valeur
+VF || Vilfredo Pareto introduit le concept d'utilité ordinale || V || Les préférences sont classées sans mesure cardinale. || Valeur
+VF || Pour les marginalistes, il existe une différence entre prix naturel et prix de marché || F || Chez eux, on raisonne sur « le » prix de marché (équilibre). || Microéconomie
+VF || Alfred Marshall raisonne en équilibre général || F || Il privilégie l’équilibre partiel (ceteris paribus). || Microéconomie
+VF || La productivité marginale est décroissante selon Marshall || V || Rendements marginaux décroissants à facteur fixe. || Microéconomie
+
+QCM || Pourquoi l'économie n'est-elle pas une science au sens strict selon le cours ? || V:Les connaissances passées ne sont jamais définitivement abandonnées|Elle n'utilise pas de mathématiques|V:Elle n'a pas de cohésion autour d'un paradigme unique|Elle ne fait jamais d'expérimentations || Deux raisons centrales : historicité des savoirs et pluralité de paradigmes. || Méthodo
+QCM || Qu'est-ce qu'un paradigme selon Thomas Kuhn ? || V:Un modèle commun de principes et méthodes au sein d'une communauté scientifique|Une théorie économique révolutionnaire|Un ensemble de lois mathématiques|Une expérience scientifique reproductible || Définition canonique. || Méthodo
+QCM || Selon Karl Popper, quelles conditions une proposition doit-elle remplir pour être scientifique ? || V:Être logiquement cohérente|V:Être testable (réfutable)|Être mathématique|Être élégante || Cohérence + testabilité. || Méthodo
+QCM || Quel est le problème de la concurrence pure et parfaite selon Popper ? || Elle est trop mathématique|V:Elle n'est pas testable car ses hypothèses ne correspondent pas à la réalité|Elle est trop simple|Elle a été prouvée fausse || Modèle difficilement falsifiable. || Microéconomie
+QCM || Qu'est-ce qui caractérise un économiste classique ? || Il croit en l'intervention de l'État|V:Il fonde la valeur d'un bien sur le travail|Il utilise uniquement des mathématiques|Il refuse toute analyse du marché || Valeur-travail. || HPE
+QCM || Quels sont les trois piliers du libéralisme économique ? || État, marché et entreprises|Production, consommation et distribution|V:Individualisme|V:Liberté économique|V:Équilibre économique || Schème libéral. || HPE
+QCM || Quelles sont les deux valeurs d'un bien selon Aristote ? || Valeur marchande et valeur sociale|V:Valeur d'usage|V:Valeur d'échange|Valeur intrinsèque || Distinction fondatrice. || Valeur
+QCM || Que dit le paradoxe de l'eau et du diamant selon Smith ? || L'eau est plus rare que le diamant|V:L'eau a une grande valeur d'usage mais faible valeur d'échange|V:Le diamant a faible valeur d’usage mais grande valeur d’échange|Eau et diamant ont la même valeur || Valeur d’usage ≠ valeur d’échange. || Valeur
+QCM || Pourquoi Smith choisit-il le travail comme étalon de mesure ? || C'est facile à mesurer|Tout le monde travaille|V:L'effort humain ne varie ni dans le temps ni dans l'espace|Le travail crée toute la richesse || Invariance recherchée. || Valeur
+QCM || Qu'est-ce que la théorie du travail commandé de Smith ? || La valeur correspond au travail nécessaire pour produire|V:La valeur correspond à la quantité de travail qu'un bien permet d'acheter|La valeur dépend du nombre de travailleurs|La valeur est fixée par le commanditaire || Définition exacte. || Valeur
+QCM || Qu'est-ce que la double déduction selon Smith ? || Le travailleur paie deux fois des impôts|La valeur est divisée en deux parties égales|V:Le profit et la rente sont déduits avant que le salaire soit versé|Le salaire est déduit deux fois || Rappel répartition. || Répartition
+QCM || Quelle est la critique principale de Ricardo envers Smith ? || Smith ne prend pas en compte la rente|V:La valeur ne devrait pas dépendre des rapports sociaux|Smith oublie le profit|Smith ne considère pas le capital || Priorité au « travail incorporé ». || Valeur
+QCM || Qu'est-ce que le travail incorporé selon Ricardo ? || Le travail physiquement contenu dans le bien|Le travail commandé par le bien|V:La quantité de travail nécessaire incluant travail direct et indirect|Le travail payé au travailleur || Définition ricardienne. || Valeur
+QCM || Comment Marx distingue-t-il travail concret et travail abstrait ? || Concret = manuel, abstrait = intellectuel|Concret = payé, abstrait = non payé|V:Concret = spécifique à chaque production|V:Abstrait = impersonnel et homogène || Distinction clé. || Valeur
+QCM || Qu'est-ce que le travail simple selon Marx ? || Un travail facile à réaliser|Un travail sans qualification|V:La force physique que tout homme ordinaire possède|Un travail manuel uniquement || Définition de base. || Valeur
+QCM || Qu'est-ce que le travail socialement nécessaire selon Marx ? || Le travail requis par la société|Le travail effectué en groupe|V:La quantité de travail nécessaire dans des conditions sociales normales|Le travail minimum légal || Moyenne sociale. || Valeur
+QCM || Qu'est-ce qui justifie le profit selon Adam Smith ? || Le travail du capitaliste|La propriété des moyens de production|V:La compensation du risque pris en avançant le capital|L'innovation technologique || Risque/avance de fonds. || Répartition
+QCM || Comment se détermine le salaire selon Ricardo ? || Par négociation|En fonction de la productivité|V:Au niveau naturel minimal de subsistance|Selon l'offre et la demande || Salaire naturel. || Répartition
+QCM || Qu'est-ce que la loi tendancielle de la baisse du taux de profit de Ricardo ? || Les profits augmentent|Les profits restent constants|V:Le taux de profit diminue vers un état stationnaire|Les profits fluctuent cycliquement || Rente agricole croissante. || Répartition
+QCM || Quelle solution Ricardo propose-t-il pour éviter la baisse du profit ? || Augmenter les salaires|Réduire la production|V:Importer des produits agricoles de pays à coûts plus faibles|Interdire la concurrence || Libre-échange. || Répartition
+QCM || Que rémunère le salaire selon Marx ? || Le travail effectué|La productivité du travailleur|V:La force de travail, pas le travail lui-même|Le temps passé au travail || Distinction travail/force. || Répartition
+QCM || Qu'est-ce que la plus-value dans la théorie marxiste ? || L'augmentation de la valeur d'un bien|Le profit du capitaliste|V:La valeur créée au-delà de la valeur de la force de travail, appropriée par le capitaliste|La rente du propriétaire || Exploitation. || Répartition
+QCM || Pourquoi la croissance ne profite pas à tous selon Malthus ? || Les riches gardent tout|L'État prend trop d'impôts|V:La population peut augmenter plus vite que la production|Le commerce international est défavorable || Déséquilibre. || HPE
+QCM || Comment Malthus décrit-il population versus production ? || Les deux croissent géométriquement|Les deux croissent arithmétiquement|V:Population géométrique|V:Production arithmétique || Formulation canonique. || HPE
+QCM || Qu'est-ce qui différencie classiques et marginalistes ? || Classiques = mathématiques, marginalistes = littéraires|Classiques = marché, marginalistes = État|V:Classiques = classes sociales et réalité|V:Marginalistes = choix individuels abstraits || Outils analytiques. || HPE
+QCM || Différence fondamentale entre valeur classique et marginaliste ? || Classiques = prix, marginalistes = quantités|Classiques = offre, marginalistes = demande|V:Classiques = travail|V:Marginalistes = utilité marginale || Deux théories de la valeur. || Valeur
+QCM || Qui sont les fondateurs du marginalisme (années 1870) ? || Adam Smith, David Ricardo et Karl Marx|Alfred Marshall, John Keynes et Milton Friedman|V:Carl Menger|V:William Jevons|V:Léon Walras || « Révolution marginale ». || HPE
+QCM || Qu'est-ce qui fait d'une chose utile un bien économique selon Menger ? || Elle doit être produite par le travail|Elle doit avoir un prix|V:Elle doit être rare, le besoin excède la quantité disponible|Elle doit être échangeable || Utilité + rareté. || Valeur
+QCM || Pourquoi l'air n'est-il pas un bien économique selon Menger ? || Il n'est pas utile|On ne peut pas le vendre|V:Son degré de rareté est nul malgré son utilité maximale|Il n'est pas produit par le travail || Pas de rareté → pas de bien économique. || Valeur
+QCM || Qu'est-ce que l'utilité marginale ? || L'utilité totale d'un bien|L'utilité moyenne d'un bien|V:L'utilité d'une unité supplémentaire|L'utilité minimum d'un bien || Définition standard. || Valeur
+QCM || Pourquoi l'utilité marginale est-elle décroissante selon Jevons ? || Les biens perdent de leur valeur|La production devient plus difficile|V:Plus on consomme, moins l'unité supplémentaire apporte d'utilité|Le travail nécessaire augmente || Loi de satiété. || Valeur
+QCM || Différence entre utilité cardinale et ordinale ? || Cardinale = subjective, ordinale = objective|Cardinale = biens, ordinale = services|V:Cardinale = quantifiable et comparable|V:Ordinal = classement seulement || Pareto rejette la cardinalité. || Valeur
+QCM || Que peut faire un individu selon Pareto concernant ses préférences ? || Les mesurer exactement en unités|Les comparer avec celles des autres|V:Les classer par ordre sans les mesurer précisément|Les calculer mathématiquement || Ordinalisme. || Valeur
+QCM || Pour les marginalistes, quelle est la relation entre prix naturel et prix de marché ? || Le prix naturel est toujours supérieur|Le prix de marché converge vers le prix naturel|V:Il n'y a qu'un seul prix, le prix de marché est le prix naturel|Ils sont toujours différents || Unicité du prix d’équilibre. || Microéconomie
+QCM || Qu'est-ce que la productivité marginale selon Marshall ? || La production totale|La production moyenne|V:Le supplément de production d'un facteur supplémentaire|La production minimum || Définition. || Microéconomie
+QCM || Pourquoi Marshall raisonne-t-il en équilibre partiel ? || Pour simplifier les calculs|Pour étudier toute l'économie|V:Pour analyser un marché particulier en supposant les autres constants|Pour éviter les mathématiques || Ceteris paribus. || Microéconomie
+
+QCM || Citez trois économistes classiques (cocher toutes les bonnes) || V:Adam Smith|V:David Ricardo|V:Karl Marx|Robert Malthus || Les trois premiers sont canoniques ; Malthus peut être discuté selon les classifications. || HPE
+QCM || Citez deux valeurs d'un bien selon Aristote (cocher toutes les bonnes) || V:Valeur d'usage|V:Valeur d'échange|Valeur marchande|Valeur intrinsèque || Distinction fondatrice. || Valeur
+QCM || Quels sont les trois composants de la valeur d'un bien selon Smith ? (cocher toutes les bonnes) || V:Valeur du travail (salaire)|V:Profit|V:Rente|Valeur foncière || Décomposition de la valeur ajoutée. || Répartition
+QCM || Citez les trois fondateurs du marginalisme (cocher toutes les bonnes) || V:Carl Menger|V:William Jevons|V:Léon Walras|Alfred Marshall || Marshall = génération suivante. || HPE
+
+# — Conversions des "Trous" —
+QCM || Complétez : selon Thomas Kuhn, un paradigme est… || V:un modèle commun (principes + méthodes) au sein d'une communauté scientifique|un dogme intangible|un axiome mathématique|un simple consensus médiatique || Définition de Kuhn. || Méthodo
+QCM || Popper : une proposition scientifique doit être… (cocher les bonnes) || V:logiquement cohérente|V:testable (réfutable)|vraie dans tous les cas|quantifiée mathématiquement || Critères poppériens. || Méthodo
+QCM || Paradoxe eau/diamant : ce qu’il montre (cocher les bonnes) || V:valeur d’usage ≠ valeur d’échange|la rareté joue un rôle|le prix ne reflète pas toujours l’utilité|V:non-proportionnalité des deux valeurs || Intuition du paradoxe. || Valeur
+QCM || Smith vs Ricardo : compléter les paires || V:Smith → travail commandé|V:Ricardo → travail incorporé|Smith → utilité marginale|Ricardo → utilité ordinale || Deux théories du travail. || Valeur
+QCM || Marx : compléter les termes (cocher les bonnes) || V:travail concret = spécifique|V:travail abstrait = homogène|travail concret = impersonnel|travail abstrait = qualitatif || Distinction. || Valeur
+QCM || Le « travail simple » chez Marx désigne… || V:la force physique que tout homme ordinaire possède|un travail non payé|un travail intellectuel|un travail manuel qualifié || Définition. || Valeur
+QCM || La plus-value (Marx), c’est… || V:la valeur créée au-delà de la valeur de la force de travail|le salaire différé|la rente foncière|la dépréciation du capital || Définition. || Répartition
+QCM || Malthus : dynamiques de croissance || V:population → géométrique|V:production → arithmétique|population → arithmétique|production → géométrique || Loi de Malthus. || HPE
+QCM || Valeur : marginalistes vs classiques || V:marginalistes → utilité marginale|V:classiques → travail|marginalistes → valeur-travail|classiques → utilité || Deux approches. || Valeur
+QCM || Définition : utilité marginale = … || V:utilité d’une unité supplémentaire|utilité totale|utilité moyenne|utilité minimale || Rappel. || Valeur
+QCM || Pareto : nature de l’utilité ordinale || V:classement des préférences sans mesure cardinale|mesure quantitative interpersonnelle|somme d’utilités individuelles|unités « utiles » exactes || Ordinalisme. || Valeur
+QCM || Productivité marginale = … || V:supplément de production d’un facteur supplémentaire|production totale|production moyenne|rendement comptable || Définition. || Microéconomie
+
+# — Conversions des "Flashcards" —
+QCM || Qu'est-ce qu'un paradigme selon Kuhn ? (définition courte) || V:Un modèle commun de principes et de méthodes partagé par une communauté scientifique|Une théorie vraie|Un axiome logique|Une application empirique || Méthodo
+QCM || Critères de Popper pour une proposition scientifique || V:cohérence logique|V:réfutabilité/testabilité|validation définitive|vérification inductive certaine || Méthodo
+QCM || Paradoxe eau/diamant (rappel) || V:usage max / échange min pour l’eau|V:usage min / échange max pour le diamant|même utilité|même prix || Valeur
+QCM || Travail commandé (Smith) : définition || V:valeur = quantité de travail qu’un bien permet d’acheter|valeur = travail incorporé|valeur = utilité marginale|valeur = rareté seule || Valeur
+QCM || Travail incorporé (Ricardo) : définition || V:valeur = travail direct + indirect nécessaire|valeur = effort d’achat|valeur = utilité marginale|valeur = coût d’opportunité || Valeur
+QCM || Double déduction (Smith) : rappel || V:profit et rente déduits avant le salaire|salaire payé d’abord|rente inexistante|profit nul en concurrence || Répartition
+QCM || Travail abstrait (Marx) : rappel || V:travail impersonnel et homogène, seul comparable|travail qualitatif spécifique|travail manuel uniquement|travail intellectuel uniquement || Valeur
+QCM || Travail socialement nécessaire (Marx) : rappel || V:quantité de travail requise dans des conditions normales|travail minimum légal|effort maximal|temps contractuel || Valeur
+QCM || Plus-value (Marx) : rappel || V:valeur créée au-delà de la force de travail et appropriée par le capitaliste|bénéfice comptable|rente foncière|salaire différé || Répartition
+QCM || Loi de Malthus : rappel || V:population géométrique / production arithmétique|les deux arithmétiques|les deux géométriques|production > population || HPE
+QCM || Utilité marginale : rappel || V:utilité de l’unité supplémentaire|utilité totale|utilité moyenne|utilité maximale || Valeur
+QCM || Cardinal vs ordinal : rappel || V:cardinal = quantifiable|V:ordinal = classement|comparaison interpersonnelle assurée|mesure en « utils » observables || Valeur
+QCM || Productivité marginale (Marshall) : rappel || V:supplément de production d’un facteur|production totale|rendement comptable|coût moyen || Microéconomie
+QCM || Équilibre partiel (Marshall) : rappel || V:analyse d’un marché en supposant les autres constants|étude de tous les marchés|équilibre général walrasien|absence de prix || Microéconomie
+
+# — Conversions des "Ordre" —
+QCM || Ordre chronologique correct || V:Adam Smith → David Ricardo → Karl Marx → École marginaliste|Adam Smith → Karl Marx → David Ricardo → École marginaliste|École marginaliste → Ricardo → Smith → Marx|Karl Marx → Adam Smith → École marginaliste → Ricardo || Chronologie. || HPE
+QCM || Processus scientifique (Kuhn) : séquence || V:Observation → Hypothèses → Test/Validation → Intégration au paradigme|Observation → Validation → Hypothèses → Paradigme|Hypothèses → Observation → Paradigme → Test|Validation → Observation → Paradigme → Test || Schéma simplifié. || Méthodo
+QCM || Logique du diamant (marginalistes) : enchaînement || V:Rareté élevée → valeur d’échange max → valeur d’usage faible|Valeur d’usage max → rareté nulle → prix élevé|Rareté faible → valeur d’échange max → usage faible|Rareté élevée → usage max → prix nul || Intuition marginaliste. || Valeur
+
+# — Conversions des "Association" (1 QCM par paire) —
+QCM || Associer : Adam Smith → ? || V:Travail commandé|Travail incorporé|Travail abstrait|Utilité ordinale || Valeur
+QCM || Associer : David Ricardo → ? || Travail commandé|V:Travail incorporé|Travail abstrait|Utilité et rareté || Valeur
+QCM || Associer : Karl Marx → ? || Travail commandé|Travail incorporé|V:Travail abstrait|Utilité ordinale || Valeur
+QCM || Associer : Carl Menger → ? || Travail incorporé|Plus-value|V:Utilité et rareté|Équilibre partiel || Valeur
+QCM || Associer : Vilfredo Pareto → ? || Double déduction|Plus-value|Travail commandé|V:Utilité ordinale || Valeur
+QCM || Associer : Alfred Marshall → ? || Travail incorporé|V:Productivité marginale|Équilibre général|Valeur-travail || Microéconomie
+
+QCM || Associer : Thomas Kuhn → ? || V:Paradigme|Réfutabilité|Croissance démographique|Utilité marginale décroissante || Méthodo
+QCM || Associer : Karl Popper → ? || Paradigme|V:Réfutabilité|Travail incorporé|Équilibre général || Méthodo
+QCM || Associer : Robert Malthus → ? || Paradigme|Réfutabilité|V:Croissance démographique|Productivité marginale || HPE
+QCM || Associer : William Jevons → ? || Travail commandé|Plus-value|V:Utilité marginale décroissante|Équilibre général || Valeur
+QCM || Associer : Léon Walras → ? || Travail incorporé|Travail abstrait|V:Équilibre général|Utilité ordinale || Microéconomie
+
+# — Conversions des "Étiquettes" (catégorisation en QCM multi) —
+QCM || Qui sont des économistes « classiques » ? (cocher toutes les bonnes) || V:Adam Smith|V:David Ricardo|V:Karl Marx|V:Robert Malthus|Carl Menger|William Jevons|Léon Walras|Alfred Marshall|Vilfredo Pareto || Classification HPE. || HPE
+QCM || Qui sont des « marginalistes » ? (cocher toutes les bonnes) || Adam Smith|David Ricardo|Karl Marx|Robert Malthus|V:Carl Menger|V:William Jevons|V:Léon Walras|V:Alfred Marshall|V:Vilfredo Pareto || Révolution marginale. || HPE
+QCM || Relève de la « valeur-travail » (cocher toutes les bonnes) || V:Travail commandé|V:Travail incorporé|V:Travail abstrait|Travail socialement nécessaire|Utilité marginale|Rareté|Utilité ordinale|Productivité marginale || Deux familles. || Valeur
+QCM || Relève de la « valeur-utilité » (cocher toutes les bonnes) || Travail commandé|Travail incorporé|Travail abstrait|Travail socialement nécessaire|V:Utilité marginale|V:Rareté|V:Utilité ordinale|V:Productivité marginale || Deux familles. || Valeur
+
+# — Conversions des "Correspondance" —
+QCM || Théories de la valeur « travail » — cocher les éléments associés || V:Travail commandé|V:Travail incorporé|V:Travail abstrait|Utilité marginale|Rareté relative|Productivité marginale || Tri. || Valeur
+QCM || École classique — cocher les auteurs || V:Adam Smith|V:David Ricardo|V:Karl Marx|Carl Menger|William Jevons|Vilfredo Pareto || Tri. || HPE
+QCM || Concepts marginalistes — cocher les bons éléments || V:Utilité marginale|V:Rareté|V:Productivité marginale|V:Utilité ordinale|Travail commandé|Plus-value|Double déduction || Tri. || Valeur

@@ -1,0 +1,32 @@
+# macro
+QR || Au sens strict, la consommation correspond à : || V:La destruction de biens ou services par l’usage à des fins de satisfaction directe|L’accumulation de patrimoine|L’investissement net|La production publique
+QR || En macro, la consommation inclut : || V:Les biens et services achetés par les ménages|Les biens autoconsommés par les ménages|Les services non marchands individualisables payés partiellement|Les services publics totalement gratuits
+VF || La consommation finale inclut les services gratuits fournis par l’État (ex : école primaire). || F
+VF || La consommation élargie inclut les services gratuits publics comme l’enseignement et la santé. || V
+QCM || La consommation d’un pays inclut : || V:Les biens et services marchands achetés ou autoconsommés|V:Les services non marchands individualisables partiellement payés|Les exportations nettes|Tous les services publics gratuits
+QRC || Donne la formule du revenu disponible brut (Yd). || Revenu primaire + prestations sociales - prélèvements obligatoires|Revenu primaire + transferts nets - impôts
+Trous || Le revenu disponible brut (Yd) sert à {{V:la consommation finale|l’investissement net}} et {{V:l’épargne|la dette}}.
+Flashcard || Équilibre emploi-ressource au niveau des ménages || Ressources = Revenu disponible brut (Yd) = Consommation finale + Épargne
+QCM || La classification par durabilité distingue : || V:Biens durables|V:Biens semi-durables|V:Biens non durables|Services collectifs gratuits
+QR || Le coefficient budgétaire bi correspond à : || V:(Ci/C) × 100|C/Ci × 100|Ci - C|C - Ci
+Flashcard || Loi d’Engel (1857) || Dépenses alimentaires ↓ proportionnellement au revenu, logement et habillement suivent, autres dépenses ↑ plus vite.
+Trous || La propension marginale à consommer (PmC) correspond à {{V:la part de revenu supplémentaire consacrée à la consommation|la variation relative du revenu}}.
+QCM || La propension moyenne à consommer (PMC) : || V:Est décroissante avec le revenu|Est constante dans le temps|Est croissante avec le revenu|Est indépendante du revenu
+VF || Selon Keynes, la consommation augmente moins vite que le revenu. || V
+QCM || Selon Keynes, la fonction de consommation peut être : || V:Linéraire|V:Affine|V:Concave|Exponentielle
+QR || Dans la fonction affine keynésienne, Co correspond à : || V:La consommation incompressible|L’investissement autonome|Le revenu permanent|L’épargne nette
+Flashcard || Effet de cliquet (Duesenberry, 1948) || La consommation dépend aussi du plus haut revenu passé atteint.
+Flashcard || Effet d’inertie (Brown, 1952) || La consommation dépend de celle de la période précédente.
+Flashcard || Effet de démonstration (Duesenberry, 1949) || Effet d’imitation → dépend du revenu relatif par rapport aux autres.
+Flashcard || Théorie du cycle de vie (Modigliani, Brumberg, 1954) || Consommation lissée sur la vie. Patrimoine en bosse : max à la retraite, décroît ensuite.
+Flashcard || Théorie du revenu permanent (Friedman, 1957) || Consommation dépend du revenu permanent anticipé (moyenne actualisée des revenus).
+Trous || Dans la théorie du revenu permanent, Yp = {{V:la somme consommable en maintenant le capital constant|le revenu courant}}.
+QCM || Déterminants de l’épargne à court terme : || V:Pouvoir d’achat|V:Taux de chômage|V:Inflation|V:Taux d’intérêt
+QCM || Déterminants de l’épargne à long terme : || V:Vieillissement de la population|V:Système de retraite|Exportations nettes|Progrès technique
+VF || Une inflation élevée peut entraîner à court terme une baisse de l’épargne (fuite devant la monnaie). || V
+VF || À long terme, une inflation élevée peut entraîner une hausse de l’épargne (effet d’encaisses réelles). || V
+QR || Selon la loi d’Engel, que se passe-t-il pour la part des dépenses alimentaires quand le revenu augmente ? || V:Elle diminue|Elle augmente proportionnellement|Elle reste constante
+QCM || Compare Keynes et Kuznets : || V:Keynes → PmC < PMC à long terme|V:Kuznets → PmC ≈ PMC (relation linéaire)|Keynes → relation linéaire stricte|Kuznets → PmC décroissante
+TrousRC || Donne deux critiques de la fonction de consommation keynésienne. || Sous-estimation de la consommation d’après-guerre|Contradictions entre séries courtes et longues
+Flashcard || Réflexion : Pourquoi l’effet de cliquet est-il utile pour comprendre les récessions ? || Car la consommation baisse moins vite que le revenu, soutenant la demande malgré la crise.
+Flashcard || Réflexion : Quelles différences entre PmC et PMC ? || PmC = variation conso/revenu (court terme). PMC = part du revenu total consacré à la consommation (long terme).

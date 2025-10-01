@@ -1,0 +1,51 @@
+### Version examen réaliste
+QCM || Pour Karl Marx, la valeur d’un bien est déterminée par : || sa rareté|son utilité marginale|V:la quantité de travail socialement nécessaire|le profit attendu
+QCM || Chez Marx, le salaire rémunère : || le travail effectué|la productivité marginale du travail|la rente foncière|V:la force de travail
+QCM || La plus-value correspond à : || V:la différence entre la valeur créée par la force de travail et la valeur de la force de travail|la rémunération de la terre|un impôt sur la production|un gain de productivité neutre
+QCM || La distinction travail concret / travail abstrait signifie : || que tout travail est identique|que seule l’utilité compte|V:travaux différents sont ramenés à du travail homogène (abstrait)|que seuls les services créent de la valeur
+QCM || La « baisse tendancielle du taux de profit » s’explique par : || la hausse des salaires nominaux|V:la hausse de la composition organique du capital (C/V)|la baisse de la plus-value|la disparition de la concurrence
+QCM || L’armée industrielle de réserve désigne : || V:le chômage structurel qui pèse sur les salaires|les travailleurs du secteur public|les militaires en reconversion|les apprentis non payés
+QCM || La plus-value absolue est obtenue par : || V:l’allongement de la durée du travail à productivité donnée|l’introduction de machines|la baisse des salaires nominaux|la réduction du temps de travail
+QCM || La plus-value relative est obtenue par : || l’allongement de la journée|V:des gains de productivité réduisant le travail nécessaire|la hausse des prix|la baisse de la demande
+QCM || Le cycle du capital marchand (schéma simple) chez Marx est : || V:A–M–A′ (Argent–Marchandise–Argent augmenté)|M–A–M (économie marchande simple)|A–A′ sans production|M–M′ sans argent
+QCM || Le capital constant correspond à : || V:les moyens de production (machines, matières)|les salaires|les profits|les impôts
+
+### Version complète
+VF || Pour Marx, la valeur d’une marchandise repose sur le travail abstrait socialement nécessaire. || V || Travail abstrait = homogénéisation des travaux concrets.
+VF || Valeur d’usage et valeur d’échange sont identiques chez Marx. || F || Valeur d’usage = utilité ; valeur d’échange = expression de la valeur.
+VF || La force de travail est une marchandise dont la valeur dépend du coût de reproduction. || V || Salaire = valeur des biens nécessaires à la reproduction du travailleur.
+VF || Le salaire rémunère le travail fourni. || F || Il rémunère la force de travail ; la valeur créée excède le salaire → plus-value.
+VF || La plus-value peut être absolue (durée du travail) ou relative (productivité). || V || Deux voies d’accroissement de l’exploitation.
+VF || Le capital constant (C) transfère sa valeur au produit ; le capital variable (V) crée de la valeur nouvelle. || V || Seul V produit de la plus-value.
+VF || Le taux de plus-value est défini par p′ = PL/V. || V || Indicateur d’exploitation.
+VF || La composition organique du capital est C/V. || V || Elle tend à augmenter avec la mécanisation.
+VF || La tendance à la baisse du taux de profit vient de la baisse de la masse salariale. || F || Elle provient de la hausse de C/V (machines) à plus-value inchangée.
+VF || L’armée industrielle de réserve tire les salaires réels vers le haut. || F || Pression à la baisse sur les salaires.
+VF || Reproduction simple : toute la plus-value est consommée ; reproduction élargie : une part est accumulée. || V || Accumulation du capital.
+VF || Le schéma A–M–A′ signifie que l’échange vise l’usage. || F || Il vise la valorisation (plus d’argent à la fin).
+VF || Le problème de transformation des valeurs en prix vise à expliquer le passage de la valeur-travail aux prix de production. || V || Taux de profit uniforme entre branches.
+VF || L’aliénation du travail renvoie uniquement au chômage. || F || Perte de maîtrise du travail et du produit sous la logique du capital.
+VF || L’accumulation primitive décrit la séparation initiale des producteurs et des moyens de production. || V || Enclosures, expropriations, etc.
+
+QCM || Selon Marx, la valeur d’une marchandise reflète : || sa rareté|V:le temps de travail socialement nécessaire|la demande instantanée|la rente foncière
+QCM || Le « travail abstrait » désigne : || V:l’équivalence sociale des travaux concrets hétérogènes|la qualification d’un métier précis|l’utilité marginale|la productivité moyenne
+QCM || La force de travail a pour valeur : || V:le coût de reproduction du travailleur (subsistance socialement définie)|la somme des heures réalisées|la plus-value|le salaire nominal
+QCM || La plus-value est : || un loyer sur la terre|un rendement financier|V:du surtravail non payé approprié par le capitaliste|un impôt d’État
+QCM || Le taux de plus-value p′ se calcule comme : || PL/C|PL/(C+V)|V:PL/V|V/(C+V)
+QCM || La composition organique du capital mesure : || V:le rapport C/V|le rapport V/C|la part des profits|la part des salaires
+QCM || La baisse tendancielle du taux de profit résulte principalement : || de la baisse des salaires nominaux|V:de l’augmentation de C/V liée au progrès technique|de l’augmentation de la rente|de la concurrence internationale
+QCM || La plus-value absolue s’obtient par : || la baisse des charges|V:l’allongement de la journée de travail|l’innovation organisationnelle|la hausse des prix
+QCM || La plus-value relative s’obtient par : || V:la réduction du travail nécessaire grâce aux gains de productivité|la hausse des prix|l’allongement de la journée|la baisse des salaires nominaux
+QCM || L’armée industrielle de réserve : || n’existe qu’en crise|V:constitue un chômage de réserve disciplinant les salaires|est sans effet sur les salaires|correspond aux retraités
+QCM || Le capital constant désigne : || les salaires|V:les moyens de production dont la valeur se transmet au produit|les profits|les impôts
+QCM || Le capital variable désigne : || V:les salaires qui créent de la valeur nouvelle|les matières premières|les intérêts|les machines
+QCM || La reproduction élargie implique : || la consommation totale de la plus-value|V:la réinvestissement d’une part de la plus-value|la baisse des salaires|la disparition de la rente
+QCM || Le problème de transformation relie : || V:valeurs (travail) et prix de production (profit uniforme)|valeurs d’usage et rareté|offre et demande|taux d’intérêt et monnaie
+QCM || Les contre-tendances à la baisse du taux de profit incluent : || V:hausse du taux de plus-value|V:bon marché des éléments du capital constant|diminution de la composition organique|réduction de la productivité
+QCM || Dans A–M–A′, l’objectif est : || la satisfaction des besoins|V:la valorisation de la valeur (A′ > A)|l’égalisation des salaires|la suppression du marché
+QCM || Travail simple et travail complexe : || V:le travail complexe compte comme multiple du travail simple|ils sont incomparables|seul le complexe crée de la valeur|seul le simple crée de la valeur
+QCM || Marchandise chez Marx : || V:un bien produit pour l’échange, porteur de valeur d’usage et de valeur|tout bien rare|un service public|un bien non reproductible
+QCM || Salaire réel vs salaire nominal : || V:réel = pouvoir d’achat (W/P)|nominal = W/P|réel = W|réel = W×P
+QCM || Rôle du progrès technique : || V:augmente C/V et tend à faire baisser le taux de profit|réduit le capital constant et augmente le taux de profit|n’a aucun effet sur la valeur|supprime la plus-value
+
+### Questions tombées en examen (2022, 2023, 2024)

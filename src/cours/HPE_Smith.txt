@@ -1,0 +1,11 @@
+VF || Pour Adam Smith, la valeur d’usage et la valeur d’échange sont deux concepts distincts. || V || Paradoxe de l’eau et du diamant : utilité ≠ valeur d’échange.
+VF || Dans une société primitive, la valeur d’échange d’un bien est déterminée par le travail incorporé. || V || Travail commandé = travail incorporé en l’absence de classes sociales.
+VF || Dans une société avancée, la valeur subit une double déduction : profit et rente. || V || Les capitalistes et les propriétaires fonciers prélèvent leur part.
+VF || Chez Smith, le salaire est toujours au-dessus du niveau de subsistance. || F || Salaire de subsistance = minimum vital, dépend du rapport de force.
+VF || Smith considère que les profits sont justifiés car ils financent l’accumulation du capital. || V || Plus de profits = plus d’investissement = croissance.
+
+QCM || Pour Adam Smith, la valeur d’échange d’un bien correspond à : || sa valeur d’usage|sa rareté|V:la quantité de travail qu’il commande|le capital nécessaire à sa production || Valeur d’échange = travail qu’on peut obtenir en échange du bien.
+QCM || Quelle est la différence entre valeur travail commandé et valeur travail incorporé ? || V:Travail commandé = quantité de travail qu’un bien permet d’acheter|V:Travail incorporé = quantité de travail directement nécessaire à sa production|Elles sont identiques|La valeur dépend seulement de la rareté || Smith (travail commandé) / Ricardo (travail incorporé).
+QCM || La « double déduction » chez Smith correspond à : || les impôts et les salaires|V:le profit (capitalistes) et la rente (propriétaires fonciers)|les salaires et les consommations intermédiaires|la rente et les taxes d’État || La valeur créée doit d’abord rémunérer profit et rente.
+QCM || Selon Smith, le salaire tend naturellement : || V:vers le niveau de subsistance|vers un niveau de profit nul|vers l’égalité entre capitalistes et travailleurs|vers la valeur d’usage du bien produit || Salaire naturel = subsistance.
+QCM || Le paradoxe de l’eau et du diamant illustre : || V:la différence entre valeur d’usage et valeur d’échange|que la rareté explique toute la valeur|que le travail détermine directement l’utilité|que le marché fixe la valeur en toutes circonstances || Eau = utilité forte mais valeur faible ; diamant = inverse.
