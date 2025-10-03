@@ -1,0 +1,23 @@
+### Version examen réaliste
+QCM || Chez Marshall, l’équilibre est : || V:un équilibre partiel sur un seul marché|un équilibre général sur tous les marchés|un optimum de Pareto|une politique budgétaire
+QCM || L’élasticité de la demande mesure : || V:la sensibilité de la quantité demandée à une variation du prix|la quantité produite par travailleur|la rigidité de l’offre|la variation des coûts fixes
+QCM || Selon Marshall, au court terme l’offre est : || V:rigide ou peu élastique|totalement flexible|indépendante de la demande|toujours croissante
+QCM || Selon Marshall, au long terme l’offre est : || V:plus élastique|parfaitement inélastique|totalement fixe|indépendante des coûts de production
+QCM || Marshall combine : || V:l’utilité (demande) et les coûts de production (offre)|la rente et le profit|le salaire et la monnaie|le capital et la productivité
+
+### Version complète
+VF || Pour Marshall, l’équilibre est partiel et non général. || V || Analyse marché par marché.
+VF || Marshall a introduit la notion d’élasticité de la demande. || V || Mesure la sensibilité de la demande aux prix.
+VF || L’offre est identique à court terme et à long terme. || F || Court terme = rigide, long terme = plus élastique.
+VF || Marshall combine la demande (utilité) et l’offre (coût de production). || V || Prix d’équilibre = intersection O/D.
+VF || L’élasticité est calculée comme variation % de la demande / variation % du prix. || V || Élasticité-prix de la demande.
+
+QCM || La loi de l’offre et de la demande chez Marshall aboutit à : || V:un prix d’équilibre à l’intersection des courbes|un prix fixé par l’État|une rente différentielle|un salaire naturel
+QCM || L’élasticité forte (>1) signifie : || V:demande très sensible aux variations de prix|demande rigide|demande indépendante|offre verticale
+QCM || Une élasticité nulle signifie : || V:demande parfaitement rigide (quelle que soit la variation du prix)|demande infinie|prix fixe par l’État|offre parfaitement élastique
+QCM || Marshall distingue deux horizons : || V:court terme (offre rigide) et long terme (offre plus élastique)|court terme (offre souple) et long terme (offre rigide)|uniquement le court terme|uniquement le long terme
+QCM || La contribution de Marshall à la microéconomie est : || V:l’équilibre partiel et la notion d’élasticité|la valeur-travail|l’aliénation|l’équilibre général
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || Chez Marshall, l’équilibre est : || équilibre général sur tous les marchés|équilibre budgétaire|V:équilibre partiel sur un seul marché|optimum de Pareto
+QCM || L’élasticité de la demande mesure : || la variation du revenu|V:la sensibilité de la quantité demandée à une variation du prix|la production marginale|les coûts fixes

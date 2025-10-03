@@ -1,0 +1,21 @@
+### Version examen réaliste
+QCM || Pour Menger et Jevons, la valeur d’un bien est déterminée par : || sa rareté objective|la quantité de travail incorporé|V:son utilité marginale|les coûts de production uniquement
+QCM || L’utilité marginale signifie : || V:l’utilité de la dernière unité consommée|l’utilité totale du bien|la valeur marchande d’un bien rare|le coût de production d’un bien
+QCM || Selon Menger, la valeur est : || V:subjective, déterminée par les besoins de l’individu|objective, mesurée par le travail|fixée par l’État|identique au prix
+QCM || Pour Jevons, l’utilité peut être : || V:mesurée et représentée mathématiquement|uniquement décrite qualitativement|remplacée par le travail commandé|déterminée par la rente
+QCM || La « révolution marginaliste » se situe : || 1820|1850|V:1870|1910
+
+### Version complète
+VF || Pour les marginalistes, la valeur ne dépend plus du travail mais de l’utilité marginale. || V || Rupture avec Smith, Ricardo, Marx.
+VF || L’utilité marginale est toujours croissante avec les quantités consommées. || F || Elle est décroissante (loi de Gossen).
+VF || Carl Menger insiste sur le caractère subjectif de la valeur. || V || École autrichienne → valeur dépend de l’importance que l’individu accorde au bien.
+VF || William Stanley Jevons développe une approche mathématique de l’utilité. || V || Utilité marginale représentée et calculée quantitativement.
+VF || Pour Menger, la valeur d’un bien réside dans ses coûts de production. || F || Elle réside dans son utilité marginale pour l’individu.
+
+QCM || La « loi de Gossen » exprime : || V:la décroissance de l’utilité marginale avec la consommation|la hausse continue de l’utilité marginale|l’égalité entre utilité et valeur-travail|le lien entre prix naturel et prix de marché
+QCM || Menger critique : || V:la valeur-travail des Classiques|la subjectivité de la valeur|l’existence de l’utilité marginale|la loi des rendements décroissants
+QCM || Pour Jevons, la valeur d’un bien correspond : || à la rareté de la ressource|à la quantité de travail incorporé|V:au plaisir ou à la satisfaction que procure la dernière unité consommée|à la rente foncière
+QCM || La révolution marginaliste marque : || V:le passage d’une théorie objective de la valeur à une théorie subjective|la victoire définitive de la valeur-travail|la fin des mathématiques en économie|l’apparition du keynésianisme
+QCM || Pour Menger, la valeur est : || V:une relation entre un besoin et un bien apte à le satisfaire|le résultat du travail commandé|une donnée fixe indépendante des individus|définie uniquement par la rareté physique
+
+### Questions tombées en examen (2022, 2023, 2024)

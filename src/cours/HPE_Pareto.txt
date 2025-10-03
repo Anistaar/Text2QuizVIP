@@ -1,0 +1,22 @@
+### Version examen réaliste
+QCM || L’optimum de Pareto désigne : || un profit maximum pour les capitalistes|V:une situation où on ne peut améliorer la situation d’un individu sans détériorer celle d’un autre|un équilibre de marché imparfait|un maximum de productivité
+QCM || La loi de Pareto (80/20) illustre : || V:la concentration des revenus et richesses dans une minorité de la population|l’égalité des revenus|la croissance partagée|la rente foncière
+QCM || Pour Pareto, l’équilibre est atteint lorsque : || V:aucune amélioration n’est possible sans perte pour autrui|les profits sont maximisés|le chômage disparaît|l’État redistribue les revenus
+QCM || L’optimum de Pareto suppose : || V:des marchés concurrentiels|l’intervention de l’État|l’absence d’échanges|un chômage structurel
+
+### Version complète
+VF || L’optimum de Pareto signifie qu’on ne peut améliorer la situation d’un agent sans détériorer celle d’un autre. || V || Critère d’efficacité allocative.
+VF || La loi de Pareto illustre une répartition parfaitement égalitaire des revenus. || F || Elle montre une forte concentration (20 % des individus détiennent 80 % des richesses).
+VF || Pour Pareto, l’équilibre est un état où toute amélioration est impossible sans perte pour autrui. || V || Critère de Pareto-efficiency.
+VF || Pareto propose une redistribution égalitaire par l’État. || F || Son optimum est purement technique, sans jugement d’équité.
+VF || L’optimum de Pareto est une mesure d’efficacité mais pas de justice sociale. || V || Efficience ≠ équité.
+
+QCM || L’optimum de Pareto suppose : || V:des échanges volontaires et concurrence parfaite|un État fort et interventionniste|une égalité stricte des revenus|l’absence de marchés
+QCM || La loi de Pareto (80/20) se vérifie : || V:pour les revenus, mais aussi dans d’autres domaines (production, distribution, sociologie)|uniquement pour l’économie du XIXe siècle|jamais empiriquement|seulement pour l’agriculture
+QCM || Une limite de l’optimum de Pareto est : || V:il ne dit rien sur l’équité de la répartition|il supprime la concurrence|il nie l’existence du chômage|il confond valeur et utilité
+QCM || La loi de Pareto montre que : || V:les inégalités sont structurelles et persistantes|la croissance réduit toujours les inégalités|les salaires évoluent tous pareil|la productivité explique toute la répartition
+QCM || Pareto distingue : || V:l’efficacité (optimum) et la justice sociale (hors de son modèle)|les profits et les salaires|le court terme et le long terme|la valeur d’usage et d’échange
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || L’optimum de Pareto désigne : || un profit maximum|V:une situation où on ne peut améliorer la situation d’un individu sans détériorer celle d’un autre|un maximum de productivité|un équilibre budgétaire
+QCM || La loi de Pareto illustre : || une égalité des revenus|V:la concentration des richesses dans une minorité|une politique de redistribution|la rente foncière

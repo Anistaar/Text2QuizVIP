@@ -1,0 +1,24 @@
+### Version examen réaliste
+QCM || Pour Walras, l’équilibre général signifie : || l’équilibre d’un seul marché|V:l’équilibre simultané de tous les marchés|un optimum de Pareto|un équilibre budgétaire de l’État
+QCM || Le commissaire-priseur chez Walras sert à : || fixer les salaires|remplacer les capitalistes|V:ajuster les prix fictivement avant échanges|supprimer la concurrence
+QCM || Le tâtonnement walrasien décrit : || V:le processus d’ajustement progressif des prix vers l’équilibre|l’intervention de l’État pour fixer les prix|la rareté des biens naturels|la loi des rendements décroissants
+QCM || L’image du commissaire-priseur illustre : || un mécanisme de taxation|un rôle réel dans les marchés financiers|V:un personnage fictif qui annonce les prix et ajuste jusqu’à équilibre|un rôle des syndicats
+QCM || Pour Walras, l’équilibre général est possible sous : || V:concurrence parfaite|monopole|oligopole|absence de marché
+
+### Version complète
+VF || Pour Walras, l’économie est un système interdépendant de marchés. || V || Analyse simultanée → équilibre général.
+VF || L’équilibre général signifie que l’offre et la demande s’égalent sur tous les marchés en même temps. || V || Condition d’efficacité du système.
+VF || Le commissaire-priseur est un agent réel chargé de réguler les marchés. || F || Figure fictive pour illustrer le tâtonnement des prix.
+VF || Le tâtonnement walrasien suppose que les échanges ont lieu même avant l’équilibre. || F || Pas d’échanges tant que l’équilibre n’est pas atteint.
+VF || L’équilibre général suppose la concurrence parfaite. || V || Hypothèses fortes → rationalité, information parfaite, atomicité.
+VF || Le modèle de Walras est facilement applicable à la réalité. || F || Trop abstrait et irréaliste, mais fondateur de la microéconomie moderne.
+
+QCM || Le rôle du commissaire-priseur est : || annoncer les salaires|fixer les impôts|V:annoncer les prix et corriger tant qu’offre ≠ demande|déterminer la production optimale
+QCM || Le tâtonnement walrasien est : || une politique monétaire|un processus d’ajustement des prix sans échanges hors équilibre|V:un processus théorique pour expliquer l’équilibre général|une réforme budgétaire
+QCM || L’équilibre partiel et l’équilibre général diffèrent car : || V:Marshall analyse un seul marché, Walras tous les marchés simultanément|Walras analyse un seul marché, Marshall tous|ils disent la même chose|Walras se concentre sur la loi de Say
+QCM || Une critique du modèle walrasien est : || V:il est trop abstrait et irréaliste|il néglige la concurrence parfaite|il ne suppose aucune rationalité|il ne traite pas de l’équilibre
+QCM || Le modèle walrasien est à la base de : || le keynésianisme|V:la microéconomie moderne et la théorie néoclassique|le marxisme|la théorie mercantiliste
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || L’image du commissaire-priseur est utilisée par Walras pour : || décrire le processus d’échange dans une économie de marché|décrire l’équilibre du marché du travail|V:décrire le processus de tâtonnement vers l’équilibre général|décrire les trois propositions précédentes
+QCM || Le tâtonnement walrasien décrit : || V:un ajustement des prix jusqu’à l’égalité offre/demande|une fixation des prix par l’État|un phénomène lié aux rendements décroissants|un optimum de Pareto
