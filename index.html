@@ -40,6 +40,15 @@
       /* panneau options */
       .card{border:1px solid var(--brd); border-radius:12px; background:transparent;
         padding:12px; margin:10px 0}
+
+      /* Explorer compact styles */
+      .fb-folder{padding:6px 8px; border-radius:6px; margin-bottom:4px}
+      .fb-folder.active{background:rgba(255,255,255,0.03)}
+      .fb-file{display:flex; align-items:center; justify-content:space-between; padding:8px 10px; border-radius:8px}
+      .fb-file .label{flex:1}
+      .fb-file .controls{display:flex; gap:8px; align-items:center}
+      .fb-toolbar{display:flex; gap:8px; align-items:center; margin-bottom:6px}
+      .fb-toolbar select, .fb-file select{padding:6px 8px; border-radius:6px}
       .row{display:grid; gap:6px; margin-bottom:10px}
       label{font-weight:600; font-size:14px}
       select,input{padding:8px 10px; border-radius:10px; border:1px solid var(--brd);
@@ -109,10 +118,13 @@
     <div class="wrap">
       <header class="topbar">
         <h1>Text2Quiz (Vite + TS)</h1>
-        <label class="theme-toggle" title="Basculer clair/sombre">
+        <div style="display:flex; gap:12px; align-items:center">
+          <button id="btn-explorer" class="secondary">Explorer les fichiers</button>
+          <label class="theme-toggle" title="Basculer clair/sombre">
           <input id="theme-toggle" type="checkbox" />
           <span>🌙</span>
-        </label>
+          </label>
+        </div>
       </header>
 
       <p class="subtitle">
@@ -120,6 +132,11 @@
       </p>
 
       <div class="card">
+        <div class="row">
+          <label for="matiere">Matière</label>
+          <select id="matiere"></select>
+        </div>
+
         <div class="row">
           <label for="cours">Cours</label>
           <select id="cours"></select>
@@ -147,6 +164,31 @@
       </div>
 
       <div id="quiz-root"></div>
+    
+    <!-- File browser modal (Windows-like explorer) -->
+    <div id="file-browser" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:80;">
+      <div style="max-width:1000px; height:70vh; margin:40px auto; background:var(--bg); padding:8px; border-radius:8px; border:1px solid var(--brd); display:flex;">
+        <div style="width:260px; border-right:1px solid var(--brd); padding:8px; overflow:auto">
+          <h4 style="margin:6px 0">Matières</h4>
+          <div id="fb-folders"></div>
+        </div>
+        <div style="flex:1; padding:8px; overflow:auto; display:flex; flex-direction:column">
+          <div style="display:flex; justify-content:space-between; align-items:center">
+            <h4 style="margin:6px 0">Cours</h4>
+            <div><button id="fb-close" class="secondary">Fermer</button></div>
+          </div>
+          <div id="fb-files" style="margin-top:8px; display:grid; gap:8px;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QCM full-page viewer -->
+    <div id="qcm-view" style="display:none; position:fixed; inset:0; background:var(--bg); z-index:90; padding:20px; overflow:auto">
+      <div style="max-width:980px; margin:0 auto;">
+        <button id="qcm-close" class="secondary" style="margin-bottom:12px">Retour</button>
+        <div id="qcm-root"></div>
+      </div>
+    </div>
     </div>
 
     <script type="module" src="/src/main.ts"></script>

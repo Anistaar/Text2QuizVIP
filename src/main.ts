@@ -6,39 +6,22 @@
 import { parseQuestions, isCorrect, correctText, countCorrect } from './parser';
 import { shuffleInPlace } from './shuffle';
 import type { Mode, Question, UserAnswer } from './types';
+import { toTitleCase, norm, keyForQuestion, dedupeQuestions } from './utils';
+import { courses, getThemesForCourse } from './courses';
+import { loadStats, saveStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
 
 const $ = (sel: string, root: Document | HTMLElement = document) =>
   root.querySelector(sel) as HTMLElement | null;
 const $$ = (sel: string, root: Document | HTMLElement = document) =>
   Array.from(root.querySelectorAll(sel)) as HTMLElement[];
 
-/* =========================
-   Auto-découverte des cours
-   ========================= */
-const COURSE_RAW = import.meta.glob('./cours/*.txt', {
-  query: '?raw',
-  import: 'default',
-  eager: true
-}) as Record<string, string>;
-
-type CourseItem = { file: string; label: string; content: string };
-const courses: CourseItem[] = Object.entries(COURSE_RAW)
-  .map(([path, content]) => {
-    const file = path.split('/').pop()!;
-    const base = file.replace(/\.txt$/i, '');
-    const label = toTitleCase(base.replace(/[-_]/g, ' '));
-    return { file, label, content };
-  })
-  .sort((a, b) => a.label.localeCompare(b.label));
-
-function toTitleCase(s: string) {
-  return s.replace(/\w\S*/g, (w) => w.charAt(0).toUpperCase() + w.slice(1));
-}
+/* course discovery & helpers moved to src/courses.ts and src/utils.ts */
 
 /* =========================
    Éléments UI
    ========================= */
 const els = {
+  selectMatiere: $('#matiere') as HTMLSelectElement | null,
   selectCours: $('#cours') as HTMLSelectElement,
   selectThemes: $('#themes') as HTMLSelectElement,
   inputNombre: $('#nombre') as HTMLInputElement,
@@ -46,6 +29,17 @@ const els = {
   btnStart: $('#start') as HTMLButtonElement,
   root: $('#quiz-root') as HTMLDivElement,
   themeToggle: $('#theme-toggle') as HTMLInputElement
+};
+
+const elsExtra = {
+  btnExplorer: $('#btn-explorer') as HTMLButtonElement | null,
+  fileBrowser: $('#file-browser') as HTMLDivElement | null,
+  fbFolders: $('#fb-folders') as HTMLDivElement | null,
+  fbFiles: $('#fb-files') as HTMLDivElement | null,
+  fbClose: $('#fb-close') as HTMLButtonElement | null,
+  qcmView: $('#qcm-view') as HTMLDivElement | null,
+  qcmRoot: $('#qcm-root') as HTMLDivElement | null,
+  qcmClose: $('#qcm-close') as HTMLButtonElement | null
 };
 
 /* =========================
@@ -68,6 +62,8 @@ type State = {
 
   round: number;
   allPool: Question[];
+  // timestamp when current question was shown (performance.now())
+  questionStart?: number | null;
 };
 
 const state: State = {
@@ -82,10 +78,11 @@ const state: State = {
   lastCorrect: false,
   selectedThemes: [],
   round: 1,
-  allPool: []
+  allPool: [],
+  questionStart: null,
 };
 
-/* =========================
+/* =========================2
    Thème sombre / clair
    ========================= */
 initTheme();
@@ -106,71 +103,283 @@ function initTheme() {
 /* =========================
    Déduplication
    ========================= */
-function norm(s: string): string {
-  return s
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-function keyForQuestion(q: Question): string {
-  let key = `${q.type}|${norm(q.question)}`;
-  if (q.type === 'VF' && q.vf) key += `|${q.vf}`;
-  if ((q.type === 'QCM' || q.type === 'QR') && q.answers) {
-    const answers = q.answers
-      .map((a) => `${a.correct ? '1' : '0'}:${norm(a.text)}`)
-      .sort()
-      .join(',');
-    key += `|${answers}`;
-  }
-  return key;
-}
-function dedupeQuestions(arr: Question[]): Question[] {
-  const seen = new Set<string>();
-  const out: Question[] = [];
-  for (const q of arr) {
-    const k = keyForQuestion(q);
-    if (seen.has(k)) continue;
-    seen.add(k);
-    out.push(q);
-  }
-  return out;
-}
+// ...utils (norm/keyForQuestion/dedupeQuestions) moved to src/utils.ts
 
 /* =========================
    Choix cours & thèmes
    ========================= */
-populateCourseSelect();
-function populateCourseSelect() {
+populateMatiereAndCourseSelects();
+function populateMatiereAndCourseSelects() {
+  // Remplir la liste des matières (dossiers)
+  const folders = Array.from(new Set(courses.map((c) => c.folder))).sort((a, b) => a.localeCompare(b));
+  if (els.selectMatiere) {
+    els.selectMatiere.innerHTML = '';
+    const optAll = document.createElement('option');
+    optAll.value = '';
+    optAll.textContent = '— Toutes les matières —';
+    els.selectMatiere.appendChild(optAll);
+    for (const f of folders) {
+      const opt = document.createElement('option');
+      opt.value = f;
+      opt.textContent = f;
+      els.selectMatiere.appendChild(opt);
+    }
+    // on change, remplir les cours
+    els.selectMatiere.addEventListener('change', () => populateCourseSelect(els.selectMatiere!.value));
+  }
+
+  // remplir les cours (toutes au départ)
+  populateCourseSelect('');
+}
+
+function populateCourseSelect(folderFilter: string) {
   if (!els.selectCours) return;
   els.selectCours.innerHTML = '';
-  for (const c of courses) {
+  const filtered = folderFilter ? courses.filter((c) => c.folder === folderFilter) : courses;
+  if (filtered.length === 0) {
     const opt = document.createElement('option');
-    opt.value = c.file;
-    opt.textContent = c.label;
+    opt.disabled = true;
+    opt.textContent = '— Aucun cours —';
+    els.selectCours.appendChild(opt);
+    return;
+  }
+  for (const c of filtered) {
+    const opt = document.createElement('option');
+    // Use the full path as the value so it's unique across folders
+    opt.value = c.path;
+    opt.textContent = `${c.label}${folderFilter ? '' : ` (${c.folder})`}`;
     els.selectCours.appendChild(opt);
   }
-  if (courses[0]) {
-    els.selectCours.value = courses[0].file;
-    state.file = courses[0].file;
-    loadCourseForThemes(state.file);
-  }
+  // sélection par défaut première entrée
+  els.selectCours.value = filtered[0].path;
+  state.file = filtered[0].path;
+  loadCourseForThemes(state.file);
 }
+
 els.selectCours?.addEventListener('change', () => {
   state.file = els.selectCours.value;
   loadCourseForThemes(state.file);
 });
 
 function loadCourseForThemes(filename: string) {
-  const course = courses.find((c) => c.file === filename);
-  if (!course) { fillThemes([]); return; }
+  const course = courses.find((c) => c.path === filename || c.file === filename);
+  if (!course) {
+    fillThemes([]);
+    return;
+  }
   const parsed = parseQuestions(course.content);
   const unique = dedupeQuestions(parsed);
   const set = new Set<string>();
   unique.forEach((q) => (q.tags ?? []).forEach((t) => set.add(t)));
   fillThemes(Array.from(set).sort((a, b) => a.localeCompare(b)));
 }
+
+// ---- File browser modal ----
+function openFileBrowser() {
+  if (!elsExtra.fileBrowser || !elsExtra.fbFiles || !elsExtra.fbFolders) return;
+  elsExtra.fbFiles.innerHTML = '';
+  elsExtra.fbFolders.innerHTML = '';
+  // toolbar with category filter
+  const toolbar = document.createElement('div');
+  toolbar.className = 'fb-toolbar';
+  const sel = document.createElement('select');
+  sel.innerHTML = `<option value="">Tous les thèmes</option><option value="classique">Classique</option><option value="marginaliste">Marginaliste</option><option value="autre">Autre</option>`;
+  toolbar.appendChild(sel);
+  elsExtra.fbFiles.appendChild(toolbar);
+  // group courses by folder
+  const map = new Map<string, typeof courses>();
+  for (const c of courses) {
+    const arr = map.get(c.folder) || [];
+    arr.push(c);
+    map.set(c.folder, arr);
+  }
+  // render folders (left)
+  for (const [folder, list] of map) {
+    const f = document.createElement('div');
+    f.className = 'fb-folder';
+    f.style.padding = '6px';
+    f.style.cursor = 'pointer';
+    f.textContent = folder;
+  f.addEventListener('click', () => {
+      // highlight selection
+      Array.from(elsExtra.fbFolders!.children).forEach(ch => ch.classList.remove('active'));
+      f.classList.add('active');
+      // render files as draggable grid
+      renderFilesGridForFolder(folder, list);
+    });
+    elsExtra.fbFolders.appendChild(f);
+  }
+  elsExtra.fileBrowser.style.display = 'block';
+}
+function closeFileBrowser() { if (elsExtra.fileBrowser) elsExtra.fileBrowser.style.display = 'none'; }
+elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
+elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
+
+// Layout persistence helpers
+function layoutKeyFor(folder: string) { return `t2q_layout_${folder.replace(/[^a-z0-9]/gi, '_')}`; }
+function saveLayout(folder: string, layout: string[][]) { localStorage.setItem(layoutKeyFor(folder), JSON.stringify(layout)); }
+function loadLayout(folder: string): string[][] | null {
+  try { return JSON.parse(localStorage.getItem(layoutKeyFor(folder)) || 'null'); } catch { return null; }
+}
+
+// Render files as draggable grid with rows (layout = array of rows, each row array of file paths)
+function renderFilesGridForFolder(folder: string, list: typeof courses) {
+  if (!elsExtra.fbFiles) return;
+  elsExtra.fbFiles.innerHTML = '';
+  const existingLayout = loadLayout(folder);
+  let layout: string[][];
+  if (existingLayout) {
+    layout = existingLayout;
+  } else {
+    // default: single row with all files
+    layout = [list.map(c => c.path)];
+  }
+
+  const grid = document.createElement('div');
+  grid.style.display = 'flex';
+  grid.style.flexDirection = 'column';
+  grid.style.gap = '8px';
+
+  // helper to create a row container
+  function makeRow(rowIdx: number, rowFiles: string[]) {
+    const row = document.createElement('div');
+    row.className = 'fb-row';
+    row.style.display = 'flex';
+    row.style.gap = '8px';
+    row.style.alignItems = 'stretch';
+    row.style.minHeight = '48px';
+    row.style.border = '1px dashed var(--brd)';
+    row.style.padding = '6px';
+    row.dataset.row = String(rowIdx);
+
+    // adjust card width to fill row based on count
+    const count = Math.max(1, rowFiles.length);
+    const cardWidth = `calc(${Math.floor(100 / count)}% - ${8 * (count - 1) / count}px)`;
+
+    for (const p of rowFiles) {
+      const c = list.find(x => x.path === p);
+      if (!c) continue;
+      const card = document.createElement('div');
+      card.className = 'fb-card';
+      card.draggable = true;
+      card.style.flex = `0 0 ${cardWidth}`;
+      card.style.border = '1px solid var(--brd)';
+      card.style.padding = '8px';
+      card.style.borderRadius = '6px';
+      card.style.background = 'transparent';
+      card.textContent = c.label;
+      card.dataset.path = c.path;
+
+      card.addEventListener('dragstart', (e) => {
+        (e.dataTransfer as any).setData('text/plain', c.path);
+        card.classList.add('dragging');
+      });
+      card.addEventListener('dragend', () => { card.classList.remove('dragging'); });
+
+      // click behavior: open and start directly
+      card.addEventListener('click', async () => {
+        state.file = c.path;
+        if (els.selectMatiere) els.selectMatiere.value = c.folder;
+        populateCourseSelect(c.folder);
+        els.selectCours.value = c.path;
+        await start();
+        openQcmView();
+        closeFileBrowser();
+      });
+
+      row.appendChild(card);
+    }
+
+    // allow drop on row
+    row.addEventListener('dragover', (e) => { e.preventDefault(); row.classList.add('drag-over'); });
+    row.addEventListener('dragleave', () => { row.classList.remove('drag-over'); });
+    row.addEventListener('drop', (e) => {
+      e.preventDefault(); row.classList.remove('drag-over');
+      const path = (e.dataTransfer as any).getData('text/plain');
+      if (!path) return;
+      // remove from old row
+      for (const r of layout) { const idx = r.indexOf(path); if (idx !== -1) { r.splice(idx, 1); break; } }
+      // insert into this row at end
+      layout[rowIdx].push(path);
+      // cleanup empty rows
+      layout = layout.filter(r => r.length > 0);
+      saveLayout(folder, layout);
+      // re-render
+      renderFilesGridForFolder(folder, list);
+    });
+
+    return row;
+  }
+
+  // build rows
+  layout.forEach((rowFiles, i) => grid.appendChild(makeRow(i, rowFiles)));
+
+  // control to add a new empty row
+  const addRowBtn = document.createElement('button');
+  addRowBtn.className = 'secondary';
+  addRowBtn.textContent = 'Ajouter une ligne';
+  addRowBtn.addEventListener('click', () => {
+    layout.push([]);
+    saveLayout(folder, layout);
+    renderFilesGridForFolder(folder, list);
+  });
+
+  elsExtra.fbFiles.appendChild(grid);
+  elsExtra.fbFiles.appendChild(addRowBtn);
+}
+
+function openQcmView() {
+// ---- QCM full-page viewer ----
+  if (!elsExtra.qcmView || !elsExtra.qcmRoot) return;
+  const q = state.questions[state.index];
+  if (!q) return;
+  // render a big version of current question
+  elsExtra.qcmRoot.innerHTML = `
+    <div class="card--q">
+      <h3>Question ${state.index + 1}</h3>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="options">${(q.answers ?? []).map(a => `
+        <label class="opt"><input type="radio" name="qcm-view" value="${escapeAttr(a.text)}"/> <span class="label">${escapeHtml(a.text)}</span></label>`).join('')}</div>
+      <div style="margin-top:12px"><button id="qcm-validate" class="primary">Valider</button></div>
+    </div>
+  `;
+  elsExtra.qcmView.style.display = 'block';
+  // wire validate
+  setTimeout(() => {
+    $('#qcm-validate')?.addEventListener('click', () => {
+      // copy selection into the regular DOM and trigger validation
+      const v = (document.querySelector('input[name="qcm-view"]:checked') as HTMLInputElement | null)?.value ?? null;
+      if (!v) return;
+      // if original question is QCM, set the checkbox with same value
+      // create a temporary selection in the regular DOM
+      // Here we simulate choosing the same option by finding its checkbox in the main UI
+      const boxes = Array.from(document.querySelectorAll('.options input[type="checkbox"]')) as HTMLInputElement[];
+      boxes.forEach(b => { b.checked = (b.value === v); });
+      // trigger validation if available
+      ($('#btn-valider') as HTMLButtonElement | null)?.click();
+      closeQcmView();
+    });
+  }, 0);
+}
+function closeQcmView() { if (elsExtra.qcmView) elsExtra.qcmView.style.display = 'none'; }
+elsExtra.qcmClose?.addEventListener('click', closeQcmView);
+
+// Add a small button to open QCM view when rendering QCMs
+const origRenderQCM = renderQCM;
+function renderQCM_wrap(head: string, q: Question) {
+  origRenderQCM(head, q);
+  const btn = document.createElement('button');
+  btn.className = 'secondary';
+  btn.style.marginLeft = '8px';
+  btn.textContent = 'Ouvrir en page';
+  setTimeout(() => {
+    const actions = document.querySelector('.block.actions');
+    if (actions) actions.appendChild(btn);
+    btn.addEventListener('click', openQcmView);
+  }, 0);
+}
+// replace the function used by render
+(window as any).renderQCM = renderQCM_wrap;
 function fillThemes(topics: string[]) {
   if (!els.selectThemes) return;
   els.selectThemes.innerHTML = '';
@@ -207,8 +416,17 @@ async function start() {
   state.n = Math.max(1, parseInt(els.inputNombre.value || '10', 10));
   state.selectedThemes = getSelectedThemes();
 
-  const course = courses.find((c) => c.file === state.file);
-  if (!course) return renderError(`Cours introuvable : ${state.file}`);
+  const normalizePath = (s: string) => s.replace(/\\/g, '/');
+  const want = normalizePath(state.file || '');
+  let course = courses.find((c) => normalizePath(c.path) === want || normalizePath(c.file) === want);
+  if (!course) {
+    // try fuzzy match: endsWith
+    course = courses.find((c) => normalizePath(c.path).endsWith(want) || want.endsWith(normalizePath(c.file)));
+  }
+  if (!course) {
+    console.warn('Available course paths:', courses.map(c => c.path));
+    return renderError(`Cours introuvable : ${state.file}`);
+  }
 
   // Parse, dédup, filtre thèmes
   let pool = dedupeQuestions(parseQuestions(course.content));
@@ -293,8 +511,15 @@ function render() {
   const q = state.questions[state.index];
   normalizeAnswersInPlace(q);
 
+  // démarrer le chrono pour la question affichée (si écran question)
+  if (state.index < state.questions.length && !state.corrige) {
+    try { state.questionStart = performance.now(); } catch { state.questionStart = Date.now(); }
+  } else {
+    state.questionStart = null;
+  }
+
   if (q.type === 'QR') renderQR(head, q);
-  else if (q.type === 'QCM') renderQCM(head, q);
+  else if (q.type === 'QCM') (window as any).renderQCM ? (window as any).renderQCM(head, q) : renderQCM(head, q);
   else if (q.type === 'VF') renderVF(head, q);
 }
 
@@ -427,6 +652,11 @@ function bindValidateAndNext(q: Question) {
   btn?.addEventListener('click', () => {
     const { ok, ua } = getDOMAnswer(q);
     if (!ok || !ua) return;
+    // mesurer le temps passé sur la question (ms)
+    const start = state.questionStart ?? (performance.now ? performance.now() : Date.now());
+    const elapsedMs = Math.max(0, Math.round((performance.now ? performance.now() : Date.now()) - start));
+    // stocker la réponse
+    (ua as any).timeMs = elapsedMs;
     state.userAnswers[state.index] = ua;
 
     const correct = computeIsCorrect(q, ua);
@@ -435,12 +665,14 @@ function bindValidateAndNext(q: Question) {
     if (state.mode === 'entrainement') {
       state.lastCorrect = correct;
       state.correctMap[state.index] = correct;
-      updateStatAfterAnswer(q, correct, sev); // Leitner adaptatif
+      updateStatAfterAnswer(q, correct, sev, (ua as any).timeMs); // Leitner adaptatif + time
       state.corrige = true;
       render();
       mountFloatingNext(true);
     } else {
       state.corrige = false;
+      // in examen mode, still record stats with time if present
+      updateStatAfterAnswer(q, correct, sev, (ua as any).timeMs);
       suivant();
     }
   });
@@ -720,97 +952,7 @@ function updateButtonsFromDOM() {
   btn.disabled = !ok;
 }
 
-/* =========================
-   Gravité de l'erreur & Leitner adaptatif
-   ========================= */
-// Gravité ∈ [0,1] : 0 = parfait, 1 = pire
-function computeSeverity(q: Question, ua: UserAnswer): number {
-  if (q.type === 'VF') {
-    return isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null }) ? 0 : 1;
-  }
-  if (q.type === 'QR') {
-    return isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null }) ? 0 : 1;
-  }
-  if (q.type === 'QCM') {
-    const all = q.answers ?? [];
-    const correctSet = new Set(all.filter(a => a.correct).map(a => a.text));
-    const wrongSet = new Set(all.filter(a => !a.correct).map(a => a.text));
-    const chosen = new Set((ua.kind === 'QCM' ? ua.values : []) ?? []);
-    let FP = 0, FN = 0;
-    for (const v of chosen) if (wrongSet.has(v)) FP++;
-    for (const v of correctSet) if (!chosen.has(v)) FN++;
-    const N = Math.max(1, all.length);
-    return (FP + FN) / N;
-  }
-  return 1;
-}
-function bucketizeSeverity(s: number): 'mild' | 'medium' | 'severe' {
-  if (s <= 0.25) return 'mild';
-  if (s <= 0.6) return 'medium';
-  return 'severe';
-}
-
-type QStat = {
-  box: number;        // 1..5
-  streak: number;     // bonnes d'affilée depuis la dernière promotion
-  last: number;       // timestamp
-  next: number;       // échéance
-  required: number;   // nb de bonnes nécessaires pour promouvoir
-  lastSeverity?: number;
-};
-const LS_KEY = 't2q_stats_v2';
-
-function requiredFromSeverityBucket(b: 'mild'|'medium'|'severe'): number {
-  if (b === 'mild') return 1;   // petite erreur → montée facile
-  if (b === 'medium') return 2; // moyenne → 2 bonnes
-  return 3;                     // sévère → 3 bonnes
-}
-
-function loadStats(): Record<string, QStat> {
-  try { return JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch { return {}; }
-}
-function saveStats(stats: Record<string, QStat>) {
-  localStorage.setItem(LS_KEY, JSON.stringify(stats));
-}
-function schedule(box: number): number {
-  const days = [0, 1, 3, 7, 14, 30];
-  const d = days[Math.min(Math.max(box, 0), days.length - 1)];
-  return Date.now() + d * 24 * 60 * 60 * 1000;
-}
-
-// Promotion/déclassement variables selon sévérité
-function updateStatAfterAnswer(q: Question, correct: boolean, severity: number) {
-  const id = keyForQuestion(q);
-  const stats = loadStats();
-  const cur: QStat = stats[id] || { box: 1, streak: 0, last: 0, next: 0, required: 1, lastSeverity: undefined };
-
-  if (correct) {
-    cur.streak += 1;
-    const need = Math.max(1, cur.required || 1);
-    if (cur.streak >= need) {
-      cur.box = Math.min(cur.box + 1, 5);
-      cur.streak = 0;     // reset après promotion
-      cur.required = 1;   // redevenir "facile" tant qu'aucune grosse erreur
-    }
-  } else {
-    const b = bucketizeSeverity(severity);
-    const demotion = (b === 'mild') ? 1 : (b === 'medium' ? 2 : 3);
-    cur.box = Math.max(1, cur.box - demotion);
-    cur.streak = 0;
-    cur.required = requiredFromSeverityBucket(b);
-  }
-
-  cur.lastSeverity = severity;
-  cur.last = Date.now();
-  cur.next = schedule(cur.box);
-  stats[id] = cur;
-  saveStats(stats);
-}
-
-function isDue(q: Question): boolean {
-  const st = loadStats()[keyForQuestion(q)];
-  return !st || st.next <= Date.now();
-}
+// scheduling functions moved to src/scheduling.ts
 
 /* =========================
    Utils
