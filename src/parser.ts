@@ -9,15 +9,18 @@
 export type Mode = 'entrainement' | 'examen';
 
 export type Answer = { text: string; correct: boolean };
+export type DragPair = { item: string; match: string };
 export type Question =
   | { type: 'VF'; question: string; vf: 'V' | 'F'; explication?: string; topics?: string[] }
   | { type: 'QR'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
-  | { type: 'QCM'; question: string; answers: Answer[]; explication?: string; topics?: string[] };
+  | { type: 'QCM'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
+  | { type: 'DragMatch'; question: string; pairs: DragPair[]; explication?: string; topics?: string[] };
 
 export type UserAnswer =
   | { kind: 'VF'; value: 'V' | 'F' }
   | { kind: 'QR'; value: string | null }
-  | { kind: 'QCM'; values: string[] };
+  | { kind: 'QCM'; values: string[] }
+  | { kind: 'DragMatch'; matches: Record<string, string> };
 
 const SEP_COL = '||';
 const SEP_OPT = '|';
@@ -148,6 +151,32 @@ export function parseQuestions(content: string): Question[] {
       continue;
     }
 
+    // ----- DragMatch (paires item:match) -----
+    if (kind === 'DRAGMATCH' && cols.length >= 2) {
+      const question = clean(cols[1]);
+      const pairsRaw = clean(cols[2]);
+      const explication = clean(cols[3]);
+      const topics = uniq([
+        ...currentThemes,
+        ...parseTopicList(cols[4]),
+        ...extractInlineTags(question)
+      ]);
+      
+      // Parse pairs: "Item1:Match1, Item2:Match2, Item3:Match3"
+      const pairs: DragPair[] = pairsRaw
+        .split(/[,;]/)
+        .map((p) => {
+          const [item, match] = p.split(':').map((s) => s.trim());
+          return item && match ? { item, match } : null;
+        })
+        .filter((p): p is DragPair => p !== null);
+      
+      if (pairs.length > 0) {
+        out.push({ type: 'DragMatch', question, pairs, explication, topics });
+      }
+      continue;
+    }
+
     // autres types ignorés
   }
 
@@ -156,7 +185,7 @@ export function parseQuestions(content: string): Question[] {
 
 /* ===== Correction & aides ===== */
 
-export function isCorrect(q: Question, ua: { value?: any; values?: string[] }): boolean {
+export function isCorrect(q: Question, ua: { value?: any; values?: string[]; matches?: Record<string, string> }): boolean {
   if (q.type === 'VF') return ua.value === q.vf;
 
   if (q.type === 'QR') {
@@ -174,6 +203,11 @@ export function isCorrect(q: Question, ua: { value?: any; values?: string[] }): 
     return chosen.size > 0 && allGoodChecked && noBadChecked;
   }
 
+  if (q.type === 'DragMatch') {
+    const userMatches = ua.matches ?? {};
+    return q.pairs.every((pair) => userMatches[pair.item] === pair.match);
+  }
+
   return false;
 }
 
@@ -181,6 +215,7 @@ export function correctText(q: Question): string {
   if (q.type === 'VF') return q.vf === 'V' ? 'Vrai' : 'Faux';
   if (q.type === 'QR') return q.answers.find((a) => a.correct)?.text ?? '';
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).map((a) => a.text).join(' | ');
+  if (q.type === 'DragMatch') return q.pairs.map((p) => `${p.item} → ${p.match}`).join(', ');
   return '';
 }
 
@@ -188,5 +223,6 @@ export function countCorrect(q: Question): number {
   if (q.type === 'VF') return 1;
   if (q.type === 'QR') return 1;
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).length;
+  if (q.type === 'DragMatch') return q.pairs.length;
   return 0;
 }

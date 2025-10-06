@@ -1,0 +1,4 @@
+# Test DragMatch questions
+DragMatch || Associe les auteurs avec leurs théories || Keynes:Fonction de consommation, Friedman:Revenu permanent, Modigliani:Cycle de vie, Duesenberry:Effet de cliquet
+DragMatch || Associe les concepts économiques || PIB:Produit Intérieur Brut, PNB:Produit National Brut, RNB:Revenu National Brut, Yd:Revenu disponible
+DragMatch || Associe les dates avec les événements || 1929:Grande Dépression, 1945:Fin de la Seconde Guerre mondiale, 1973:Choc pétrolier, 2008:Crise financière
