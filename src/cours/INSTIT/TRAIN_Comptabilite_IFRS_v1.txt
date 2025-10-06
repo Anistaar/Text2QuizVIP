@@ -1,0 +1,8 @@
+QCM || IFRS — orientation || Vers l’État d’abord|V:Vers l’investisseur (utilité décisionnelle)|Vers les auditeurs|Vers les fournisseurs
+QCM || IFRS — principes (IASC 1989) || V:Pertinence|V:Fiabilité|V:Comparabilité|V:Compréhensibilité
+QCM || Modèle continental vs IFRS || V:Continental → prudence/patrimonialité|V:IFRS → juste valeur/market‑based|IFRS suppriment la volatilité|Continental = uniquement actionnaires
+QCM || ANC (France) — missions || V:Règlements comptables nationaux|V:Participation au processus IFRS|Fixer l’euro|V:Coordonner la recherche comptable
+QCM || États financiers — finalité IFRS || Informer l’État|Informer les créanciers uniquement|V:Fournir une info utile aux investisseurs|Supprimer l’audit
+QCM || Critique fréquente des IFRS || V:Prise en compte insuffisante des risques climatiques|Pas de comparabilité|Absence d’audit|Interdiction de la juste valeur
+QCM || Juste valeur — notion || V:Valeur d’échange/flux actualisés lorsque pas de marché actif|Coût historique identique|Toujours le prix d’achat|Interdite en IFRS
+QCM || Piège : laquelle est FAUSSE ? || IFRS pour comptes consolidés cotés|ANC = autorité publique|IASC 1973|V:Eurostat édicte les IFRS

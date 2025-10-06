@@ -1,0 +1,10 @@
+QCM || Fonction des droits de propriété (North/Coriat-Weinstein) || Réduire l’épargne|V:Aligner incitations & réduire coûts de transaction|Rendre l’investissement impossible|Supprimer toutes externalités
+QCM || Émergence : du commun au privé — thèse néoclassique || V:Privatisation via recherche d’efficience|Toujours inefficiente|Aucun rapport avec incitations|Basée sur hasard
+QCM || Hardin 1968 — tragédie : configuration || V:Accès libre + rivalité ⇒ surexploitation|Accès restreint + non‑rivalité ⇒ surexploitation|Ressource privée ⇒ toujours optimale|Rien à voir avec externalités
+QCM || Solutions type Ostrom || V:Règles locales|V:Surveillance|V:Sanctions graduelles|Absence de participation
+QCM || Pêcheries : leviers efficaces || V:Quotas individuels transférables|V:Lutte pêche illégale|Abandon de tout contrôle|V:Zones marines protégées
+QCM || OPEP — risque de déviation : pourquoi ? || V:Incitation à surproduire quand prix ↑|Absence de coordination|Ressource infinie|Inexistence des coûts de contrôle
+QCM || Piège : définition des biens communs || Excluables & rivaux|Non‑excluables & non‑rivaux|V:Non‑excluables & rivaux|Excluables & non‑rivaux
+QCM || Propriété publique mondiale (idée) : objectifs || V:Stabilité des prix|V:Réinvestissement dans alternatives|Spéculation libre|Suppression des quotas
+QCM || Which statements are TRUE? Property rights… || V:create invest incentives|always lower inequality|never need enforcement|V:clarify responsibilities
+QCM || Cas pratique : forêt communale — que mettre en place d’abord ? || V:Règles d’accès + suivi|Rien|Subvention sans contrôle|Quota collectif sans sanction

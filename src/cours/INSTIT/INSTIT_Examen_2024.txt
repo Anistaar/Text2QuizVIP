@@ -1,0 +1,27 @@
+### Version examen réaliste
+
+### Version complète
+
+### QCM Pièges & comparatifs
+
+### Questions tombées en examen (2024)
+QCM || Selon Douglas North, qu'est-ce qu'une institution ? || Un groupe d’individus poursuivant un but commun|V:Un ensemble de règles de jeu structurant les interactions humaines|Une organisation internationale|Un acteur économique clé
+QCM || Quel rôle jouent les institutions économiques selon Acemoglu et Robinson ? || Organiser la gouvernance mondiale|V:Réguler les interactions humaines dans le domaine économique|Assurer le commerce international|Éliminer les asymétries d’information
+QCM || Quels sont les mots clés associés à la bonne gouvernance selon la Banque mondiale ? || Productivité et innovation|V:Efficacité, responsabilisation, participation et transparence|Croissance, stabilité, et développement durable|Égalité, justice, et inclusion
+QCM || Comment la sélection adverse peut-elle affecter un marché ? || En augmentant les prix|En supprimant les mauvaises options du marché|V:En entraînant une disparition progressive des produits de bonne qualité|En améliorant la transparence du marché
+QCM || Selon Garrett Hardin, qu’est-ce qui cause la tragédie des biens communs ? || Le manque d’innovation|V:L’absence de droits de propriété sur les ressources partagées|La sur-réglementation des marchés|Les asymétries d’information
+QCM || Quel est l’objectif principal de la théorie des droits de propriété ? || Maximiser les profits des entreprises|V:Fournir des incitations à valoriser les ressources|Encourager la privatisation totale des biens communs|Réduire les asymymétries d’information
+QCM || À quoi servent principalement les normes IFRS ? || Simplifier la fiscalité internationale|V:Harmoniser la communication financière au niveau international|Augmenter les bénéfices des entreprises|Éliminer les coûts d’audit
+QCM || Quelle est l’une des critiques majeures des normes IFRS ? || Leur manque de transparence|Leur incompatibilité avec le modèle anglo-saxon|V:Leur absence de prise en compte des enjeux climatiques|Leur complexité excessive
+QCM || Quel est le rôle principal de l’OMC ? || Réguler les marchés financiers|Promouvoir les normes environnementales|V:Régir les règles du commerce mondial|
+QCM || Quelle est la mission principale de l’INSEE ? || Surveiller les marchés financiers|V:Fournir des données statistiques sur l’économie et la société françaises|Gérer les politiques budgétaires de l’État|Réguler les entreprises cotées
+QCM || Quand l’INSEE a-t-il été créé ? || V:1946|1958|1984|1973
+QCM || Quelle solution peut réduire les asymétries d’information sur le marché du travail ? || L’aléa moral|La publicité|V:Les signaux tels que les diplômes|Les quotas d’embauche
+QCM || Quel problème la théorie de la sélection adverse tente-t-elle de résoudre ? || Les mauvaises décisions des consommateurs|V:La disparition de produits de qualité sur un marché|L’opportunisme des entreprises|L’augmentation des prix
+QCM || Quels biens sont caractérisés par une non-excluabilité et une rivalité d’usage ? || Les biens privés|Les biens publics|V:Les biens communs|Les biens de club
+QCM || Quelle solution institutionnelle peut éviter la tragédie des biens communs ? || La taxation|V:La privatisation ou la gestion collective des ressources|L’abolition des quotas de production|La déréglementation
+QCM || Quel est l’objectif principal des états financiers selon les normes IFRS ? || V:Répondre aux besoins des investisseurs|Réduire les coûts de production|Faciliter les relations entre actionnaires et employés|Renforcer les politiques publiques
+QCM || Quelles sont les quatre caractéristiques qualitatives des états financiers selon l’IASC (1989) ? || Transparence, régularité, neutralité, sincérité|V:Pertinence, fiabilité, comparabilité, compréhensibilité|Simplicité, lisibilité, flexibilité, robustesse|Productivité, efficience, exactitude, simplicité
+QCM || Quel est le rôle principal du FMI ? || Promouvoir le commerce international|V:Fournir des prêts pour stabiliser les économies en difficulté|Gérer les normes comptables internationales|
+QCM || Quelle est la mission principale de l’OMC ? || Réguler les flux migratoires|V:Promouvoir un commerce ouvert et équitable|Superviser les systèmes monétaires|Harmoniser les systèmes fiscaux nationaux
+QCM || Quel accord de l’OMC traite des droits de propriété intellectuelle ? || Accord de Doha|V:Accord sur les ADPIC|Accord sur l’agriculture|Accord général sur les tarifs douaniers

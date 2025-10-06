@@ -1,0 +1,8 @@
+QCM || INSEE — missions clés || V:Comptes nationaux/PIB/IPC|Fixer la politique monétaire|V:Recensements|V:Répertoires SIREN/SIRET/RNIPP/COG
+QCM || Eurostat — rôle || V:Harmonisation UE & coordination SSE|Fixer les budgets nationaux|Collecter sans les États membres|V:Comparabilité internationale
+QCM || INED — nature/missions || V:EPST de recherche démographique|Fixe la natalité par décret|V:Diffusion/formation|Production de l’IPC
+QCM || IPC — construction || V:Indice de Laspeyres chaîné|V:Pondérations MAJ annuelles|Crédits immobiliers inclus|V:Ajustements hédoniques possibles
+QCM || IPC — notions à ne pas confondre || V:« Shrinkflation » = quantité ↓ à prix constant|Objectif BCE 5 %|V:Pondérations reflètent budget moyen|Prix relevés en magasin & données de caisse
+QCM || Indépendance/coordination || V:Autorité de la statistique publique (2008)|CNIL = organisme de l’INSEE|V:SSP coordonné par l’INSEE|Indice des loyers commerciaux existe
+QCM || Eurostat — histoire brève || V:CECA → CEE → renforcement pour l’euro|Création 2010|Rôle inchangé depuis 1952|Sans lien avec indicateurs européens
+QCM || INSEE à Metz ? || V:Oui, déménagement partiel de services|Non, jamais|Exclusivement à Lyon|Uniquement à Bercy

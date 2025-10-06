@@ -1,0 +1,8 @@
+QCM || Laquelle est FAUSSE ? (institutions/organisations) || V:Une institution = organisme avec salariés|Institution = règles|Organisation = groupe poursuivant des objectifs|Co‑évolution fréquente
+QCM || Asymétrie d’info — inversion || V:Sélection adverse après contrat|Aléa moral après contrat|Labels/garanties informent|Signaux coûtent
+QCM || Biens : classification rapide || V:Commun = non‑excluable & rival|Public = non‑excluable & non‑rival|Privé = excluable & rival|Club = excluable & non‑rival
+QCM || IFRS vs continental — énoncez le FAUX || Continental = prudence/patrimonialité|IFRS = investisseur/juste valeur|Comparabilité internationale|V:IFRS destinées d’abord à l’État
+QCM || OMC/FMI/BM — qui fait quoi ? || V:OMC = règles du commerce & différends|V:FMI = stabilité SMI|V:BM = développement/projets|Fixer l’euro
+QCM || Gouvernance — lequel n’appartient pas ? || Efficacité|Transparence|Responsabilisation|V:Opacité
+QCM || IPC — énoncé FAUX || Laspeyres chaîné|Pondérations MAJ|V:Crédits immobiliers inclus|Ajustements hédoniques possibles
+QCM || TCE — lequel est FAUX ? || Spécificité ↑ ⇒ intégration plus probable|Opportunisme pris en compte|V:Contrats inutiles|Arbitrage marché/hiérarchie/hybride

@@ -1,0 +1,47 @@
+### Version examen réaliste
+QCM || Selon D. North, que sont les institutions ? || Règles techniques de production|Rituels religieux|V:Les règles du jeu (règles formelles et informelles) qui encadrent les interactions humaines|Des organisations au sens d’entreprises || Définition vue en cours.
+QCM || Institution vs Organisation : laquelle est correcte ? || V:Les institutions = règles ; les organisations = groupes d’individus poursuivant des objectifs|Les deux sont strictement équivalents|Une organisation est toujours publique|V:Institutions et organisations interagissent et co-évoluent || Distinction centrale.
+QCM || Gouvernance moderne (vision Banque mondiale années 1990) met l’accent surtout sur… || V:Efficacité, responsabilisation, participation, transparence|Hiérarchie verticale stricte|Monopole de l’État central|V:Réseaux d’acteurs et pouvoirs multicentrés || Caractéristiques clés.
+QCM || Asymétrie d’information : conséquence classique ? || Hausse automatique de la qualité|V:Sélection adverse|Pas d’impact sur le marché|V:Aléa moral || Deux conséquences majeures.
+QCM || Théorie du signal (Spence/Arrow) : le diplôme fonctionne comme… || V:Un signal coûteux crédible de qualité pour l’employeur|Une garantie légale d’emploi|Une assurance chômage|V:Un tri entre candidats lorsque l’info est imparfaite || Idée de signal coûteux.
+QCM || Droits de propriété : fonction économique principale || Réduire l’épargne des ménages|V:Fournir des incitations à créer, conserver et valoriser des actifs|Augmenter les taxes|Ralentir l’innovation || Incitations et efficience.
+QCM || Tragédie des biens communs (Hardin) : situation typique || V:Accès libre + rivalité d’usage ⇒ sur‑exploitation|Accès restreint + non‑rivalité ⇒ sous‑utilisation|V:Externalités et coûts de transaction élevés|Monopole privé ⇒ disparition du bien commun || Sur‑exploitation.
+QCM || INSEE : mission clé || Fixer la politique monétaire|Rédiger le budget de l’État|V:Mesurer et publier les principaux indicateurs (PIB, chômage, IPC…)|Fixer l’impôt sur le revenu || Rôle statistique public.
+QCM || IFRS : finalité prioritaire selon l’IASB || V:Informer utilement les investisseurs (comparabilité/transparence)|Uniquement préserver les créanciers|Supprimer toute volatilité comptable|V:Diffuser un langage comptable commun mondial || Orientation investisseurs.
+QCM || OMC : rôle central || V:Cadre de règles, négociation, règlement des différends|Fixer les taux de change|Gérer les budgets nationaux|Émettre des DTS || Mandat commercial multilatéral.
+
+### Version complète
+VF || Les institutions en économie regroupent des règles formelles ET informelles qui structurent les incitations. || V || North / BM.
+VF || Une organisation (entreprise, syndicat, ONG) est identique à une institution. || F || Distinction vue en cours.
+VF || La gouvernance contemporaine privilégie l’analyse en réseaux d’acteurs plutôt qu’un schéma strictement hiérarchique. || V || Approche multicentrée.
+VF || L’asymétrie d’information peut mener à la sélection adverse sur le marché des voitures d’occasion. || V || Exemple classique.
+VF || L’aléa moral survient après signature d’un contrat quand le comportement change. || V || Assurances, santé…
+VF || Les droits de propriété clairs favorisent l’efficience via les incitations. || V || Incitations & coûts de transaction.
+VF || La tragédie des biens communs n’existe que pour les biens non rivaux. || F || Biens communs = non‑excluables + rivaux.
+VF || L’INSEE fixe les politiques publiques au Parlement. || F || Produit de la donnée/statistique.
+QCM || Institution vs organisation : choisir les vraies affirmations || V:Institution = règle du jeu|V:Organisation = groupe poursuivant des objectifs|Institution = forcément publique|Organisation = forcément privée || Double vrai / doubles faux.
+QCM || Gouvernance : quelles caractéristiques modernes ? || Centralisation étatique exclusive|V:Partenariats & pluralité d’acteurs|V:Pouvoirs multicentrés|Rupture totale avec l’État || Réseaux d’acteurs.
+QCM || Asymétrie : quelles issues possibles ? || V:Labels, garanties, régulation|Suppression de l’information|V:Contrats/franchises pour limiter l’aléa moral|Hausse automatique des prix de qualité || Outils correctifs.
+QCM || Théorie du signal : exemples de signaux || V:Diplôme sur marché du travail|V:Garantie vendeur voiture d’occasion|Subvention publique|Interdiction pure et simple || Signaux coûteux/crédibles.
+QCM || Droits de propriété : niveau d’analyse || V:Individuel (incitations d’usage)|V:Organisation (séparation propriété/contrôle)|V:Système économique (privatisations/nationalisations)|Aucun niveau pertinent || Trois niveaux vus.
+QCM || Biens & propriété : alternatives à la privatisation || V:Propriété publique mondiale (cas pétrole, quotas)|V:Gestion collective (quotas pêche, sanctions)|Interdiction de consommer tout bien rival|Taxe unique universelle || Solutions institutionnelles.
+QCM || INSEE : quelles missions ? || V:Recensement, enquêtes ménages/entreprises|V:Publication IPC, ILC, chômage, pauvreté|Fixer le SMIC|V:Gestion de répertoires (SIREN/SIRET, RNIPP, COG) || Missions listées.
+QCM || Eurostat : rôle || V:Office statistique de l’UE (comparaison pays/régions)|Collecte directe brute sans États membres|V:Centralise les données des instituts nationaux|Fixe les budgets nationaux || Centralisation/harmonisation.
+QCM || INED : missions pluridisciplinaires || V:Études de populations FR/étranger|Production & diffusion de connaissances|Fixer la natalité par décret|V:Appui à la formation & expertise publique || Définition statutaire.
+QCM || IFRS : caractéristiques || V:Cadre orienté investisseurs|V:Juste valeur (mark‑to‑market / modèles)|Pas d’auditeurs externes|V:Comparabilité internationale || Points clés.
+QCM || OMC : éléments de gouvernance || V:Conférence ministérielle organe suprême|V:ORD pour différends|Banque centrale de l’UE|V:Accords couvrant biens/services/ADPIC || Structure et accords.
+QCM || FMI : missions || V:Stabilité du SMI, prêts en crise, surveillance|Fixer les droits de l’Homme|V:Assistance technique/statistiques|Gérer la BCE || Mandat FMI.
+QCM || Banque mondiale : instruments || V:Prêts, crédits concessionnels (AID), garanties|Création de monnaie nationale|V:SFI pour secteur privé|Fixe les taux de change || Instruments BM.
+QCM || Think tanks & lobbying : définitions || V:Production d’idées/rapports d’influence|Contrôle juridictionnel des traités|V:Processus d’influence auprès d’institutions|Vote des lois à la place des parlements || Rôles.
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? (institutions/organisations) || V:Une institution est forcément une entité juridique dotée de salariés|Les institutions incluent règles formelles et informelles|Les organisations poursuivent des objectifs communs|Institutions et organisations co‑évoluent || Le piège = confusion institution/organisation.
+QCM || Gouvernance vs Gouvernement : repérer l’énoncé faux || Gouvernement = pouvoir vertical hiérarchique|V:Gouvernance = retrait complet de l’État|Gouvernance moderne = réseaux & multicentres|Banque mondiale popularise le terme dans les 1990s || L’État ne disparaît pas.
+QCM || Asymétrie : piège classique || V:Sélection adverse se produit après signature du contrat|Aléa moral survient après le contrat|Signaux réduisent l’incertitude|Labels/régulations informent || Inverser sélection/adverse vs aléa moral = piège.
+QCM || Droits de propriété : lequel n’est pas un objectif ? || Inciter à valoriser les actifs|Réduire les coûts de transaction|V:Supprimer toute externalité|Clarifier l’allocation des droits || On ne supprime pas « toute » externalité.
+QCM || Biens communs : proposition piégeuse || V:Les biens communs sont non‑rivaux et exclusifs|La tragédie résulte d’accès libre + rivalité|Privatisation n’est pas la seule solution|Gestion collective possible || Définition piégée.
+QCM || IFRS vs modèle continental : repérer l’assertion fausse || Continental : prudence/patrimonialité|Anglo‑saxon/IFRS : décision investisseur|V:IFRS orientées d’abord vers État et créanciers|Harmonisation et comparabilité recherchées || Orientation investisseurs.
+QCM || OMC/FMI/BM : qui fait quoi ? || V:OMC = commerce & différends|V:FMI = stabilité SMI & prêts en crise|Banque mondiale = lutte contre pauvreté/projets|V:BM = AID & SFI || Attribution correcte.
+QCM || Think tanks & lobbying : énoncé faux || Think tank = idées/analyses|Lobbying = influence (formelle/informelle)|V:Lobbying réservé aux entreprises privées|Registres/encadrement existent (UE) || Pas réservé aux seules entreprises.
+
+### Questions tombées en examen (2022, 2023, 2024)

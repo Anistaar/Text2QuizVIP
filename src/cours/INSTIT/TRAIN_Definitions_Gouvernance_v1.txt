@@ -1,0 +1,8 @@
+QCM || Selon North, une institution est… || Des organisations publiques|V:Des règles du jeu (formelles & informelles) encadrant les interactions|Un acteur économique|Un marché concurrentiel
+QCM || Institution vs organisation : lesquelles sont correctes ? || V:Institution = règle|V:Organisation = groupe poursuivant des objectifs|Les deux sont identiques|Une organisation est forcément publique
+QCM || Banque mondiale (années 1990) — mots‑clés de la « bonne gouvernance » || V:Efficacité|V:Responsabilisation|V:Transparence & participation|Monopole de l’État central
+QCM || Gouvernance moderne : caractéristiques || V:Réseaux d’acteurs|V:Pouvoirs multicentrés|Hiérarchie pure|Absence d’État par principe
+QCM || Confusion fréquente : laquelle est FAUSSE ? || V:Les institutions sont toujours des organismes avec salariés|Les institutions structurent les incitations|Les organisations peuvent influencer les institutions|Institutions & organisations co‑évoluent
+QCM || Rodrik (2005) — associer || V:Création → droits de propriété|V:Régulation → autorités de concurrence/BC|Stabilisation → politiques monétaires/budgétaires|Légitimation → protection sociale
+QCM || Indice de gouvernance/IPC et croissance : lequel est exact ? || V:Meilleure qualité institutionnelle ↔ PIB/habitant plus élevé (corrélation)|Aucune relation|Qualité ↓ entraîne inflation ⬇ automatiquement|Corrélation négative systématique
+QCM || Acemoglu & Robinson — rôle des institutions économiques || Organiser seules le commerce mondial|V:Réguler les interactions et les incitations|Éliminer toutes les asymétries d’info|Supprimer les coûts de transaction

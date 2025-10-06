@@ -1,0 +1,8 @@
+QCM || Pourquoi une firme existe (Coase 1937) ? || V:Réduire coûts de transaction du marché|Pour éviter les salaires|Pour éviter les impôts|Parce que la loi l’impose
+QCM || Théorème de Coase : valable si… || V:Coûts de transaction ≈ nuls|Information parfaite inutile|Droits de propriété non définis|Pouvoir de marché élevé
+QCM || Williamson — facteurs ↑ coûts || V:Spécificité des actifs|V:Incertitude|V:Opportunisme|Substituabilité parfaite
+QCM || Choix du mode de gouvernance || V:Marché / Hiérarchie / Hybrides selon coûts|Toujours marché|Toujours intégration verticale|Toujours contrats relationnels
+QCM || Exemple : pièce automobile très spécifique — choisir ? || V:Intégration/contrat long terme|Spot‑market|Aucun contrat|Appel d’offres quotidien
+QCM || Piège : laquelle est FAUSSE ? || Marché si coûts faibles|Hiérarchie si actifs spécifiques|Hybrides possibles|V:Contrats sont inutiles
+QCM || Plateformes numériques : effet sur coûts ? || V:Réduction recherche/négociation|Toujours ↑ coûts de surveillance|Élimination totale des coûts|Aucun impact
+QCM || Which are TRUE? TCE assumes… || V:bounded rationality|V:opportunism|perfect information|no asset specificity
