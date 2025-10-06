@@ -521,10 +521,12 @@ function render() {
   if (q.type === 'QR') renderQR(head, q);
   else if (q.type === 'QCM') (window as any).renderQCM ? (window as any).renderQCM(head, q) : renderQCM(head, q);
   else if (q.type === 'VF') renderVF(head, q);
+  else if (q.type === 'DragMatch') renderDragMatch(head, q);
 }
 
 function helperText(q: Question): string {
   if (q.type === 'VF') return 'Choisis Vrai ou Faux.';
+  if (q.type === 'DragMatch') return 'Glisse les réponses dans les bonnes cases.';
   const nb = countCorrect(q);
   if (q.type === 'QR') return 'Sélectionne la bonne réponse.';
   if (q.type === 'QCM') return nb > 1
@@ -635,6 +637,197 @@ function renderVF(head: string, q: Question) {
   bindValidateAndNext(q);
   updateButtonsFromDOM();
   document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderDragMatch(head: string, q: Question) {
+  if (q.type !== 'DragMatch') return;
+  
+  const userAnswer = state.userAnswers[state.index] as any;
+  const userMatches: Record<string, string> = userAnswer?.matches ?? {};
+  
+  // Shuffle matches for dragging
+  const matchValues = q.pairs.map(p => p.match);
+  if (!state.corrige) shuffleInPlace(matchValues);
+  
+  const itemsHtml = q.pairs.map((pair, idx) => {
+    const matchedValue = userMatches[pair.item] || '';
+    const isCorrect = state.corrige && matchedValue === pair.match;
+    const isIncorrect = state.corrige && matchedValue && matchedValue !== pair.match;
+    
+    return `
+      <div class="drag-item-row ${state.corrige ? (isCorrect ? 'correct' : isIncorrect ? 'incorrect' : '') : ''}" data-item="${escapeHtml(pair.item)}">
+        <div class="drag-item-label">${escapeHtml(pair.item)}</div>
+        <div class="drag-drop-zone" data-item="${escapeHtml(pair.item)}">
+          ${matchedValue ? `<div class="drag-match-chip" data-match="${escapeHtml(matchedValue)}">${escapeHtml(matchedValue)}</div>` : '<span class="placeholder">Glisser ici</span>'}
+        </div>
+        ${state.corrige && pair.match !== matchedValue ? `<div class="correct-answer">→ ${escapeHtml(pair.match)}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+  
+  const availableMatchesHtml = matchValues.map(match => {
+    const isUsed = Object.values(userMatches).includes(match);
+    return `<div class="drag-match-chip ${isUsed && !state.corrige ? 'used' : ''}" draggable="${!state.corrige}" data-match="${escapeHtml(match)}">${escapeHtml(match)}</div>`;
+  }).join('');
+  
+  els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">Glisse les réponses dans les bonnes cases.</small></div>
+      
+      <div class="drag-container">
+        <div class="drag-items">
+          ${itemsHtml}
+        </div>
+        
+        ${!state.corrige ? `
+          <div class="drag-matches-pool">
+            <div class="pool-label">Réponses disponibles:</div>
+            <div class="drag-matches">
+              ${availableMatchesHtml}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+      
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+  
+  if (!state.corrige) {
+    setupDragAndDrop(q);
+  }
+  bindValidateAndNext(q);
+  updateButtonsFromDOM();
+  document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function setupDragAndDrop(q: Question) {
+  if (q.type !== 'DragMatch') return;
+  
+  let draggedElement: HTMLElement | null = null;
+  
+  // Handle drag start from chips
+  $$('.drag-match-chip[draggable="true"]').forEach(chip => {
+    chip.addEventListener('dragstart', (e) => {
+      draggedElement = chip as HTMLElement;
+      chip.classList.add('dragging');
+      if (e.dataTransfer) {
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', chip.getAttribute('data-match') || '');
+      }
+    });
+    
+    chip.addEventListener('dragend', () => {
+      chip.classList.remove('dragging');
+    });
+  });
+  
+  // Handle drop zones
+  $$('.drag-drop-zone').forEach(zone => {
+    zone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      zone.classList.add('drag-over');
+      if (e.dataTransfer) e.dataTransfer.dropEffect = 'move';
+    });
+    
+    zone.addEventListener('dragleave', () => {
+      zone.classList.remove('drag-over');
+    });
+    
+    zone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      zone.classList.remove('drag-over');
+      
+      const matchValue = e.dataTransfer?.getData('text/plain');
+      const itemName = zone.getAttribute('data-item');
+      
+      if (matchValue && itemName) {
+        // Remove from old location if exists
+        const userAnswer = state.userAnswers[state.index] as any;
+        if (!userAnswer) {
+          state.userAnswers[state.index] = { kind: 'DragMatch', matches: {} };
+        }
+        const matches = (state.userAnswers[state.index] as any).matches || {};
+        
+        // Find and remove this match from other items
+        for (const key in matches) {
+          if (matches[key] === matchValue) {
+            delete matches[key];
+          }
+        }
+        
+        // Add to this item
+        matches[itemName] = matchValue;
+        (state.userAnswers[state.index] as any).matches = matches;
+        
+        // Update the drop zone visually
+        zone.innerHTML = `<div class="drag-match-chip" draggable="true" data-match="${escapeHtml(matchValue)}">${escapeHtml(matchValue)}</div>`;
+        
+        // Re-setup drag for the new chip
+        const newChip = zone.querySelector('.drag-match-chip') as HTMLElement;
+        if (newChip) {
+          newChip.addEventListener('dragstart', (e) => {
+            newChip.classList.add('dragging');
+            if (e.dataTransfer) {
+              e.dataTransfer.effectAllowed = 'move';
+              e.dataTransfer.setData('text/plain', newChip.getAttribute('data-match') || '');
+            }
+            // Remove from matches when dragging out
+            const userAnswer = state.userAnswers[state.index] as any;
+            if (userAnswer?.matches && itemName) {
+              delete userAnswer.matches[itemName];
+            }
+          });
+          
+          newChip.addEventListener('dragend', () => {
+            newChip.classList.remove('dragging');
+          });
+        }
+        
+        // Hide used chip from pool
+        const poolChips = $$('.drag-matches .drag-match-chip');
+        poolChips.forEach(chip => {
+          if (chip.getAttribute('data-match') === matchValue) {
+            chip.classList.add('used');
+          }
+        });
+        
+        updateButtonsFromDOM();
+      }
+    });
+  });
+  
+  // Allow removing from drop zones by dragging back to pool
+  $$('.drag-drop-zone .drag-match-chip').forEach(chip => {
+    chip.setAttribute('draggable', 'true');
+    chip.addEventListener('dragstart', (e) => {
+      draggedElement = chip as HTMLElement;
+      chip.classList.add('dragging');
+      if (e.dataTransfer) {
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', chip.getAttribute('data-match') || '');
+      }
+      
+      // Remove from matches when dragging out
+      const zone = chip.closest('.drag-drop-zone') as HTMLElement;
+      const itemName = zone?.getAttribute('data-item');
+      const matchValue = chip.getAttribute('data-match');
+      
+      if (itemName && matchValue) {
+        const userAnswer = state.userAnswers[state.index] as any;
+        if (userAnswer?.matches) {
+          delete userAnswer.matches[itemName];
+        }
+      }
+    });
+    
+    chip.addEventListener('dragend', () => {
+      chip.classList.remove('dragging');
+    });
+  });
 }
 
 /* ---------- boutons / feedback ---------- */
@@ -933,6 +1126,12 @@ function getDOMAnswer(q: Question): { ok: boolean; ua: UserAnswer | null } {
     const values = boxes.filter(b => b.checked).map(b => b.value);
     return values.length > 0 ? { ok: true, ua: { kind: 'QCM', values } } : { ok: false, ua: null };
   }
+  if (q.type === 'DragMatch') {
+    const userAnswer = state.userAnswers[state.index] as any;
+    const matches = userAnswer?.matches ?? {};
+    const allMatched = q.pairs.every(p => matches[p.item]);
+    return allMatched ? { ok: true, ua: { kind: 'DragMatch', matches } } : { ok: false, ua: null };
+  }
   return { ok: false, ua: null };
 }
 
@@ -961,6 +1160,7 @@ function computeIsCorrect(q: Question, ua: UserAnswer): boolean {
   if (q.type === 'QR') return isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null });
   if (q.type === 'QCM') return isCorrect(q, { values: ua.kind === 'QCM' ? ua.values : [] });
   if (q.type === 'VF') return isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null });
+  if (q.type === 'DragMatch') return isCorrect(q, { matches: ua.kind === 'DragMatch' ? ua.matches : {} });
   return false;
 }
 

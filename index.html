@@ -111,6 +111,27 @@
       .list li{list-style:decimal; border:1px solid var(--brd); border-radius:12px; padding:10px}
       .list li.ok{background:var(--ok-bg); border-color:var(--ok-brd)}
       .list li.ko{background:var(--warn-bg); border-color:var(--warn-brd)}
+
+      /* drag and drop */
+      .drag-container{margin-top:16px}
+      .drag-items{display:grid; gap:12px; margin-bottom:16px}
+      .drag-item-row{display:grid; grid-template-columns:1fr 2fr auto; gap:12px; align-items:center}
+      .drag-item-row.correct{background:var(--ok-bg); border-radius:8px; padding:8px}
+      .drag-item-row.incorrect{background:var(--ko-bg); border-radius:8px; padding:8px}
+      .drag-item-label{font-weight:600; padding:8px}
+      .drag-drop-zone{min-height:40px; border:2px dashed var(--brd); border-radius:8px; padding:4px;
+        display:flex; align-items:center; justify-content:center; transition:all 0.2s}
+      .drag-drop-zone.drag-over{border-color:var(--accent); background:rgba(132,204,22,0.1)}
+      .drag-drop-zone .placeholder{color:var(--muted); font-size:13px}
+      .drag-match-chip{display:inline-block; padding:6px 12px; background:var(--accent); color:var(--bg);
+        border-radius:6px; cursor:grab; user-select:none; font-size:14px}
+      .drag-match-chip:active{cursor:grabbing}
+      .drag-match-chip.dragging{opacity:0.5}
+      .drag-match-chip.used{opacity:0.4}
+      .drag-matches-pool{margin-top:16px; padding:12px; border:1px solid var(--brd); border-radius:8px}
+      .pool-label{font-weight:600; margin-bottom:8px; font-size:14px}
+      .drag-matches{display:flex; flex-wrap:wrap; gap:8px}
+      .correct-answer{color:var(--ok-fg); font-weight:600; font-size:13px}
     </style>
   </head>
 
