@@ -64,6 +64,18 @@ type State = {
   allPool: Question[];
   // timestamp when current question was shown (performance.now())
   questionStart?: number | null;
+  
+  // Contre-la-montre
+  timerSeconds?: number;
+  timerInterval?: number;
+  
+  // Flashcards
+  flashcardMastered?: Set<number>;
+  flashcardReview?: Set<number>;
+  showingAnswer?: boolean;
+  
+  // Histoire interactive
+  storyPath?: number[];
 };
 
 const state: State = {
@@ -80,6 +92,11 @@ const state: State = {
   round: 1,
   allPool: [],
   questionStart: null,
+  timerSeconds: 60,
+  flashcardMastered: new Set(),
+  flashcardReview: new Set(),
+  showingAnswer: false,
+  storyPath: [],
 };
 
 /* =========================2
@@ -473,6 +490,19 @@ function resetRoundState(len: number) {
   state.lastCorrect = false;
   state.userAnswers = new Array(len).fill(null) as any;
   state.correctMap = new Array(len).fill(null);
+  
+  // Mode-specific initialization
+  if (state.mode === 'contre-la-montre') {
+    state.timerSeconds = 60;
+  }
+  if (state.mode === 'flashcards') {
+    state.flashcardMastered = new Set();
+    state.flashcardReview = new Set();
+    state.showingAnswer = false;
+  }
+  if (state.mode === 'histoire-interactive') {
+    state.storyPath = [];
+  }
 }
 
 /* =========================
@@ -490,15 +520,55 @@ function progressBar(): string {
   return `<div class="progress"><div class="progress__bar" style="width:${percent}%"></div></div>`;
 }
 
+function getModeLabel(mode: Mode): string {
+  switch (mode) {
+    case 'entrainement': return 'Entraînement';
+    case 'examen': return 'Examen';
+    case 'contre-la-montre': return 'Contre-la-montre';
+    case 'histoire-interactive': return 'Histoire interactive';
+    case 'flashcards': return 'Flashcards';
+    default: return mode;
+  }
+}
+
+function startContrelaMontre() {
+  if (state.timerInterval) clearInterval(state.timerInterval);
+  
+  state.timerInterval = setInterval(() => {
+    if (state.timerSeconds !== undefined && state.timerSeconds > 0) {
+      state.timerSeconds -= 1;
+      const timerEl = document.getElementById('timer');
+      if (timerEl) timerEl.textContent = `${state.timerSeconds}s`;
+      
+      if (state.timerSeconds === 0) {
+        clearInterval(state.timerInterval);
+        state.timerInterval = undefined;
+        // Force end of quiz
+        state.index = state.questions.length;
+        render();
+      }
+    }
+  }, 1000) as any;
+}
+
 function render() {
+  // Mode-specific rendering
+  if (state.mode === 'flashcards') {
+    return renderFlashcards();
+  }
+  if (state.mode === 'histoire-interactive') {
+    return renderHistoireInteractive();
+  }
+  
   const fin = state.index >= state.questions.length;
 
   const head = `
     <div class="head">
       <div><span class="badge">${escapeHtml(state.file)}</span></div>
-      <div>Mode : <strong>${state.mode === 'entrainement' ? 'Entraînement' : 'Examen'}</strong></div>
+      <div>Mode : <strong>${getModeLabel(state.mode)}</strong></div>
       <div>Tour : <strong>${state.round}</strong></div>
       <div>Progression : <strong>${Math.min(state.index + 1, state.questions.length)} / ${state.questions.length}</strong></div>
+      ${state.mode === 'contre-la-montre' ? `<div>Temps : <strong id="timer">${state.timerSeconds}s</strong></div>` : ''}
     </div>
     ${progressBar()}
   `;
@@ -516,6 +586,11 @@ function render() {
     try { state.questionStart = performance.now(); } catch { state.questionStart = Date.now(); }
   } else {
     state.questionStart = null;
+  }
+  
+  // Start timer for contre-la-montre mode
+  if (state.mode === 'contre-la-montre' && state.index === 0 && !state.timerInterval) {
+    startContrelaMontre();
   }
 
   if (q.type === 'QR') renderQR(head, q);
@@ -658,7 +733,7 @@ function renderDragMatch(head: string, q: Question) {
       <div class="drag-item-row ${state.corrige ? (isCorrect ? 'correct' : isIncorrect ? 'incorrect' : '') : ''}" data-item="${escapeHtml(pair.item)}">
         <div class="drag-item-label">${escapeHtml(pair.item)}</div>
         <div class="drag-drop-zone" data-item="${escapeHtml(pair.item)}">
-          ${matchedValue ? `<div class="drag-match-chip" data-match="${escapeHtml(matchedValue)}">${escapeHtml(matchedValue)}</div>` : '<span class="placeholder">Glisser ici</span>'}
+          ${matchedValue ? `<div class="drag-match-chip" draggable="true" data-match="${escapeHtml(matchedValue)}">${escapeHtml(matchedValue)}</div>` : '<span class="placeholder">Glisser ici</span>'}
         </div>
         ${state.corrige && pair.match !== matchedValue ? `<div class="correct-answer">→ ${escapeHtml(pair.match)}</div>` : ''}
       </div>
@@ -667,7 +742,7 @@ function renderDragMatch(head: string, q: Question) {
   
   const availableMatchesHtml = matchValues.map(match => {
     const isUsed = Object.values(userMatches).includes(match);
-    return `<div class="drag-match-chip ${isUsed && !state.corrige ? 'used' : ''}" draggable="${!state.corrige}" data-match="${escapeHtml(match)}">${escapeHtml(match)}</div>`;
+    return `<div class="drag-match-chip ${isUsed && !state.corrige ? 'used' : ''}" draggable="true" data-match="${escapeHtml(match)}">${escapeHtml(match)}</div>`;
   }).join('');
   
   els.root.innerHTML = `
@@ -675,30 +750,27 @@ function renderDragMatch(head: string, q: Question) {
     <div class="card--q" id="qcard">
       <div class="qtitle">Question ${state.index + 1}</div>
       <div class="block">${escapeHtml(q.question)}</div>
-      <div class="hint"><small class="muted">Glisse les réponses dans les bonnes cases.</small></div>
+      <div class="hint"><small class="muted">Glisse les réponses dans les bonnes cases. ${state.corrige ? 'Tu peux modifier tes réponses avant de continuer.' : ''}</small></div>
       
       <div class="drag-container">
         <div class="drag-items">
           ${itemsHtml}
         </div>
         
-        ${!state.corrige ? `
-          <div class="drag-matches-pool">
-            <div class="pool-label">Réponses disponibles:</div>
-            <div class="drag-matches">
-              ${availableMatchesHtml}
-            </div>
+        <div class="drag-matches-pool">
+          <div class="pool-label">Réponses disponibles:</div>
+          <div class="drag-matches">
+            ${availableMatchesHtml}
           </div>
-        ` : ''}
+        </div>
       </div>
       
       <div class="block actions">${renderActionButtons(q)}</div>
     </div>
   `;
   
-  if (!state.corrige) {
-    setupDragAndDrop(q);
-  }
+  // Always setup drag and drop, even in correction mode for DragMatch
+  setupDragAndDrop(q);
   bindValidateAndNext(q);
   updateButtonsFromDOM();
   document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
@@ -943,9 +1015,242 @@ function suivant() {
 }
 
 /* =========================
+   Mode-specific renderers
+   ========================= */
+
+// Flashcards mode
+function renderFlashcards() {
+  const fin = state.index >= state.questions.length;
+  
+  if (fin) {
+    const mastered = state.flashcardMastered?.size ?? 0;
+    const review = state.flashcardReview?.size ?? 0;
+    const total = state.questions.length;
+    
+    els.root.innerHTML = `
+      <div class="card">
+        <h2>Session Flashcards terminée</h2>
+        <p>📚 Cartes maîtrisées : <strong>${mastered}</strong></p>
+        <p>🔄 Cartes à revoir : <strong>${review}</strong></p>
+        <p>📊 Total : <strong>${total}</strong></p>
+        <button class="primary" onclick="location.reload()">Nouvelle session</button>
+      </div>
+    `;
+    mountFloatingNext(false);
+    return;
+  }
+  
+  const q = state.questions[state.index];
+  const showing = state.showingAnswer ?? false;
+  const isMastered = state.flashcardMastered?.has(state.index) ?? false;
+  const isReview = state.flashcardReview?.has(state.index) ?? false;
+  
+  const head = `
+    <div class="head">
+      <div><span class="badge">${escapeHtml(state.file)}</span></div>
+      <div>Mode : <strong>Flashcards</strong></div>
+      <div>Progression : <strong>${state.index + 1} / ${state.questions.length}</strong></div>
+    </div>
+    ${progressBar()}
+  `;
+  
+  const answerHtml = showing ? `
+    <div class="block" style="margin-top:16px; padding:12px; background:var(--ok-bg); border-radius:8px; border:1px solid var(--ok-brd)">
+      <strong>Réponse :</strong>
+      <div style="margin-top:8px">${escapeHtml(correctText(q))}</div>
+      ${q.explication ? `<div style="margin-top:8px; font-size:13px"><em>${escapeHtml(q.explication)}</em></div>` : ''}
+    </div>
+  ` : '';
+  
+  const statusBadge = isMastered ? '<span style="color:var(--ok-fg)">✅ Maîtrisée</span>' 
+    : isReview ? '<span style="color:orange">🔄 À revoir</span>' 
+    : '';
+  
+  els.root.innerHTML = `
+    ${head}
+    <div class="card--q">
+      <div class="qtitle">Carte ${state.index + 1} ${statusBadge}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      ${answerHtml}
+      <div class="block actions" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:16px">
+        ${!showing ? `<button class="primary" id="btn-show">Afficher la réponse</button>` : `
+          <button class="secondary" id="btn-mastered">✅ Maîtrisée</button>
+          <button class="secondary" id="btn-review">🔄 À revoir</button>
+        `}
+        ${state.index > 0 ? '<button class="secondary" id="btn-prev">← Précédente</button>' : ''}
+        <button class="primary" id="btn-next">Suivante →</button>
+      </div>
+    </div>
+  `;
+  
+  $('#btn-show')?.addEventListener('click', () => {
+    state.showingAnswer = true;
+    render();
+  });
+  
+  $('#btn-mastered')?.addEventListener('click', () => {
+    state.flashcardMastered?.add(state.index);
+    state.flashcardReview?.delete(state.index);
+    state.showingAnswer = false;
+    state.index += 1;
+    render();
+  });
+  
+  $('#btn-review')?.addEventListener('click', () => {
+    state.flashcardReview?.add(state.index);
+    state.flashcardMastered?.delete(state.index);
+    state.showingAnswer = false;
+    state.index += 1;
+    render();
+  });
+  
+  $('#btn-prev')?.addEventListener('click', () => {
+    if (state.index > 0) {
+      state.showingAnswer = false;
+      state.index -= 1;
+      render();
+    }
+  });
+  
+  $('#btn-next')?.addEventListener('click', () => {
+    state.showingAnswer = false;
+    state.index += 1;
+    render();
+  });
+  
+  mountFloatingNext(false);
+}
+
+// Histoire interactive mode
+function renderHistoireInteractive() {
+  const fin = state.index >= state.questions.length;
+  
+  if (fin) {
+    const pathText = state.storyPath?.map((idx) => `Q${idx + 1}`).join(' → ') || 'Aucun';
+    const score = state.correctMap.filter(c => c === true).length;
+    
+    els.root.innerHTML = `
+      <div class="card">
+        <h2>🎭 Histoire terminée</h2>
+        <p>Score : <strong>${score} / ${state.questions.length}</strong></p>
+        <p style="margin-top:16px"><strong>Chemin parcouru :</strong></p>
+        <p style="padding:12px; background:var(--bg); border:1px solid var(--brd); border-radius:8px; margin-top:8px">
+          ${escapeHtml(pathText)}
+        </p>
+        <button class="primary" onclick="location.reload()" style="margin-top:16px">Nouvelle histoire</button>
+      </div>
+    `;
+    mountFloatingNext(false);
+    return;
+  }
+  
+  const q = state.questions[state.index];
+  state.storyPath?.push(state.index);
+  
+  const head = `
+    <div class="head">
+      <div><span class="badge">${escapeHtml(state.file)}</span></div>
+      <div>Mode : <strong>Histoire interactive</strong></div>
+      <div>Chapitre : <strong>${state.index + 1} / ${state.questions.length}</strong></div>
+    </div>
+  `;
+  
+  // Narrative wrapper
+  const storyPrefix = state.index === 0 
+    ? "🎭 <em>L'histoire commence...</em><br/><br/>"
+    : state.lastCorrect 
+      ? "✅ <em>Bon choix ! L'histoire continue...</em><br/><br/>"
+      : "❌ <em>Pas tout à fait... L'histoire prend un autre tournant...</em><br/><br/>";
+  
+  els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div style="margin-bottom:16px">${storyPrefix}</div>
+      <div class="qtitle">Chapitre ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">${helperText(q)}</small></div>
+      ${renderQuestionContent(q)}
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+  
+  bindQuestionListeners(q);
+  bindValidateAndNext(q);
+  updateButtonsFromDOM();
+}
+
+// Helper to render question content based on type
+function renderQuestionContent(q: Question): string {
+  if (q.type === 'QR' || q.type === 'QCM') {
+    const opts = (q.answers ?? []).map((a) => {
+      let cls = 'opt';
+      if (state.corrige) {
+        const ua = state.userAnswers[state.index];
+        const chosen = q.type === 'QR' 
+          ? (ua as any)?.value === a.text
+          : (ua as any)?.values?.includes(a.text);
+        if (a.correct) cls += ' good';
+        if (!a.correct && chosen) cls += ' bad';
+      }
+      const inputType = q.type === 'QR' ? 'radio' : 'checkbox';
+      const name = q.type === 'QR' ? 'qr' : `qcm-${state.index}`;
+      return `
+        <label class="${cls}">
+          <input type="${inputType}" name="${name}" value="${escapeAttr(a.text)}" ${state.corrige ? 'disabled' : ''}/>
+          <span class="label">${escapeHtml(a.text)}</span>
+          ${state.corrige ? markIcon(a.correct, q.type === 'QR' ? (state.userAnswers[state.index] as any)?.value === a.text : (state.userAnswers[state.index] as any)?.values?.includes(a.text)) : ''}
+        </label>`;
+    }).join('');
+    return `<div class="options">${opts}</div>`;
+  }
+  
+  if (q.type === 'VF') {
+    const vfOpts = ['V', 'F'].map((v) => {
+      let cls = 'opt';
+      if (state.corrige) {
+        const chosen = (state.userAnswers[state.index] as any)?.value === v;
+        const isCorrect = v === q.vf;
+        if (isCorrect) cls += ' good';
+        if (!isCorrect && chosen) cls += ' bad';
+      }
+      return `
+        <label class="${cls}">
+          <input type="radio" name="vf" value="${v}" ${state.corrige ? 'disabled' : ''}/>
+          <span class="label">${v === 'V' ? 'Vrai' : 'Faux'}</span>
+          ${state.corrige ? markIcon(v === q.vf, (state.userAnswers[state.index] as any)?.value === v) : ''}
+        </label>`;
+    }).join('');
+    return `<div class="options options--inline">${vfOpts}</div>`;
+  }
+  
+  return '';
+}
+
+function bindQuestionListeners(q: Question) {
+  if (q.type === 'QR') {
+    $$('input[name="qr"]').forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+  } else if (q.type === 'QCM') {
+    $$(`input[name="qcm-${state.index}"]`).forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+  } else if (q.type === 'VF') {
+    $$('input[name="vf"]').forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+  }
+}
+
+/* =========================
    Fin de tour & rattrapage
    ========================= */
 function handleEndOfRound(head: string) {
+  // Stop timer if contre-la-montre
+  if (state.timerInterval) {
+    clearInterval(state.timerInterval);
+    state.timerInterval = undefined;
+  }
+  
+  // For contre-la-montre, just show results
+  if (state.mode === 'contre-la-montre') {
+    return renderResultats(head);
+  }
+  
   const wrong: Question[] = [];
 
   if (state.mode === 'entrainement') {
