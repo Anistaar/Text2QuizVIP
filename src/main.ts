@@ -402,6 +402,11 @@ function getSelectedThemes(): string[] {
   return opts.map((o) => o.value).filter(Boolean);
 }
 
+function getSelectedTypes(): string[] {
+  const boxes = Array.from(document.querySelectorAll('.qtype')) as HTMLInputElement[];
+  return boxes.filter(b => b.checked).map(b => b.value).filter(Boolean);
+}
+
 /* =========================
    Lancement série
    ========================= */
@@ -430,9 +435,15 @@ async function start() {
 
   // Parse, dédup, filtre thèmes
   let pool = dedupeQuestions(parseQuestions(course.content));
+  // filter by selected themes
   if (state.selectedThemes.length > 0) {
     pool = pool.filter((q) => (q.tags ?? []).some((t) => state.selectedThemes.includes(t)));
     pool = dedupeQuestions(pool);
+  }
+  // filter by selected question types (if user unchecked some types)
+  const selectedTypes = getSelectedTypes();
+  if (selectedTypes.length > 0 && selectedTypes.length < 4) {
+    pool = pool.filter((q) => selectedTypes.includes(q.type));
   }
   if (pool.length === 0) return renderError('Aucune question ne correspond aux thèmes sélectionnés.');
 
@@ -646,10 +657,10 @@ function renderDragMatch(head: string, q: Question) {
   const userMatches: Record<string, string> = userAnswer?.matches ?? {};
   
   // Shuffle matches for dragging
-  const matchValues = q.pairs.map(p => p.match);
+  const matchValues = (q.pairs ?? []).map(p => p.match);
   if (!state.corrige) shuffleInPlace(matchValues);
   
-  const itemsHtml = q.pairs.map((pair, idx) => {
+  const itemsHtml = (q.pairs ?? []).map((pair, idx) => {
     const matchedValue = userMatches[pair.item] || '';
     const isCorrect = state.corrige && matchedValue === pair.match;
     const isIncorrect = state.corrige && matchedValue && matchedValue !== pair.match;
@@ -1129,7 +1140,8 @@ function getDOMAnswer(q: Question): { ok: boolean; ua: UserAnswer | null } {
   if (q.type === 'DragMatch') {
     const userAnswer = state.userAnswers[state.index] as any;
     const matches = userAnswer?.matches ?? {};
-    const allMatched = q.pairs.every(p => matches[p.item]);
+    const pairs = q.pairs ?? [];
+    const allMatched = pairs.length > 0 && pairs.every(p => !!matches[p.item]);
     return allMatched ? { ok: true, ua: { kind: 'DragMatch', matches } } : { ok: false, ua: null };
   }
   return { ok: false, ua: null };

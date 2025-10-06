@@ -1,0 +1,39 @@
+### Version examen réaliste
+QCM || Le PIB nominal est 1500 et l’inflation annuelle est 50 %. Quel est le PIB réel ? || 1235|2536|3000|V:1000
+QCM || Pour déflater un PIB nominal, il faut : || diviser par le PIB en valeur ×100|diviser par le PIB en volume ×100|V:diviser par l’indice des prix ×100|Aucune de ces réponses n’est juste
+QCM || Une grandeur en volume est égale à : || grandeur réelle sur indice des prix ×100|grandeur en valeur sur grandeur en volume ×100|V:grandeur en valeur sur indice des prix ×100|Aucune de ces réponses n’est juste
+QCM || Un taux de variation de –0,2 % correspond à : || indice 99|V:indice 99,8|indice 199|Aucune de ces réponses n’est juste
+QCM || Qu’étudie prioritairement la macroéconomie ? (plusieurs) || V:la production globale|V:le revenu global|le consommateur|une entreprise
+QCM || L’intersection OG–DG détermine : || le prix d’équilibre|l’investissement d’équilibre|V:le revenu d’équilibre|Aucune de ces réponses n’est juste
+QCM || Quelle(s) représentation(s) de modèle est/sont correcte(s) ? (plusieurs) || V:littéraire|V:mathématique|V:graphique|expérimentale de laboratoire réplicable à l’identique
+
+### Version complète
+VF || La macro décrit et explique chômage, inflation, croissance, déficit extérieur. || V || Phénomènes globaux issus de décisions d’agents multiples.
+VF || Statique comparative = on compare deux équilibres sans décrire la trajectoire. || V || Diffère d’un modèle dynamique.
+VF || Les fonctions de l’État : affectation, redistribution, stabilisation. || V || Question : quand/comment intervenir ?
+QCM || Si l’indice des prix passe de 120 à 132, l’inflation est : || 8 %|V:10 %|12 %|Aucune
+QCM || Enchaînement de variations : +10 % puis −10 %. Le niveau final par rapport à 100 est : || 100|V:99|110|90
+QCM || Une variable “à prix courants” signifie : || V:mesure nominale|V:à prix de l’année|en volume|à prix constants
+QCM || Mesurer un phénomène global par sondage sur quelques individus relève : || d’une approche micro stricte|V:d’une approximation d’agrégat|d’une expérience contrôlée réplicable|Aucune
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || Un modèle simplifie le réel|La statique comparative ne décrit pas l’ajustement|V:Les expériences sont parfaitement reproductibles en économie|Un agrégat est une somme homogène
+QCM || Macro vs micro : || V:macro = agrégats ; micro = décisions individuelles|identiques|macro = psychologie|micro = politique
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || Le PIB en volume correspond à : || PIB nominal|V:PIB réel|PIB à prix courant|Aucune
+QCM || Un phénomène qui ↑ 30 % (an 1), ↑ 30 % (an 2), puis ↓ 30 % (an 3) : augmentation totale ? || 30 %|30,3 %|V:18,3 %|Aucune
+
+### Formules (à retenir)
+— Valeur / Volume / Prix
+• Valeur = Prix × Quantité
+• Grandeur en volume (réelle) = Grandeur en valeur / (Indice des prix / 100)
+• Déflateur = 100 × (Valeur nominale / Valeur réelle)
+• Inflation π_t = (P_t − P_{t−1}) / P_{t−1}
+• Indice à partir d’un taux g : I = 100 × (1 + g)
+• Taux à partir d’un indice I : g = I/100 − 1
+• Variations successives : (1+g_total) = ∏(1+g_i)
+
+— PIB (rappels)
+• PIB réel = PIB nominal / (Déflateur/100)
+• Prix courants = nominal ; prix constants = réel

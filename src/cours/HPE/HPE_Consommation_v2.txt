@@ -1,0 +1,17 @@
+### Version examen réaliste
+QCM || Keynes — fonction de consommation : || V:C = a + cY (0<c<1)|C = Y|C indépendante du revenu|C dépend du taux de change
+QCM || Friedman — revenu permanent : || V:consommation dépend du revenu permanent anticipé|dépend du revenu courant seulement|ne lisse pas|ne tient pas compte des anticipations
+QCM || Modigliani — cycle de vie : || V:consommation lissée sur la vie avec épargne/désépargne|consommation suit strictement le revenu courant|pas d’épargne|pas de désépargne
+QCM || Duesenberry — effet de cliquet : || V:consommation ne baisse pas autant lorsque le revenu baisse|consommation symétrique montée/descente|pas d’effets d’habitudes|seulement en économie ouverte
+
+### Version complète
+VF || Fonction keynésienne : C = a + cY, 0<c<1. || V || a = consommation incompressible.
+VF || Revenu permanent (Friedman) : C dépend du revenu anticipé de long terme. || V || Lissage.
+VF || Cycle de vie (Modigliani) : épargne en activité, désépargne à la retraite. || V || Conso lissée.
+VF || Effet de cliquet (Duesenberry) : habitudes et comparaison sociale rigidifient C à la baisse. || V || Hystérèse de la conso.
+QCM || Implications de Friedman/Modigliani : || V:chocs temporaires de revenu affectent peu C|toutes les baisses d’impôt sont consommées|pas de crédit nécessaire|préférence pour la liquidité n’existe pas
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || C keynésienne dépend du revenu|Revenu permanent → lissage|Cycle de vie → désépargne retraite|V:Effet de cliquet = consommation baisse autant que la hausse
+
+### Questions tombées en examen (2022, 2023, 2024)

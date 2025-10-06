@@ -1,0 +1,19 @@
+# Macro — DragMatch (associations) — v1
+
+# Intro & Méthodo
+DragMatch || Associe les fonctions de l’État || Affectation:Affecter les ressources (biens publics, externalités), Redistribution:Modifier la répartition, Stabilisation:Limiter les cycles et déséquilibres, Rôle minimal:Gardien de l’ordre (vision classique)
+DragMatch || Associe les types de modèles || Statique:Sans temps, Statique comparative:Compare t à t+1 sans trajectoire, Dynamique:Décrit l’évolution dans le temps, Graphique:Représentation visuelle d’équations
+
+# Consommation
+DragMatch || Associe auteurs et théories de consommation || Duesenberry:Revenu relatif (effet de cliquet), Modigliani:Cycle de vie, Friedman:Revenu permanent, Keynes:Fonction C = a + cY
+DragMatch || Associe notions et définitions || PMC:Propension moyenne à consommer, PmC:Propension marginale à consommer, Revenu permanent:Yp (anticipé), Revenu transitoire:Yt (aléatoire)
+DragMatch || Associe effets de l’inflation sur l’épargne || Fuite devant la monnaie:Consommer pour éviter la perte de valeur, Effet d’encaisse réelle:Épargner pour préserver pouvoir d’achat, Incertitude:Épargne de précaution, Croissance:g ↑ → épargne ↑ si A/Y constant
+
+# Investissement
+DragMatch || Associe accélérateurs || Simple:It = v·ΔYt (pas de capacités oisives), Flexible:Kt=(1−δ)Kt−1+It et inertie, v constant:Hypothèse clé, Délais d’ajustement:λ (Koyck)
+DragMatch || Associe décisions d’investissement || VAN:Valeur actuelle nette (investir si >0), TRI:Taux qui annule la VAN, Efficacité marginale du capital:TRI chez Keynes, q de Tobin:Valeur boursière/capital neuf
+DragMatch || Associe modes de financement || Autofinancement:Bénéfices non distribués, Actions:Augmentation du capital, Dette:Emprunts bancaires/obligations, Effet de levier:P>i → rentabilité des FP ↑ avec l’endettement
+
+# Modèle classique
+DragMatch || Associe notions classiques || Loi de Say:L’offre crée sa demande, Dichotomie:Séparation réel/monétaire, Monnaie voile:Instrument d’échange neutre (LT), Chômage:Volontaire en CPP
+DragMatch || Associe marché du travail || Demande de travail:décroissante en W/P, Offre de travail:croissante en W/P, Salaire réel d’équilibre:W/P*, Productivité marginale = salaire réel:Condition d’optimum

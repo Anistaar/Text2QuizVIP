@@ -1,0 +1,19 @@
+### Version examen réaliste
+QCM || Les nouveaux keynésiens expliquent les déséquilibres durables par : || V:rigidités nominales et réelles|anticipations rationnelles parfaites|marchés instantanément équilibrés|neutralité totale de la monnaie
+QCM || Salaire d’efficience (Stiglitz–Shapiro) : || V:payer plus peut augmenter la productivité et réduire l’aléa moral|payer plus réduit toujours l’emploi|les salaires sont toujours compétitifs|les chômeurs ne cherchent pas
+QCM || Coûts de menu : || V:coûts d’ajuster les prix qui rendent les prix collants|coûts de publicité|coûts d’inventaire|coûts fixes de production
+QCM || Contrats implicites : || V:stabilité salariale convenue tacitement|contrat légal écrit|accord de monopole|taxe sur les salaires
+QCM || Imperfections d’information mènent à : || V:chômage involontaire possible|plein-emploi garanti|équilibre unique|neutralité monétaire
+
+### Version complète
+VF || Prix et salaires collants créent des équilibres de sous-emploi. || V || Nominal rigidities.
+VF || Les entreprises peuvent payer des salaires au-dessus du marché pour motiver/tri. || V || Salaire d’efficience.
+VF || Les coûts de menu incitent à ne pas changer souvent les prix. || V || Frictions réelles.
+VF || Les contrats implicites assurent une certaine assurance aux travailleurs. || V || Lissage des salaires.
+QCM || Autres mécanismes : || V:coordination imparfaite, rendements croissants locaux|marchés complets|info parfaite|absence d’externalités
+QCM || Politique économique : || V:un rôle stabilisateur peut être justifié|inefficacité totale|seules les surprises agissent|monnaie neutre toujours
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || Rigidités → sous-emploi|Salaire d’efficience > marché|Coûts de menu → prix collants|V:Anticipations rationnelles rendent toujours la politique efficace
+
+### Questions tombées en examen (2022, 2023, 2024)

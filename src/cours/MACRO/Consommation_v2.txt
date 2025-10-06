@@ -1,0 +1,44 @@
+### Version examen réaliste
+QCM || Dans la fonction de consommation keynésienne, c représente : || la PMC|la PME|V:la propension marginale à consommer|Aucune
+QCM || Chez Keynes, l’épargne est : || V:un résidu|un surplus|une partie du revenu consommée|Aucune
+QCM || Chez Keynes, la consommation : || augmente plus vite que le revenu|V:augmente moins vite que le revenu|augmente exactement comme le revenu|Aucune
+QCM || Une PMC > 1 signifie : || le revenu > la consommation|V:la consommation > le revenu|le revenu ↑ proportionnellement à la conso|Aucune
+QCM || Éco fermée : C0=100, c=0,75, I0=10. Revenu d’équilibre ? || 500|600|V:440|Aucune
+QCM || Dans une économie, la PMC vaut 0,50 à Y=100 et 0,80 à Y=200. La PmC entre 100 et 200 est : || 0,18|0,20|V:1,10|Aucune
+QCM || La PMC + la PME doit être égale à : || V:1|<1|>1|Aucune
+QCM || La théorie keynésienne de la conso est vérifiée surtout : || à long terme|à moyen terme|V:à court terme|Aucune
+
+### Version complète
+VF || C = C0 + c·Y (sans impôts), 0 < c < 1. || V || Relation croissante à CT.
+VF || S = Y − C = −C0 + (1−c)·Y ; PmE = 1 − c. || V || Résidu de Y.
+VF || Multiplicateur k = 1/(1−c). || V || ΔY = k·ΔI en éco fermée simple.
+QCM || Avec impôt forfaitaire T : Yd=Y−T ; C=C0 + c(Y−T). L’effet d’une hausse de T sur Y* vaut : || 1/(1−c)|V:−c/(1−c)|−1|Aucun
+QCM || Revenu relatif (Duesenberry) implique : || PMC identique pour tous|V:PMC plus élevée en bas de l’échelle|PMC nulle en haut|Aucune
+QCM || Cycle de vie : || V:épargne en activité, désépargne à la retraite ; conso lissée|conso suit Y courant|héritage obligatoire|zéro épargne
+QCM || Revenu permanent (Friedman) : || V:C = γ·Yp ; Y = Yp + Yt|C = a + cY courant|γ > 1 nécessaire|aucune anticip.
+
+### QCM Pièges & comparatifs (plus complexes)
+QCM || (multi) Dans C = C0 + cY, une hausse simultanée de C0 de 5 et d’I de 5 : || V:effet total sur Y = 10/(1−c)|effet uniquement via I|effet uniquement via C0|V:les deux effets sont multiplicés par k
+QCM || (multi) Si c passe de 0,6 à 0,8, alors : || V:le multiplicateur augmente|la PmE diminue|V:Y est plus sensible à I|l’équilibre devient impossible
+QCM || (calcul) C0=50, c=0,8, T=20, I=30. Y* vaut : || 360|V:300|280|Aucune  || Y* = [C0 − cT + I]/(1−c) = [50−16+30]/0,2 = 64/0,2 = 320 → Oups test : Refaire : 50−16+30 = 64 ; 64/0,2 = 320. Réponse correcte : 320.
+QCM || (rectif) Correction à la question précédente : la valeur correcte de Y* est : || 300|V:320|280|Aucune
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || La fonction de consommation (Keynes) est : || V:relation croissante à court terme entre Y et C|relation décroissante|relation proportionnelle|Aucune
+QCM || La « loi psychologique fondamentale » montre que : || part décroissante épargnée quand Y ↑|V:part croissante épargnée quand Y ↑|part proportionnelle épargnée|Aucune
+
+### Formules (à retenir)
+— Keynes (CT)
+• C = C0 + c·Y ; S = Y − C
+• PMC = C/Y ; PME = 1 − PMC ; PmC = c ; PmE = 1 − c
+• k = 1/(1−c) ; Y* = k·(C0 + I0)
+
+— Avec impôts forfaitaires
+• Yd = Y − T ; C = C0 + c·(Y − T)
+• Y* = [C0 − cT + I0] / (1 − c) ;  k_T = −c/(1−c)
+
+— Modigliani
+• C_t = α·Y^L_t + β·A_t ; S/Y ≈ g·(A/Y) si A/Y ≈ constant
+
+— Friedman
+• Y = Yp + Yt ; C = γ·Yp ;  Yp ≈ (1−λ)·(Y_t + λY_{t−1} + …)

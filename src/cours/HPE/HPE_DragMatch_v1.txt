@@ -1,0 +1,58 @@
+# HPE — DragMatch (associations) — v1
+
+# Exemple fourni (dates → événements)
+DragMatch || Associe les dates avec les événements || 1929:Grande Dépression, 1945:Fin de la Seconde Guerre mondiale, 1973:Choc pétrolier, 2008:Crise financière
+
+# Statut scientifique (Popper / Kuhn)
+DragMatch || Associe les auteurs aux concepts clés || Popper:Falsifiabilité, Kuhn:Paradigme, Science normale:Travail routinier dans un cadre dominant, Révolution scientifique:Changement de paradigme
+DragMatch || Associe les termes aux définitions || Falsifiabilité:Possibilité d’être réfuté par l’expérience, Paradigme:Cadre théorique partagé par une communauté, Anomalies:Faits qui contredisent le cadre dominant, Démarcation:Critère séparant science et non-science
+
+# Classiques — Smith
+DragMatch || Associe les notions chez Smith || Valeur d’usage:Utilité d’un bien, Valeur d’échange:Ce pour quoi un bien s’échange, Travail commandé:Quantité de travail qu’un bien permet d’acheter, Main invisible:Coordination par le marché
+DragMatch || Associe les prix chez Smith || Prix naturel:Prix vers lequel le marché converge, Prix de marché:Prix effectif à un moment donné, Concurrence:Tendance à ramener prix de marché vers naturel, Double déduction:Profit + rente avant salaires nets
+
+# Classiques — Ricardo
+DragMatch || Associe les notions chez Ricardo || Valeur:Travail incorporé (direct + indirect), Rente:Revenu différentiel lié à la fertilité des terres, Salaire naturel:Niveau de subsistance, État stationnaire:Profits nuls et stagnation
+DragMatch || Associe commerce international et principe || Avantages comparatifs:Spécialisation selon le moindre désavantage relatif, Libre-échange:Permet de retarder l’état stationnaire, Terres marginales:Moins fertiles donc coût plus élevé, Rendements décroissants:Cause de la baisse du profit
+
+# Classiques — Marx
+DragMatch || Associe les concepts de valeur chez Marx || Travail concret:Tâches spécifiques utiles, Travail abstrait:Travail homogénéisé socialement, Valeur d’usage:Utilité, Valeur d’échange:Expression de la valeur
+DragMatch || Associe capital et fonctions || Capital constant (C):Transmet sa valeur au produit, Capital variable (V):Crée de la valeur nouvelle, Plus-value absolue:Allongement de la journée de travail, Plus-value relative:Gains de productivité réduisant le travail nécessaire
+DragMatch || Associe ratios et formules || Taux de plus-value (p′):PL/V, Taux de profit (r):PL/(C+V), Composition organique:C/V, Schéma du capital:A–M–A′
+DragMatch || Associe les notions sociales || Armée industrielle de réserve:Chômage de réserve qui pèse sur les salaires, Aliénation:Perte de maîtrise du travail et du produit, Accumulation primitive:Séparation des producteurs et des moyens de production, Reproduction élargie:Réinvestissement d’une part de la plus-value
+
+# Classiques — Malthus
+DragMatch || Associe les croissances chez Malthus || Population:Progression géométrique, Subsistances:Progression arithmétique, Freins préventifs:Contrôle volontaire (mariage tardif, abstinence), Freins positifs:Famines, épidémies, guerres
+
+# Révolution marginaliste — Menger & Jevons
+DragMatch || Associe les auteurs aux idées || Menger:Valeur subjective (École autrichienne), Jevons:Mathématisation de l’utilité, Utilité marginale:Utilité de la dernière unité consommée, Loi de Gossen:Utilité marginale décroissante
+
+# Walras (équilibre général)
+DragMatch || Associe les notions walrasiennes || Commissaire-priseur:Annonce et ajuste les prix fictivement, Tâtonnement:Processus d’ajustement sans échanges hors équilibre, Équilibre général:Égalité offre-demande sur tous les marchés, Concurrence parfaite:Hypothèse du modèle
+DragMatch || Associe équilibre partiel/général || Marshall:Équilibre partiel, Walras:Équilibre général, Prix d’équilibre:Intersection O/D (partiel), Interdépendance:Tous les marchés reliés (général)
+
+# Marshall (équilibre partiel, élasticité)
+DragMatch || Associe les horizons temporels || Court terme:Offre rigide, Long terme:Offre plus élastique, Élasticité de la demande:Sensibilité quantité demandée au prix, Prix d’équilibre:Intersection des courbes O/D
+
+# Pareto (efficience, 80/20)
+DragMatch || Associe les concepts paretiens || Optimum de Pareto:Améliorer quelqu’un sans nuire à autrui est impossible, Amélioration de Pareto:Améliorer au moins un individu sans détériorer un autre, Frontière de Pareto:Ensemble des allocations efficientes, Loi 80/20:Concentration des richesses
+
+# Keynes, Friedman, Modigliani, Duesenberry — consommation & État
+DragMatch || Associe les auteurs avec leurs théories || Keynes:Fonction de consommation, Friedman:Revenu permanent, Modigliani:Cycle de vie, Duesenberry:Effet de cliquet
+DragMatch || Associe les notions keynésiennes || Demande effective:Détermine la production et l’emploi, Multiplicateur:Amplification d’une dépense initiale, Propension marginale à consommer:Variation de C quand Y augmente d’un euro, Équilibre de sous-emploi:Possible sans intervention
+DragMatch || Associe politiques et effets || Politique budgétaire relance:Augmente la demande globale, Loi de Say:Refusée par Keynes (offre ne crée pas toujours sa demande), Trappe à liquidité:Politique monétaire peu efficace, Investissement dépend:Anticipations et taux d’intérêt
+
+# Monétaristes, nouveaux classiques
+DragMatch || Associe les écoles et concepts || Friedman:Monétarisme (rôle clé de la monnaie), Nouveaux classiques:Anticipations rationnelles, Inefficacité des politiques:Si anticipées par agents, Règle de politique:Préférée aux discrétionnaires
+DragMatch || Associe auteurs et idées || Lucas:Critique des politiques fondées sur modèles historiques, Sargent & Wallace:Équivalence ricardienne (version financière), Taux naturel de chômage:Friedman/Phelps, Neutralité de la monnaie:Long terme
+
+# Nouveaux keynésiens & info imparfaite
+DragMatch || Associe rigidités et mécanismes || Rigidités nominales:Prix/salaires collants, Salaire d’efficience:Payer plus pour productivité/discipline, Coûts de menu:Coût d’ajuster les prix, Contrats implicites:Stabilité salariale
+DragMatch || Associe asymétries d’information || Akerlof:Lemons (voitures d’occasion), Stiglitz & Shapiro:Salaires d’efficience et tri, Sélection adverse:Qualité cachée avant contrat, Aléa moral:Effort caché après contrat
+
+# Chronologie — auteurs/événements (dates approximatives utiles)
+DragMatch || Associe les dates aux repères HPE || 1776:Smith — Richesse des Nations, 1817:Ricardo — Principes, 1867:Marx — Capital (Livre I), 1798:Malthus — Essai sur la population
+DragMatch || Associe les dates aux repères HPE (2) || 1870:Révolution marginaliste (Menger/Jevons), 1874:Walras — Éléments, 1890:Marshall — Principes, 1906:Pareto — Manuel d’économie politique
+DragMatch || Associe les dates aux repères HPE (3) || 1936:Keynes — Théorie générale, 1957:Friedman — Revenu permanent, 1954:Modigliani — Cycle de vie, 1949:Duesenberry — Revenu relatif
+DragMatch || Associe les dates aux repères HPE (4) || 1970:Akerlof — The Market for Lemons, 1973:Choc pétrolier, 1976:Lucas — Critique, 2008:Crise financière
+

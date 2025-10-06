@@ -1,0 +1,30 @@
+### Version examen réaliste
+QCM || Loi de Say ⇒ || V:l’offre crée sa propre demande (pas de surproduction globale)|la demande détermine l’offre|l’État fixe les prix|la monnaie crée l’emploi
+QCM || Dichotomie classique ⇒ || V:séparation sphère réelle / monétaire à LT|confusion des deux sphères|monnaie toujours réelle|prix ⇒ technologie
+QCM || Marché du travail : condition d’embauche (CPP) || V:MPL = W/P|W = salaire nominal max|p×q max|profit nul
+QCM || Le chômage chez les classiques est : || V:volontaire (hors frictions)|toujours involontaire|impossible|strictement technologique
+
+### Version complète
+VF || Demande de travail décroissante en W/P ; offre croissante (effet substitution). || V || Équilibre concurrentiel.
+VF || Plein emploi par ajustement des prix/salaires. || V || CPP + information parfaite.
+VF || Monnaie neutre à long terme. || V || N’affecte pas les variables réelles.
+QCM || (calcul) Avec P=2, W=40, MPL(N*)=20, le salaire réel vaut et la condition d’optimum est : || V:W/P=20 ; MPL=20|W/P=2 ; MPL=20|W/P=40 ; MPL=2|Aucune
+QCM || (multi) Si W/P < (W/P)*, alors : || V:Demande_L > Offre_L|V:W nominal tend à ↑ (P constant)|emploi ↑ vers N*|offre > demande
+
+### QCM Pièges & comparatifs (plus complexes)
+QCM || (multi) Classique vs keynésien : || V:offre vs demande|V:plein-emploi vs sous-emploi possible|V:règles vs stabilisation active|mêmes hypothèses d’info et rigidités
+QCM || (raisonnement) Si salaire nominal collant à CT et choc négatif de demande, le résultat classique pur est-il atteint ? || oui immédiatement|V:non (rigidités empêchent l’ajustement W)|oui si P s’ajuste instantanément|toujours non
+
+### Questions tombées en examen (2022, 2023, 2024)
+QCM || Variable réelle déterminée par : || V:secteur réel (technologie, préférences)|croissance monétaire seule|politique budgétaire uniquement|taux de change fixe
+
+### Formules (à retenir)
+— Marché du travail (CPP)
+• π = p·Y(N) − W·N
+• dπ/dN = 0 ⇒ p·(∂Y/∂N) = W ⇒ MPL = W/P
+• Équilibre : Offre_L(W/P*) = Demande_L(W/P*)
+• Production : Y = f(N) (K fixe à CT)
+
+— Neutralité monétaire (LT)
+• Variables réelles (Y, N, MPL) : technologie/préférences
+• Sphère monétaire : P ∝ M à LT ; réel inchangé (dichotomie)

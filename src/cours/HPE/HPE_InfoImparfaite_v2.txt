@@ -1,0 +1,19 @@
+### Version examen réaliste
+QCM || Sélection adverse signifie : || V:qualité cachée avant contrat|effort caché après contrat|information parfaite|prix toujours justes
+QCM || Aléa moral signifie : || V:effort/action cachée après contrat|qualité cachée avant|contrat inapplicable|absence d’incitations
+QCM || Akerlof (lemons) montre que : || V:l’asymétrie d’information peut faire disparaître un marché|la concurrence parfaite suffit|toutes les voitures sont bonnes|la publicité résout tout
+QCM || Stiglitz & Shapiro (salaire d’efficience) : || V:salaires plus élevés limitent l’aléa moral|salaires plus élevés baissent la productivité|l’aléa moral n’existe pas|contrats parfaits
+QCM || Criblage vs signalisation : || V:criblage = sélection par l’acheteur ; signalisation = action du vendeur|l’inverse|identiques|sans rapport
+
+### Version complète
+VF || Sélection adverse : problème d’information ex ante. || V || Qualité cachée.
+VF || Aléa moral : problème d’information ex post. || V || Effort caché.
+VF || Marché des lemons : prix d’équilibre peut évincer les bonnes qualités. || V || Antisélection.
+VF || Salaire d’efficience : équilibre au-dessus du salaire concurrentiel. || V || Discipline/tri/productivité.
+QCM || Mécanismes de solution : || V:garanties, garanties étendues, réputation|prix unique obligatoire|interdiction de vendre|taxe forfaitaire
+QCM || Exemples d’aléa moral : || V:assurés moins prudents|acheteurs avant contrat|qualité connue|incitations parfaites
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || Sélection adverse = qualité cachée|Aléa moral = effort caché|Salaire d’efficience peut être optimal|V:Asymétrie d’info rend l’État inutile
+
+### Questions tombées en examen (2022, 2023, 2024)

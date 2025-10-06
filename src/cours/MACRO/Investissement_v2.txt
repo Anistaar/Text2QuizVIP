@@ -1,0 +1,24 @@
+### Version examen réaliste
+QCM || Accélérateur simple : || V:It = v·ΔYt ; investissement induit par la variation de la demande|It dépend du niveau Yt|pas de lien avec la demande|It = constant
+QCM || Hypothèse clé de l’accélérateur simple : || V:pas de capacités oisives ; v constant ; rendements constants|rendements croissants|coûts relatifs variables|ajustement avec délais longs
+QCM || Accélérateur flexible : || V:introduit usure (δ), délais d’ajustement (λ), Kt lié à moyenne pondérée des Y passés|It dépend seulement de ΔYt immédiat|pas de remplacement|pas de dépréciation
+QCM || VAN > 0 implique : || V:réaliser l’investissement|abandon du projet|VAN = 0|financement externe obligatoire
+QCM || Taux interne de rentabilité (TRI) : || V:taux qui annule la VAN|toujours inférieur au taux d’intérêt|sans rapport avec i|défini par les coûts uniquement
+QCM || q de Tobin > 1 suggère : || V:investir en capital neuf|ne rien faire|racheter des firmes uniquement|désinvestir
+
+### Version complète
+VF || L’investissement brut = investissement de remplacement + investissement de capacité. || V || Remplacement compense la dépréciation.
+VF || Accélérateur simple : relation It–ΔY immédiate et symétrique. || F || Critiques : capacités, délais, réserve.
+VF || Accélérateur flexible : Kt = (1−δ)Kt−1 + It ; inertie (It−1). || V || Koyck (λ) pour l’ajustement.
+VF || VAN compare l’investissement à un placement financier alternatif via l’actualisation. || V || Décision si VAN > 0.
+VF || TRI = efficacité marginale du capital (Keynes) dans l’esprit. || V || Comparaison à i : investir si r > i.
+QCM || Déterminants de l’investissement : || V:demande anticipée, taux d’intérêt, profits, q de Tobin, financement|uniquement i|seulement profits|seulement politique budgétaire
+QCM || Effet de levier : || V:si rentabilité éco P > i, relever E/A ↑ la rentabilité des fonds propres|si P < i, l’endettement accroît toujours la rentabilité|levier sans risque|indépendant de P
+QCM || Financement : || V:autofinancement, émission d’actions, dette|uniquement dette|subventions uniquement|taxes uniquement
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || Accélérateur simple suppose v constant|Accélérateur flexible introduit δ et délais|V:VAN < 0 → investir|TRI = taux qui annule VAN
+QCM || i ↑ implique : || V:moins de projets rentables (r < i)|plus de projets rentables|q toujours > 1|ΔY immédiat identique
+QCM || Remplacement vs capacité : || V:remplacement = compenser usure ; capacité = accroître K|identiques|remplacement = baisser K|capacité = déprécier K
+
+### Questions tombées en examen (2022, 2023, 2024)

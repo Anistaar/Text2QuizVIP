@@ -1,0 +1,23 @@
+### Version examen réaliste
+QCM || Pour Keynes, le niveau de production est déterminé par : || l’offre (loi de Say)|l’épargne préalable|V:la demande effective|la quantité de monnaie en circulation seulement
+QCM || Le multiplicateur keynésien mesure : || l’effet d’une variation de prix|V:l’amplification d’une dépense initiale sur le revenu|la vitesse de circulation de la monnaie|la productivité marginale
+QCM || Un équilibre de sous-emploi est : || impossible|V:possible si la demande est insuffisante|toujours temporaire|synonyme de plein-emploi
+QCM || Dans la trappe à liquidité : || V:la politique monétaire devient peu efficace|les taux ne peuvent pas baisser|la demande d’investissement est infinie|les salaires nominaux augmentent
+QCM || Le refus de Keynes concerne : || V:la loi de Say (l’offre crée sa demande)|l’existence de la monnaie|les anticipations des agents|la consommation des ménages
+
+### Version complète
+VF || La demande effective détermine la production et l’emploi. || V || Rupture avec la loi de Say.
+VF || Le multiplicateur vaut 1/(1-c) où c est la propension marginale à consommer. || V || ΔY = k·ΔG.
+VF || Les salaires nominaux flexibles garantissent le plein-emploi. || F || Rigidités et anticipations déprimées.
+VF || Une relance budgétaire peut déplacer l’économie vers un niveau d’activité plus élevé. || V || Surtout en sous-emploi.
+VF || IS–LM : politique budgétaire déplace IS ; politique monétaire déplace LM. || V || En trappe à liquidité, LM est horizontale.
+QCM || Conditions d’efficacité d’une relance budgétaire : || V:propension marginale à consommer élevée|LM très verticale|fuite par importations maximale|taux d’intérêt déjà très élevés
+QCM || Le paradoxe de l’épargne signifie : || V:collectivement, plus d’épargne peut réduire le revenu et l’épargne réalisée|épargner est toujours bon|l’investissement chute quand l’épargne monte|le budget public s’équilibre
+QCM || Fonction d’investissement chez Keynes : || V:dépend des anticipations (efficacité marginale du capital) et du taux d’intérêt|dépend uniquement du taux d’intérêt|est insensible aux anticipations|est fixe à court terme
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || Demande effective détermine Y|V:la loi de Say est valide en crise|Un équilibre de sous-emploi est possible|Le multiplicateur > 1 si c élevée
+QCM || IS–LM : || V:politique budgétaire → IS|V:politique monétaire → LM|trappe → LM verticale|offre crée sa propre demande (Say)
+QCM || Par rapport aux néoclassiques, Keynes affirme : || V:l’insuffisance de demande peut durer|flexibilité des prix ne suffit pas|anticipations jouent un rôle|V:les marchés s’équilibrent toujours d’eux-mêmes
+
+### Questions tombées en examen (2022, 2023, 2024)

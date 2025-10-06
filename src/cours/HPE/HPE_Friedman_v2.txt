@@ -1,0 +1,21 @@
+### Version examen réaliste
+QCM || Pour Friedman, la monnaie : || est neutre à court terme|V:influe surtout à court terme, neutre à long terme|n’a aucun effet|détermine la productivité
+QCM || Hypothèse du revenu permanent : || V:la consommation dépend du revenu permanent anticipé|la consommation dépend uniquement du revenu courant|les ménages ne lissent pas leur consommation|les anticipations ne comptent pas
+QCM || Taux naturel de chômage (NAIRU) signifie : || V:un taux compatible avec une inflation stable|zéro chômage|un objectif politique|le chômage conjoncturel
+QCM || Courbe de Phillips selon Friedman : || V:pas d’arbitrage durable inflation-chômage|un arbitrage permanent|inflation réduit toujours le chômage|inutilité des anticipations
+QCM || Règle de politique monétaire : || V:préférable à la discrétion (croissance stable de M)|mieux vaut surprises fréquentes|budget toujours équilibré|étalon-or obligatoire
+
+### Version complète
+VF || Monnaie neutre à long terme, non neutre à court terme. || V || Transmission via prix et activités.
+VF || Revenu permanent : les ménages lissent la consommation. || V || Consommation plus stable que revenu courant.
+VF || NAIRU : viser en dessous accélère l’inflation. || V || Anticipations intégrées par les agents.
+VF || Politiques discrétionnaires efficaces durablement. || F || Anticipations les rendent inefficaces à long terme.
+QCM || Implication de la théorie du revenu permanent : || V:chocs transitoires affectent peu la conso|toutes les baisses d’impôt sont consommées|épargne n’existe pas|propension marginale = 1 toujours
+QCM || Message de Friedman sur la courbe de Phillips : || V:à long terme, verticale au NAIRU|toujours décroissante|horizontale|inobservable
+QCM || Monétarisme recommande : || V:une règle simple de croissance de M|politique discrétionnaire active|taux d’intérêt fixes|contrôle des salaires
+
+### QCM Pièges & comparatifs
+QCM || Laquelle est fausse ? || V:monnaie neutre aussi à court terme|Revenu permanent → lissage|Courbe de Phillips LT verticale|NAIRU = inflation stable
+QCM || Keynes vs Friedman : || V:Keynes = demande/relance ; Friedman = monnaie/règle|ils disent la même chose|Friedman nie la monnaie|Keynes nie le budget
+
+### Questions tombées en examen (2022, 2023, 2024)
