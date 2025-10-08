@@ -1,0 +1,95 @@
+### Banque de Questions - Macroéconomie
+### Basée sur le cours complet
+
+### === INTRODUCTION À LA MACROÉCONOMIE ===
+
+QCM || La macroéconomie étudie principalement || V:Les phénomènes économiques globaux (chômage, inflation, croissance)|Les décisions individuelles des consommateurs|Le comportement d'une entreprise|Les choix de portefeuille
+QCM || Les trois fonctions de l'État selon l'analyse macroéconomique sont || V:Affectation, redistribution, stabilisation|Production, consommation, investissement|Offre, demande, équilibre|Emploi, prix, monnaie
+QCM || Un agrégat économique correspond à || V:Une quantité globale relativement homogène|Une décision individuelle|Un modèle mathématique|Une politique économique
+QCM || Les trois façons d'exprimer un modèle économique sont || V:Formulation littéraire|V:Formulation mathématique|V:Formulation graphique|Formulation expérimentale
+QCM || La différence entre modèle statique et modèle dynamique || V:Le modèle statique ignore la dimension temporelle|Le modèle statique est toujours faux|V:Le modèle dynamique étudie l'évolution dans le temps|Les deux sont identiques
+QCM || La statique comparative consiste à || V:Comparer deux équilibres sans décrire la trajectoire|Étudier l'évolution dans le temps|Faire des expériences reproductibles|Maximiser les profits
+
+### === THÉORIES DE LA CONSOMMATION ===
+
+QCM || Dans la fonction de consommation keynésienne C = C0 + cY || V:C0 est la consommation autonome|V:c est la propension marginale à consommer (0 < c < 1)|c représente le revenu|C0 dépend du revenu
+QCM || Selon Keynes, l'épargne est || V:Un résidu de la consommation|Une décision autonome|Indépendante du revenu|Toujours positive
+QCM || La "loi psychologique fondamentale" de Keynes montre que || V:La part épargnée augmente quand le revenu augmente|La consommation augmente plus vite que le revenu|L'épargne diminue avec le revenu|La consommation est constante
+QCM || Si PMC + PME = 1, alors || V:Tout le revenu est soit consommé soit épargné|Il y a une erreur de calcul|L'épargne est négative|La consommation dépasse le revenu
+QCM || Le multiplicateur keynésien k = 1/(1-c) implique que || V:Une hausse de l'investissement a un effet amplifié sur le revenu|L'effet est toujours égal à 1|Plus c est faible, plus l'effet est fort|V:Plus c est élevé, plus l'effet multiplicateur est important
+
+### === REVENU RELATIF ET THÉORIES INTERTEMPORELLES ===
+
+QCM || La théorie du revenu relatif (Duesenberry) stipule que || V:La PMC dépend de la position dans l'échelle des revenus|Tous les ménages ont la même PMC|Le revenu absolu seul compte|V:Les ménages pauvres ont une PMC plus élevée
+QCM || Dans la théorie du cycle de vie (Modigliani) || V:L'objectif est de lisser la consommation sur la durée de vie|On épargne seulement en début de vie|V:Le patrimoine suit une courbe en bosse|L'héritage est l'objectif principal
+QCM || Les hypothèses de la théorie du cycle de vie incluent || V:Absence d'incertitude sur la durée de vie|V:Patrimoine nul à la date du décès|V:Consommation lissée|Épargne constante toute la vie
+QCM || La consommation selon le cycle de vie dépend de || V:C = αY^L + βA (revenu d'activité et patrimoine)|Du revenu courant uniquement|Du revenu futur uniquement|Des prix uniquement
+QCM || Le rapport patrimoine/revenu (A/Y) || V:Est une fonction décroissante du taux de croissance g|Augmente avec g|Est constant|V:Est croissant avec le taux d'intérêt r
+
+### === THÉORIE DU REVENU PERMANENT (FRIEDMAN) ===
+
+QCM || Dans la théorie de Friedman, le revenu se décompose en || V:Y = Yp + Yt (permanent + transitoire)|Revenu présent et futur|Revenu nominal et réel|Revenu brut et net
+QCM || Le revenu permanent Yp se définit comme || V:La somme qu'un consommateur peut consommer en maintenant constant son capital|Le revenu de la période courante|Le revenu moyen sur 10 ans|Le revenu maximal possible
+QCM || La consommation permanente selon Friedman || V:Cp = γYp avec 0 < γ ≤ 1|Dépend du revenu transitoire|Est indépendante du revenu|Varie aléatoirement
+QCM || L'effet d'inertie dans le modèle de Friedman provient || V:De la pondération des revenus passés dans le calcul de Yp|De la constance de la consommation|De l'absence d'anticipations|Du caractère permanent du revenu
+QCM || Yp = (1-λ)(Yt + λYt-1 + λ²Yt-2 + ...) montre que || V:Plus le passé est lointain, moins il a d'influence (0 < λ < 1)|Tous les revenus passés ont le même poids|Seul le revenu courant compte|λ doit être supérieur à 1
+
+### === DÉTERMINANTS DE L'ÉPARGNE ===
+
+QCM || Les déterminants de court terme de l'épargne incluent || V:Le pouvoir d'achat (effet négatif si ralentissement)|V:Le taux de chômage (effet positif - épargne de précaution)|V:L'inflation (effet ambigu)|Le patrimoine uniquement
+QCM || L'effet de l'inflation sur l'épargne peut être || V:Négatif (fuite devant la monnaie)|V:Positif (effet d'encaisses réelles)|Toujours négatif|Toujours positif
+QCM || Parmi les déterminants de long terme de l'épargne || V:Le vieillissement de la population (effet négatif)|V:Le système de retraite (effet ambigu)|L'âge n'a pas d'impact|V:L'incertitude sur les retraites (effet positif)
+QCM || L'effet du système de retraite par répartition sur l'épargne || V:Peut être négatif (assurance de percevoir une retraite)|V:Peut être positif (incertitude sur la pérennité)|Est toujours positif|N'a aucun effet
+
+### === L'INVESTISSEMENT ===
+
+QCM || L'investissement se compose de || V:Investissement de remplacement + investissement net|Investissement public + privé|Investissement financier + productif|Capital + travail
+QCM || L'investissement de remplacement vise à || V:Maintenir en l'état les capacités de production|Augmenter les capacités|Réduire les coûts|Moderniser uniquement
+QCM || L'investissement net a pour objectif || V:D'augmenter les capacités de production|De maintenir le capital|De réduire l'emploi|De diminuer la production
+
+### === PRINCIPE DE L'ACCÉLÉRATEUR ===
+
+QCM || L'accélérateur simple stipule que || V:It = v·ΔYt (investissement proportionnel à la variation de la demande)|It = v·Yt|It = constant|It = f(taux d'intérêt)
+QCM || Le coefficient de capital v dans l'accélérateur représente || V:v = K/Y (rapport capital/production)|Le taux d'intérêt|La productivité|V:Le nombre d'unités de capital pour produire une unité supplémentaire
+QCM || Les hypothèses de l'accélérateur simple incluent || V:Absence de capacités oisives|V:Coefficient de capital constant|V:Coûts relatifs des facteurs constants|V:Rendements constants
+QCM || L'accélérateur flexible diffère du simple car il || V:Introduit l'usure (dépréciation δ)|V:Prend en compte les délais d'ajustement|V:Considère les capacités oisives|Supprime le lien avec la demande
+
+### === INVESTISSEMENT ET TAUX D'INTÉRÊT ===
+
+QCM || La Valeur Actuelle Nette (VAN) d'un projet || VAN = -I + Σ(Rt-Ct)/(1+i)^t|Ignore les coûts|V:Si VAN > 0, réaliser l'investissement|V:Compare le projet à un placement alternatif
+QCM || Le Taux de Rendement Interne (TRI) || V:Est le taux qui annule la VAN|Est toujours égal au taux d'intérêt|V:Si TRI > i, réaliser l'investissement|N'a pas de rapport avec la rentabilité
+QCM || L'efficacité marginale du capital selon Keynes || V:Correspond au TRI|Est le taux d'intérêt du marché|V:Détermine la rentabilité d'un investissement|Est toujours constante
+QCM || La fonction d'investissement I = -ei + I0 montre que || V:L'investissement est décroissant du taux d'intérêt|L'investissement augmente avec i|V:e mesure la sensibilité au taux d'intérêt|I0 est l'investissement total
+
+### === FINANCEMENT ET EFFET DE LEVIER ===
+
+QCM || Les modalités de financement de l'investissement sont || V:Autofinancement|V:Augmentation du capital social|V:Endettement|Subventions uniquement
+QCM || L'effet de levier montre que || V:Si P > r, l'endettement améliore la rentabilité des fonds propres|L'endettement est toujours défavorable|V:ΠI/A = P + (P-r)E/A|Le taux d'endettement n'a pas d'impact
+QCM || Le ratio q de Tobin compare || V:La valeur boursière du capital existant au prix du capital neuf|Les profits aux coûts|V:Si q > 1, favoriser l'investissement neuf|V:Si q < 1, favoriser les acquisitions
+
+### === MODÈLE CLASSIQUE ===
+
+QCM || Les idées centrales du modèle classique incluent || V:Possibilité de plein emploi des facteurs|V:Absence de crises de surproduction|V:Dichotomie réel/monétaire|Intervention nécessaire de l'État
+QCM || La loi de Say stipule que || V:L'offre crée sa propre demande|La demande crée l'offre|V:Tout bien produit trouve un acheteur|Les crises sont inévitables
+QCM || La dichotomie classique signifie || V:Séparation entre sphère réelle et sphère monétaire|Opposition micro/macro|V:La monnaie n'affecte pas les variables réelles|Confusion des sphères économiques
+
+### === MARCHÉ DU TRAVAIL CLASSIQUE ===
+
+QCM || Sur le marché du travail classique || V:La demande de travail est décroissante du salaire réel|V:L'offre de travail est croissante du salaire réel|Le salaire nominal détermine tout|Les quantités sont fixes
+QCM || La condition d'optimum pour l'entreprise est || V:Productivité marginale = salaire réel (dY/dN = W/P)|Productivité moyenne maximale|Profit maximal|V:Égalisation du coût et de la productivité marginale
+QCM || L'équilibre sur le marché du travail détermine || V:Le salaire réel d'équilibre (W/P)*|V:Le niveau d'emploi N*|V:Le niveau de production Y*|Le niveau des prix uniquement
+QCM || Si W/P < (W/P)*, alors || V:Demande de travail > Offre de travail|Chômage involontaire|V:Les salaires nominaux tendent à augmenter|Équilibre automatique
+QCM || Dans le modèle classique, le chômage éventuel est || V:Volontaire (choix des agents)|Involontaire|V:Dû aux rigidités temporaires|Structurel permanent
+
+### === FORMULES ET CALCULS ===
+
+QCM || Si C0 = 100, c = 0,75 et I0 = 50, le revenu d'équilibre Y* vaut || 450|500|V:600|750
+QCM || Avec PMC = 0,8, le multiplicateur k vaut || 4|V:5|8|10
+QCM || Si le PIB passe de 1000 à 1100 et v = 2, l'investissement induit vaut || 100|V:200|50|150
+QCM || Une VAN de -50 signifie || Investir immédiatement|V:Ne pas investir|Projet rentable|V:Le placement financier est préférable
+
+### === QUESTIONS DE SYNTHÈSE ===
+
+QCM || La principale différence entre approches keynésienne et classique || V:Keynes privilégie la demande, les classiques l'offre|Aucune différence fondamentale|V:Possibilité de sous-emploi chez Keynes vs plein emploi classique|Les classiques ignorent le marché du travail
+QCM || L'investissement dépend principalement de || V:La demande anticipée|V:Le taux d'intérêt|V:La rentabilité des projets|V:Les modalités de financement
+QCM || Les limites de l'accélérateur simple incluent || V:Hypothèse de pleine utilisation des capacités|V:Ajustement instantané irréaliste|V:Symétrie parfaite hausse/baisse|Prise en compte des délais

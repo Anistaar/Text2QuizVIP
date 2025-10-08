@@ -1,0 +1,79 @@
+### Banque de Questions Supplémentaires - Institutions Économiques
+### Questions approfondies et nouvelles thématiques
+
+### === THÉORIE INSTITUTIONNELLE AVANCÉE ===
+
+QCM || Selon la théorie des jeux et les institutions, quel concept explique pourquoi certaines règles persistent ? || V:L'équilibre de Nash|La destruction créatrice|Le principe de Pareto|La main invisible
+QCM || Le concept de "path dependence" dans l'évolution institutionnelle signifie que || V:Les choix passés contraignent les évolutions futures|Toutes les institutions convergent vers l'efficacité|Les institutions peuvent changer instantanément|La géographie détermine tout
+QCM || Selon North, quels sont les deux types d'institutions ? || V:Formelles (lois, règlements)|V:Informelles (normes, conventions)|Publiques et privées|Nationales et internationales
+QCM || L'efficacité adaptative d'une société selon North dépend de || V:Sa capacité d'apprentissage institutionnel|Son niveau de PIB|Sa taille démographique|Ses ressources naturelles
+
+### === GOUVERNANCE D'ENTREPRISE ===
+
+QCM || Le problème d'agence principal-agent dans les entreprises concerne || V:La divergence d'intérêts entre dirigeants et actionnaires|La concurrence entre firmes|Les asymétries de prix|Les coûts de production
+QCM || Quels mécanismes de gouvernance limitent les problèmes d'agence ? || V:Conseil d'administration indépendant|V:Rémunération liée à la performance|Augmentation des salaires|V:Marché des prises de contrôle
+QCM || La théorie de l'enracinement des dirigeants explique || V:Pourquoi les dirigeants cherchent à se rendre indispensables|La stratégie de diversification|L'internationalisation des firmes|Les fusions-acquisitions
+QCM || Le concept de "shareholder value" privilégie || V:La maximisation de la valeur pour les actionnaires|L'intérêt des salariés|La responsabilité sociale|L'environnement
+
+### === INSTITUTIONS FINANCIÈRES ===
+
+QCM || Quel rôle jouent les agences de notation dans l'économie mondiale ? || V:Évaluer le risque de crédit des émetteurs|Fixer les taux d'intérêt|Réguler les banques|Gérer les devises
+QCM || La supervision bancaire macro-prudentielle vise à || V:Prévenir les risques systémiques|Maximiser les profits bancaires|Réduire la concurrence|Éliminer les banques centrales
+QCM || Bâle III renforce quelles exigences pour les banques ? || V:Ratios de capital plus élevés|V:Ratios de liquidité|Réduction des dépôts|V:Limitation de l'effet de levier
+QCM || Le concept de "too big to fail" pose le problème || V:Du risque moral des grandes banques|De la taille optimale|De la concurrence parfaite|Des économies d'échelle
+
+### === RÉGULATION ET CONCURRENCE ===
+
+QCM || L'autorité de la concurrence intervient principalement pour || V:Sanctionner les ententes anticoncurrentielles|V:Contrôler les concentrations|Fixer les prix|Gérer l'emploi
+QCM || Quel est l'objectif de la régulation des monopoles naturels ? || V:Éviter l'exploitation du pouvoir de marché|Augmenter les profits|Réduire l'innovation|Éliminer la concurrence
+QCM || La déréglementation des années 1980-90 concernait principalement || V:Les télécommunications|V:Les transports|V:L'énergie|L'agriculture exclusivement
+QCM || Le concept de "capture du régulateur" signifie || V:L'influence excessive des entreprises régulées sur le régulateur|La nationalisation des entreprises|La suppression de la régulation|L'intervention de l'État
+
+### === ÉCONOMIE NUMÉRIQUE ET NOUVEAUX ENJEUX ===
+
+QCM || Quels défis posent les plateformes numériques aux institutions traditionnelles ? || V:Économies de réseau et effets de verrouillage|V:Difficultés de taxation|V:Nouveaux monopoles|Aucun défi particulier
+QCM || La blockchain peut réduire les coûts de transaction en || V:Éliminant les intermédiaires de confiance|Augmentant la vitesse|Réduisant la sécurité|V:Automatisant les contrats (smart contracts)
+QCM || Quels sont les enjeux de régulation de l'intelligence artificielle ? || V:Protection des données personnelles|V:Biais algorithmiques|V:Responsabilité en cas d'erreur|Aucun enjeu spécifique
+QCM || Le concept de "surveillance capitalism" selon Shoshana Zuboff désigne || V:L'extraction de valeur à partir des données comportementales|Le contrôle étatique de l'économie|La planification centralisée|La nationalisation des GAFAM
+
+### === DÉVELOPPEMENT ET INSTITUTIONS ===
+
+QCM || Selon Acemoglu, Johnson et Robinson, quels facteurs déterminent le développement économique ? || V:La qualité des institutions|La géographie|V:L'état de droit|Les ressources naturelles uniquement
+QCM || Le concept de "malédiction des ressources" suggère que || V:L'abondance de ressources naturelles peut nuire au développement|Les ressources sont toujours bénéfiques|La géographie détermine tout|L'industrie est inutile
+QCM || Quelles institutions sont cruciales pour le développement selon la littérature ? || V:Protection des droits de propriété|V:Système judiciaire efficace|V:Lutte contre la corruption|Planification centralisée
+QCM || Le concept de "middle income trap" explique || V:Pourquoi certains pays stagnent à revenus intermédiaires|La convergence automatique|L'inexistence des inégalités|La théorie de la croissance endogène
+
+### === INSTITUTIONS EUROPÉENNES ===
+
+QCM || La Banque Centrale Européenne a pour mandat principal || V:La stabilité des prix|La croissance économique|L'emploi|V:La stabilité financière
+QCM || Le Pacte de Stabilité et de Croissance limite || V:Les déficits publics à 3% du PIB|V:La dette publique à 60% du PIB|Les dépenses sociales|Les investissements publics
+QCM || Quel principe guide la politique de concurrence européenne ? || V:Interdiction des abus de position dominante|V:Contrôle des aides d'État|Protectionnisme européen|Nationalisation des entreprises
+QCM || La politique agricole commune (PAC) représente environ || V:40% du budget européen|10% du budget européen|70% du budget européen|90% du budget européen
+
+### === ÉCONOMIE COMPORTEMENTALE ET INSTITUTIONS ===
+
+QCM || Selon l'économie comportementale, les institutions peuvent || V:Orienter les comportements par des "nudges"|Éliminer totalement les biais|Rendre tous les agents rationnels|Supprimer les émotions
+QCM || Le concept de "framing effect" montre que || V:La présentation d'un choix influence la décision|Les préférences sont toujours stables|L'information parfaite existe|Les agents sont parfaitement rationnels
+QCM || Quels biais cognitifs peuvent affecter les décisions économiques ? || V:Biais de confirmation|V:Aversion aux pertes|V:Biais d'ancrage|Rationalité parfaite
+QCM || Les institutions peuvent corriger les biais comportementaux par || V:Des règles automatiques|V:Des mécanismes de commitment|V:De l'éducation financière|L'élimination de tout choix
+
+### === MESURE ET ÉVALUATION INSTITUTIONNELLE ===
+
+QCM || L'indice "Doing Business" de la Banque mondiale mesure || V:La facilité de faire des affaires|Le niveau de corruption|V:L'efficacité réglementaire|La croissance économique
+QCM || L'indice de perception de la corruption de Transparency International || V:Classe les pays selon la perception de corruption|Mesure la corruption réelle|Évalue les institutions financières|Calcule les coûts de transaction
+QCM || Quels indicateurs évaluent la qualité institutionnelle ? || V:État de droit (Rule of Law)|V:Efficacité gouvernementale|V:Voix et responsabilité|PIB par habitant uniquement
+QCM || Les limites des indices institutionnels incluent || V:Subjectivité des perceptions|V:Biais culturels|V:Difficultés de comparaison|Parfaite objectivité
+
+### === CRISES ET RÉSILIENCE INSTITUTIONNELLE ===
+
+QCM || Comment les institutions évoluent-elles en période de crise ? || V:Accélération des réformes|V:Remise en question des règles existantes|Stabilité parfaite|V:Innovations institutionnelles
+QCM || La crise de 2008 a conduit à quelles réformes institutionnelles ? || V:Renforcement de la supervision bancaire|V:Création du mécanisme de surveillance unique (MSU)|V:Nouvelles exigences de capital|Déréglementation totale
+QCM || La résilience institutionnelle dépend de || V:La capacité d'adaptation|V:La diversité des mécanismes|V:L'apprentissage organisationnel|La rigidité des règles
+QCM || Face à la pandémie COVID-19, quelles innovations institutionnelles ont émergé ? || V:Coordination internationale renforcée|V:Nouveaux mécanismes de solidarité|V:Digitalisation des services publics|Retour au protectionnisme uniquement
+
+### === QUESTIONS TRANSVERSALES ===
+
+QCM || La théorie des contrats incomplets explique || V:Pourquoi tous les contingences ne peuvent être prévues|L'efficacité parfaite des marchés|L'inutilité des institutions|La planification totale
+QCM || Quel lien existe entre institutions et inégalités ? || V:Les institutions peuvent réduire ou amplifier les inégalités|Aucun lien|Les institutions augmentent toujours les inégalités|V:Certaines institutions redistributives
+QCM || Le concept de "institutional complementarity" suggère que || V:Les institutions se renforcent mutuellement|Chaque institution fonctionne isolément|La concurrence entre institutions|L'uniformité institutionnelle
+QCM || Comment mesurer l'efficacité d'une réforme institutionnelle ? || V:Impact sur les comportements économiques|V:Coûts de mise en œuvre|V:Acceptabilité sociale|Critère unique de PIB

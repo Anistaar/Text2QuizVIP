@@ -1,0 +1,545 @@
+Macro-économie.
+Beaucoup d’élèves dans l’amphi, Evaluation difficile.	
+Intro Ajd
+
+Référence :
+Macroéconomie Blanchard et Cohen. (BU)
+Initiation à la macroéconomie Dunod Bernard Bernier Yves Simon.
+
+Macro-économie ?
+Le rôle de l’état dans l’économie ?
+ Taux de change, Commerce international. Chômage, Inflation, Production, ( PIB ) production croissance.
+Agrégat sur lesquels on va étudier différents choses
+La macro cherche à d’écrire te à expliquer des phénomènes économiques tel que :
+-le chômage, 
+-L’inflation, 
+-la croissance, 
+-le déficit extérieur,-
+ et bien d’autres encore.
+ Ces phénomènes sont le résultat de millions de décisions individuelles prises par des agents économiques tel que les consommateurs, les chefs d’entreprises, l’état, les institutions financières, ou encore prise par le reste du monde. (Types d’agents économiques)
+Agrégat : 
+Circuit économique :
+
+On s’intéresse à des phénomènes globaux
+
+
+
+Question : Pour mener une analyse macro-économique, est-ce qu’il suffit d’additionner l’ensemble des décisions individuelles ? 
+Distinction encore micro et macro qui nous permet d’introduire le modèle Classique, modèle Keynésien, concept que l’on va retenir dans un ou dans l’autre. HPE
+Réponse :
+Quel est le rôle de l’état ? Prend tout son sens dans l’analyse macroéconomique puisqu’il remplit de multiples fonctions :
+- Fonction de redistribution des ressources
+- Fonction d’affectation des ressources
+- Fonction de stabilisation des ressources (renvoie au déséquilibre,)
+ Lorsqu’on est en situation de déséquilibre (chômage par exemple) est-ce que l’état doit intervenir et comment doit-il intervenir pour réduire ces déséquilibres ? (Notamment par l’intermédiaire de ces politique)
+
+Quels sont les effets des différentes politiques économiques ?
+D’un point de vue méthodologique la macro s’intéresse à des agrégats, quantité globale relativement homogène tel que la consommation des ménages, l’investissement des entreprises, recettes et dépense de l’état, échanges avec extérieur, pour mener ces études, on va faire une représentation simplifier du monde, autrement dit représentation théorique qui vont être basé sur des hypothèses, en lien avec les comportements des différents agents économiques.
+
+Science expérience, science physique réciprocité.
+Economie, on ne peut pas refaire à l’identique une situation. Crise financière différentes des unes des autres. Trouver la théorie qui explique cette crise. Pas une science dure parce que les outils n’existent pas.
+La réalité n’est pas représentable dans son intégralité, et donc on se pose différentes hypothèses, pour lequel une théorie va découler et si lorsque l’on confronte la théorie aux faits qui se sont produits, soit on confirme la théorie, soit les faits diverges de la théorie et il faut modifier les hypothèses.
+
+Est-ce que l’entreprise à pour seul objectif la maximisation des profits ?
+Belle image, Impact sociétal, Fidélisation des salariées (augmentation de la productivité  maximisation des profits) objectifs double.
+
+On veut poser des théories, 3 façons d’exprimer un modèle :
+
+-	Formulation littéraire 
+
+-	Formulation via l’outils mathématique 
+(Avantage de représentation d’un modèle sous la forme d’un système d’équations cohérentes entre elles)
+Avantage on peut le résoudre. Plein de variable, trouver la solution.
+On utilise l’outils parce qu’il a une signification chez nous. (Etude de fonction)
+Maximisation de fonction
+.
+-	Formulation graphique qui
+ Permet une visualisation du langage algébrique.
+(Consommation = fonction croissante du revenu  plusieurs modélisations graphiques possible).
+
+On peut introduire en économique une dimension temporelle, si nécessaire.
+Soit absence de dimension temporelle  modèle statique, 
+
+Soit de la comparaison entre t et t+1, sans se soucier de comment on passe de t à t+1, statique comparative,
+
+ Exemple comparaison entre deux PIB, soit avec dimension temporelle, modèle dynamique. Et on cherche dans ce cas à savoir comment évolue l’économie dans le temps.
+
+Analyse court, moyen, long terme. Puisque les effets sont différents, avec effets qui s’accumule aux effets immédiats.
+
+Faire de la restriction budgétaire néfaste sur le court terme, mais pas sur le long terme Par exemple.
+
+
+
+
+REVENU RELATIF = Rapport ou la différence entre le revenu de l’individu et le revenu national moyen
+Implique la proportion moyenne, d’un ménage va donc dépendre de sa position dans l’échelle de revenu.
+Si revenu plus faible que le revenu national moyen, engendre le fait que sa proportion moyenne à consommer PMC sera plus élevé, pour faire en sorte de se rapprocher du standard du mode de consommation de la population.
+Il va consacrer une partie plus importante du revenu.
+ Si un ménage à un revenu plus élevé que la moyenne, dans ce cas la proportion moyenne à consommer est plus faible. Ce qui permet de mettre en évidence ( résultat observé ) que les PMC des ménages les plus pauvres sont plus élevés que les ménages riches.
+I = ménage
+Ci = aYi + b(Y barre – Yi) 
+0< b < a < 1
+Cette théorie nous permet d’avoir une explication des observations empiriques  les ménages à haut revenu ont des taux d’épargnes plus élevés. TAUX !!!
+Il existe des approches inter temporel.
+II.3 Les approches intertemporelles
+
+Deux approches dont la principale différence concerne l’horizon temporel,  dans un cadre il sera fini et dans l’autre infini.
+La première est La théorie du cycle de vie. Bromberg et Modigliani 1954.
+Graphique !
+Graphique qui parle de la consommation, en considérant que la consommation à la fin de la vie doit être nul.
+Théorie dans la ligné néo classiques tout simplement parce les comportements intertemporel sont pris en compte.
+Absence d’incertitude => On connait son horizon temporel de vie, il est déterminé.
+( durée de vie ) et du fait de cette hypothèse, on ne se pose pas de question sur l’héritage. Ça veut dire que son objectif sur son horizon de vie est d’avoir consommé l’intégralité de ses revenus avant de mourir.
+Dans ces conditions ça amène à ce que la PMC = PmC = 1 ( avoir consommé l’intégralité de ses revenus.  Propension Moyenne à consommer = Propension Marginal à Consommer
+L’individu va connaître des fluctuations de revenu tout au long de sa vie. Et donc l’épargne va lui permettre de lisser sa consommation tout au long de sa vie. Objectif du ménage est d’avoir une fonction de consommation lissé voir croissante, qui ne doit pas redescendre. Revenus qui fluctuent, 
+ Quand on n’a pas les moyens => Emprunt. Au début on emprunte ( période de jeunesse = patrimoine qui est négatif.) Quand on rentre en activité on peut les rembourser, le patrimoine est croissant. Une fois les emprunts remboursé l’épargne devient positif, une fois en retraite les revenus diminuent et on consomme le patrimoine. On arrive à 0 car aucune question d’héritage. 
+
+A chaque fois qu’on fait de la théorie, on pose des hypothèses on regarde la théorie qui en découle on confirme et on relève les choses, pour autant les enseignements ne sont pas à mettre de côté, on enrichit les modèles avec. 
+On en tire un comportement qui nous aide à comprendre les comportements de consommation.
+
+Le comportement d’endettement et d’épargne dépende de l’âge autrement dit l’épargne est réalisé pendant la période d’activité, pour être transmisse pour la consommation dans la période de jeunesse et de retraite.  Une annulation du patrimoine à la date du décès, il suit une courbe en bosse. ( avec un min et un max ) qui est caractéristique de l’hypothèse du cycle de vie. 
+
+
+
+
+
+
+
+
+Déterminant de la consommation. Le fait qu’il consomme intégralement son patrimoine à la date du décès, fait que la consommation va dépendre à la fois du revenu de l’activité Yl mais également du patrimoine accumulé A.
+
+C = alpha Yl + beta A alpha et beta positif > 0. 
+On doit retenir que on consomme en fonction du revenu de l’activité mais en fonction de son patrimoine.
+Cette théorie permet de mettre en évidence le fait que des ménages qui ont un même revenu d’activité, peuvent avoir des niveaux de consommation différents du fait d’un patrimoine qui est différent.
+A = Patrimoine.
+Déterminant du rapport patrimoine / revenu. A/Yl.
+
+On appelle petit r, le taux de rendement moyen des actifs financiers détenu par les ménages. Si le patrimoine A qui est placé dans des actifs rémunèrent à petit r.
+Revenu des actifs = rA.
+Un ménage il a un revenu global Y = Yl +rA.
+On sait que l’épargne c’est ce qu’il ne consomme pas = Y – C. Partie non consommé du revenu. Lorsque on ne consomme pas une partie du revenu on l’épargne, donc l’épargne augmente/diminue le patrimoine.
+Donc c’est Delta A. On pose l’hypothèse que le taux de croissance du patrimoine est constant il est égal à petit g. = ( Delta A / A )
+
+Déterminant du rapport patrimoine revenu.
+On s’aperçoit que A / Y ( patrimoine sur le revenu ) est une fonction notamment décroissante du taux de croissance du patrimoine g. Le rapport patrimoine va être croisant en fonction du taux d’intérêt. 
+Ensuite on s’intéresse au taux d’épargne du rapport patrimoine revenu ?
+Le taux d’épargne et rapport patrimoine revenu
+On suppose que le taux de croissance g est une approximation du taux de croissance de l’économie. S = gA => S / Y Rapport épargne sur revenu. A connaître. Proportion moyenne à épargner c’est le taux d’épargne.
+gA / Y = S / Y.
+Le taux d’épargne encore appelé proportion moyenne à épargner augmente avec le taux de croissance de l’économie en supposant que le rapport A/Y est constant. Cette proposition est vérifiée d’un POV empirique, en effet c’est dans les pays om les taux de croissance sont les plus élevés, que l’on trouve les taux d’épargnes les plus élevés. Quel est la limite de cette théorie.
+Hypothèse qui n’est pas réaliste. Deux limites absence d’incertitude, et donc le patrimoine est consommé de manière plus lente. Or il existe de l’incertitude. Le patrimoine est consommé de manière plus lente, et pas intégralement consommé. Une autre limite. La deuxième limite est l’absence d’héritage, les individus accumulent du patrimoine pour eux-mêmes et pour céder une partie ( héritage ). On va avoir Friedman en 1957, Avec la théorie du revenu permanent. Donc comme la théorie du cycle de vie, on introduit des choix intertemporel dans la fonction de consommation, comportement micro économique introduit, et donc pour lui, la consommation dépend non pas du revenu courant mais de la richesse ( revenu permanent ). Création de modèle inter générationnel. I
+
+Problématique, comment répartir la consommation au cours du temps sous une contrainte budgétaire intertemporel ( c’est vraiment de la micro ) Comment maximiser la satisfaction. On va supposer que l’individu connaît ses revenus, passé présent et futur. Son objectif est de maximisé l’utilité retiré de sa consommation à chaque période , sous la contrainte budgétaire suivante.  C’est que l’ensemble de la consommation doit être égal à la richesse qui se définit comme la somme actualisée de mes revenus présent et futur.
+On introduit la notion d’actualisation. La symétrie de cette notion est la capitalisation. Si on place 100€ à 5% pendant 1 an. Demain 105€ Notion de capitalisation. Si on place 100€ Demain ils valent 105. L’actualisation c’est l’inverse.  La somme de t+1 t+2 t+3 combien elle vaut en t. Un sweat qui vaut 105€ demain. On va se poser la question, ils valent quoi ajd ceux qui valent 105€demain. Si les taux sont à 5% on doit placer 100€ adj. On actualise la valeur future. 
+t 	t+1 		t+2		t+3
+100 	100(1+r)	100(1+r)²  	100(1+r)^3
+Mais ici on suppose que le taux d’intérêt est constant. Il est possible qui soit modifié. 
+Le consommateur doit répartir de manière optimale ses revenus présents et futur, si on fait l’opération inverse.
+Quand on actualise on divise par 1+r.
+Contrainte intertemporel. Toute consommation ne peut pas dépasser la richesse.
+On do2it retenir que 1€ ajd n’est pas 1€ de demain. Parce qu’il y a la notion de capitalisation. 
+La consommation de chaque période ne dépend plus uniquement du revenu de la période mais dépend de l’ensemble des revenu anticipés pour les périodes futurs.
+Il n’explique pas la consommation réellement en fonction de la richesse, mais en fonction de que qu’il appelle le revenu permanent. Qui se défini comme la somme qu’un consommateur peut consommer en maintenant constante la valeur de son capital. Lorsque l’horizon temporel est fini, dans ce cas le revenu permanent est égal à la richesse, mais lorsque celui-ci est infini, dans ce cas le revenu permanent est une partie de la richesse Yp = rW ( W est la richesse ).
+Il est nécessaire de faire des anticipations, jusqu’à la fin des années 70, ces anticipations étaient adaptatives, à chaque période, l’agent révise sa prévision, en fonction de l’erreur commise pendant la période précédente.  Anticipations naïves ( penser que la valeur d’adj. est celle de demain) anticipation rationnelle, autrement dit, pour faire notre anticipation, cette fois on tient compte de toute l’information qui est disponible.
+Être rationnel, utilise toute l’information à porté pour prendre une décision.
+La notion d’anticipation rationnel, pas que mes revenus passés ou prix antérieurs, mais par exemple des marchés financiers pas terrible, taux de chômage pas ouf, secteur qui n’est pas ouf non plus.
+Le revenu permanent introduit la notion de consommation permanente.
+Il la définit par la valeur des biens et des services qu’ont prévoit de consommer durant la période donnée. Hypothèse que la consommation permanente est une fonction linéaire du revenu permanent.
+Cp= Gamma Yp avec 0< gamma =< 1 qui représente à la fois la proportion moyenne à consommer le revenu permanent mais également la proportion marginale.
+Friedmann nous donne que le revenu d’un individu est composé de son revenu permanent et de son revenu transitoire.
+Revenu transitoire pas anticipé.
+Y = Yp + Yt Revenu accidentel pas anticipé. Quand on va introduire l’indice temporel.
+Ctp =Gamma Ytp
+Revenu à l’instant t n’est pas le même à t+1 etc.
+Dans la fonction de consommation de Friedmann on retrouve un effet d’inertie. 
+Il propose d’évaluer le revenu permanent, à l’aide des revenus passés observé et du revenu courant de la date t. Il va le déterminer de la manière suivante. Il nous dit que Ytp = (1- landa) ( Yt + landa yt-1 + landa^n Yt-n … )
+C’est que pour déterminer le revenu permanent à la date T. Il accorde des poids différents ( landa 0 < landa < 1. Plus on s’éloigne dans le temps moins on accorde d’importance. Plus le passé est loin, moins d’influence.
+Avec un réel compris entre 0 et 1. Les différents poids sont acceptés afin de prendre en considération que le passé le plus lointain n’a que très peu d’influence. On va intégrer ceci dans la Ctp = Gamma Ytp
+
+Savoir on a une théorie avec un effet d’inertie dans l’approche de Friedmann
+Prendre en compte que la conso d’adj. dépend de celle d’hier.
+ La fonction de conso de Friedman est proche de celle de Brown, la seule différence est l’absence de la constante chez Friedman. Cela permet à Friedman d’avoir une proportion moyenne à consommer de long terme constant dans le temps. Ce qui est un fait empirique observé. Globalement la théorie du revenu permanent se vérifie en pratique. Ça ne veut pas dire que on va retrouver une fonction de consommation de type Friedman, parfois introduire une fonction de conso keynésienne suffit.
+II.4 Déterminants de l’Epargne.
+Quels sont les choses que l’individu va épargner ou non ?
+Déterminant de court terme, le pouvoir d’achat. Le ralentissement du pouvoir d’achat va avoir un effet négatif à court terme. Effet négatif sur l’épargne. Du fait de l’existence d’un effet d’inertie, vont puiser dans leur épargne lorsque les revenus ralentissent pour ne pas modifier cette consommation. Facteur d’ajustement.
+
+Deuxième de court terme le taux de chômage, Faire de l’épargne de précaution, joue de manière positive. Puisque du fait de l’incertitude sur l’avenir. On se constitue une épargne de précaution.
+
+Troisième variable l’inflation. Positivement et négativement, si on garde notre épargne, comme les prix augmentent ce que l’épargne permet d’acheter est moindre. L’effet des taux d’inflation est ambigu sur l’épargne, une hausse des prix peut entraîner à court termes une baisse de l’épargne, la fuite devant la monnaie. Ils vont augmenter leur consommation pour se débarrasser des liquidités dont le pouvoir d’achat diminue fortement. La hausse des prix peut entraîner une hausse de l’épargne. L’effet d’encaisse réelle. Les ménages veulent maintenir la valeur réelle de leurs actifs. En augmentant leur épargne. Qte de bien qu’on puisse acheter. 
+
+On a également des déterminant de longs termes,
+Déterminent de long termes le vieillissement de la population on sait que selon l’hypothèse du cycle de vie, le vieillissement va avoir un effet négatif sur l’épargne. Puisque le nombre de dé épargnant ( retraité ) augmente par rapport au nombre d’épargnant ( actif ).
+
+Déterminent de long terme, le système de retraite.
+Touche une retraite, cotisation, système par répartition. Actif qui cotise pour les non actifs. L’opposé par répartition, le système par capitalisation.
+Va avoir deux effets contradictoire, effet négatif, tout simplement parce que on est assuré de toucher une certaine somme. Peut également avoir un effet positif sur l’épargne. Parce que vieillissement de la population. Pleins d’actifs financiers parce que par répartition est de plus en plus incertains. Ils se sont développés davantage pour préparer la retraite. Effet positive du fait de la survie du système de retraite par répartition. Il cherche à se prémunir contre cette incertitude en finançant eux-mêmes leur retraite via l’épargne. Faire de l’épargne de précaution.
+
+Séance 4 ? 
+CH4 L’investissement.
+
+Composantes des emplois/ressources
+FBCF
+Formation brute de capital fixe => Largement représenter par l’investissement des entreprises.
+Reprends également l’achat de bien immo de la part des ménages.
+Part relativement faible de la part des logements.
+
+Il existe l’investissement de remplacement et l’investissement net.
+Investissement de remplacement => Maintenir en l’état les capacités de production.
+Ce rythme de remplacement est en lien avec l’usure technique. Mais également de l’obsolescence.
+
+Il existe sur le marché de l’innovation, et donc machine moins performante.
+
+Il existe aussi l’investissement net. C’est pour augmenter les capacités de production. Dans la volonté de les augmenter. Investissement net/ de capacité.
+
+Distinction théorique, mais fondamentale du POV de l’analyse. Il existe différent déterminant de l’investissement. Qui se distingue selon 3 éléments :
+- Le type d’investissement qui est considéré ( de remplacement/de capacité)
+- Caractéristiques de l’entreprise ( la taille, part de marché, tx de croissance etc)
+- Situation conjoncturelle ( bon état d’atature) 
+
+Aucune variable explicative est privilégiée en ce qui concerne l’investissement.
+Schéma de l’investissement.
+
+Dans toutes les variables, on va se concentrer sur le tx d’intérêt et les variations du revenu.
+
+I.	Investissement et capacité de production. : Principe de l’accélérateur.
+
+Investissement est une variable de flux, ça veut dire que c’est un flux d’achat, de biens, d’équipement qui va venir chaque année modifier, le stock de capital existant.
+
+La notion d’accélérateur elle reposes sur des effets cycliques qui existent entre flux d’investissement et stock de capital
+
+
+Introduction avec l’accélérateur simple.
+Fonction de production qui relie le volume ou la valeur de produit final obtenu ( y ) aux combinaisons de facteurs de production utilisé. ( SOIT VOLUME SOIT VALEUR ). 
+
+Il existe de facteur de production, le K capital, L travail.
+Y = f(K,L).
+V = K/Y rapport entre le capital et la production. Coefficient du capital. Il est fixe, c’est une constante. Cvd que si on veut produire une unité de produit en plus. On doit avoir à disposition v unité supplémentaire de bien d’équipements. ( du capital, des machines ) ça veut dire que le stock de capital est strictement proportionnel au volume de production qui est réalisé.
+K = vY
+Dépendance linéaire par rapport au stock, c’est logique. 
+
+Le modèle d’accélérateur simple suppose que l’investissement est une fonction linéaire des variations de la demande.
+En posant l’hypothèse que la production suit la demande, on va avoir dans ce cas, It = f(Δ Yt)
+= B * ΔYt
+Coef d’accélération B > 1
+
+Dès lors que la demande augmente, les entreprises augmentent leur production et doivent investir. 
+Il est induit parce qu’il est induit aux variations de la demande. Autrement dit, il n’est pas autonome.
+
+Le coef d’accélération est égal au coef du capital.
+
+B=v
+It/ ΔYt 
+INVESTISSEMENT VARIATION DU CAPITAL
+
+ΔKb/ ΔYt= v 
+
+
+Le modèle d’accélérateur simple s’écrit sous la forme suivante 
+It = v* ΔYt
+Le niveau d’investissement des entreprises ne dépend pas du niveau de la demande, mais dépends de la variation de la demande( ΔYt ). 
+
+C’est le principe de ce modèle.
+Il repose sur des hypothèses dont la première est la suivante, il n’existe pas de capitaux oisifs. ( inutilisé, aucune machine mise de côté.) Si l’entreprise utilisait toute ses capacités de production, dès lors qu’elle veut produire plus, il n’existe pas de capitaux non utilisés qui lui permettrait d’augmenter sa production sans investir.
+Deuxième hypothèse : Avoir un coef de capital qui est constant. ( v ).Si il était variable, on pourrait produire plus sans pour autant investir. 
+La troisième : les coûts relatifs des facteurs de production doivent être constant.
+La dernière : les rendements doivent être constant. Puisque si ces dernières était croissant, on pourrait faire aux variations de la production. En utilisant moins de v fois le stock de capital. Cvd que pour répondre aux variations, on aurait un facteur multiplicatif < v. Gagner en productivité dernière.
+
+Toutes ces conditions sont nécessaires au fonctionnement de l’accélérateur simple. 
+Critique théorique.
+Puisque ce modèle repose sur une variation trop mécanique de l’investissement.
+Dès qu’il y a des variations de la demande, investir/désinvestir. Pour autant pas nécessaire. Quand une Entreprise utilise pleinement son capital, la hausse de la production ne nécessite pas pour autant recours à l’investissement. L’entreprise peut utiliser de manière plus rationnel son capital, et ainsi augmenter son volume de production. Une deuxième, il est rare que les entreprises utilisent 100% des capacités de production. Réserve de capacité. Ces réservent peuvent-être volontaire, notamment à la production saisonnière. Cvd qu’elle a des périodes dans l’année ( glace l’été, chocolat pâque )soit  Réserve involontaire. Baisse sur la demande d’un produit.
+
+Troisième critique, selon l’accélérateur simple, dès qu’il y a variation de la demande, il y a investissement avec instantanéité. A cause du petit t. à l’instant t. Réaction aux mêmes dates. Cette critique des introduite car il existe des délais d’ajustement. Autrement dit, il faut introduire des retards dans le processus d’accélérateur.
+
+Développement de l’accélérateur flexible.
+D’un POV empirique certaines études, montrent que le principe d’accélérateur simple n’est pas vérifié. Et que le déterminant principale de l’investissement c’est la variable de profit. Les études empiriques vont dans le sens de l’accélérateur flexible.
+
+I.2 l’accélérateur flexible. Pour aborder ce principe d’accélérateur flexible. Distinction entre investissement brut et investissement net. Les biens de production ont une durée de vie qui est fini. Et cette durée peut être réduire du fait de l’accélération technique. Et donc la durabilité d’un bien est de nature technique et de nature économique.
+Il va se détériorer de manière progressive, il arrive un moyen où il n’est plus utilisable. Tout bien de production devient obsolète, du fait du progrès technique. Cette obsolescence peut être totale, si un nouveau bien apparaît sur le marché est plus performant. Ce qui veut dire qu’un bien de production à une durée de vie physique, mais souvent cette durée de vie n’est pas atteinte. Il est en bon état mais mis de côté. Mais dans ce cas le bien de production à atteint sa durée de vie économique. 
+Ce qui nous amène à prendre en considération, le capital de déprécie au cours du temps. Et on va supposer que le taux moyen de dépréciation au capital c’est IU
+Ce qui nous permet d’écrire que la valeur courante du capital productif de l’entreprise Kt Kt= (1-IU)Kt-1+It
+
+( hier 10 machines, ajd 9.5, mais comme il y a de l’investissement on contre cet effet d’usure).
+Equivalent de capital en production, pour les 9.5 machines.
+Valeur dépréciée sur stock de capital de la période précédente. 
+Kt –(1-IU)Kt-1 = It
+Kt – Kt-1 + IUKt-1It
+Kt – Kt-1 = Investissement de capacité.
+IUKt-1 = Investissement de remplacement.
+Une entreprise réalise de l’investissement pour augmenter ses capacités de production.
+Une entreprise réalise de l’investissement pour maintenir ses capacités de production. Autrement dit elle réalise de l’It lié à l’usure des machines.
+IUKt-1, la consommation de capital fixe. Dans ce principe d’accélérateur flexible, il est considéré qu’une entreprise réalise de l’investissement pour motif de remplacement.
+
+Il est rattaché aux variations de la demande. Ici le phénomène d’accélérateur n’est plus forcément symétrique à la hausse ou à la baisse.
+En effet si on est dans une conjoncture difficile. Le modèle présente un désinvestissement plus fort, que le désinvestissement qui est réalisé. Une entreprise ne va pas revendre des biens de prod indésirables, conjoncture qui rend la vente plus difficile et donc les conserves, ces biens de prod vont donc se dévalorisés en lien avec l’obsolescence même si i y a avait revente. Cela se traduit par un rachat par une autre entreprise national ( Le raisonnement serait différent si entreprise étrangère ). Et donc le désinvestissement effectif global est limité à cette perte de valeur. 
+
+Dans ce cadre ici, les entreprises conservent ces capitaux oisifs.  Lorsque on va être en phase d’expansion, les entreprises ont des capacités de production. Et donc ne vont pas investir tout de suite pour faire face à cette demande supplémentaire. D’où la prise en compte de ces délais d’ajustement.
+
+Au niveau macro le stock est identique s’il reste dans une entreprise au niveau national. 
+
+L’accélérateur flexible relie le stock de capital à une moyenne pondéré des niveaux de production antérieur. 
+Plus le passé est lointain, moins on lui accorde de poids.
+
+Kt = stock de capital.
+
+Fonction de transformation de Koyck ( 1954 ).
+Landa représente la vitesse d’ajustement. L’hypothèse suivant a été posé, le niveau de capital désirée est proportionnel au volume de la demande.
+L’équation 2 ( sur arche ) nous montre que l’investissement dépend positivement du montant absolu de la demande Yt. Et non pas de la variation de celle-ci dans le cas de l’accélérateur simple.
+
+Et ça dépend négativement de l’importance des capacités de production de la période précédente. ( Kt-1) Il existe pour autant un principe d’accélérateur.
+L’écriture de l’équation 1. En variation nous amène donc à l’expression suivante (3)
+L’accélérateur nous met en avant que l’It est en relation avec la variation de la demande,
+ L’accélérateur = v(1-Landa).
+On retrouve bien que le coef accélérateur est plus faible dans l’accélérateur flexible. Et on retrouve un effet d’inertie par l’intermédiaire de It-1.
+
+Le principe de l’accélérateur simple nous conduit à une baisse régulière de l’investissement. Dans le cas de l’accélérateur flexible. L’investissement va augmenter dans un premier temps, jusqu’à ce que l’effet de freinage lié au stock de capital compense l’effet inverse lié à la progression de la demande.
+Le comportement d’ajustement progressif d’ajustement du capital suite aux variations de la demande est possible du fait du stockage et du déstockage des produits fini, mais également par les variations d’utilisation des capacités de production. Globalement, on a des variations de l’Investissement qui sont moins brutales que dans le cadre de l’accélérateur simple. Notamment lié à l’effet d’inertie ( introduit par It-1)
+
+Les fluctuations suite à la variation de la dem4ande sont freiné par le stock de capital en t-1
+D’un POV empirique, on a un accélérateur flexible qui se vérifie. Quand on va être dan des modèles macroéconomique. Quel va être l’impact du taux d’intérêt sur l’investissement
+II.	Le rôle du tx d’intérêt.
+Des I peuvent avoir lieux même si on ne prévoit pas des variations de la demande.
+Une firme va juger favorable d’investir si elle estime que l’investissement est rentable. Chaque firme va prendre la décision d’I selon la rentabilité de ses projets, s’ils sont rentables. Et l’agrégation de ces décisions vont nous permettre de déterminer le niveau d’investissement national.
+
+Lorsqu’une firme va cherche un investissement, elle va évaluer le montant de profit supplémentaire que cet investissement va engendrer.
+
+Elle va devoir anticiper les rendements futurs de cet investissement sur l’ensemble de la période où cet investissement va être utilisé.
+ On va appeler donc R1,R2, Rn les rendements annuels futur. Cet investissement va être utilisé n années. 
+Ces rendements sont la différence entre la valeur anticipée des vents supplémentaires liés à cet investissement et les coûts variable lié à cette production supplémentaire. 
+
+Rien ne nous dit que ces rendements sont identiques pour les périodes.
+Il existe du progrès technique, en effet des meilleurs machines plus performantes et/ou moins couteuses peuvent arriver sur le marché. Ce qui va avoir tendance à diminuer la compétitivité.  La deuxième raison est que les R futurs sont incertains car il existe un risque, les firmes vont accorder plus d’importances aux prévisions des premières années qui suivent l’investissement plutôt que les lointaines. 
+
+3ème raison : le taux d’inflation, si les prix futurs augmentent, hausse des rendements nominaux, autrement dit, investir dans un bien d’équipement peut être prit contre une protection contre le risque d’inflation alors que conserver la même forme sous forme monétaire peut perdre de la valeur. On aurait tendance à investir davantage.
+
+Les différents rendements ne vont pas être perçue à la même date, et donc on les ramène à n dénominateur temporelle commun et fait appel à la notion d’actualisation.
+Inverse de la capitalisation.
+
+On en déduit donc que la valeur actuelle de la somme S(1+i) à toucher dans un an est S. Actualiser une somme à toucher dans un an consiste donc à tenir compte des intérêts qui auraient pu être obtenus dans l’intervalle si on avait disposé de la somme maintenant et placé au taux r. Une somme à toucher dans n années a donc une valeur actuelle égale à S/(1+i)^n.
+
+Il existe deux critères qui permet de mesurer les mérites comparés de différents projets d’ investissement au regard de leur efficacité économique.
+
+
+
+On considère qu’une entreprise considère un investissement d’un montant grand I. Il va générer une série de recette annuel que l’on va appeler r1,r2,rn
+Et une série de coût annuel, c1 c2 cn, 
+Soit petit i le taux d’actualisation, la valeur actuelle net va s’écrire de la manière suivante 
+Le premier critère est la Valeur Actuelle Nette VAN
+VAN = -I + (R1 -C1)/1+i + (R2-c2)/(1+i)² etc
+
+Et donc ce calcul va permettre de connaître l’opportunité d’investissement.
+Généralement du profit supplémentaire. Investir permet de faire.
+
+Si VAN > 0 investissement réalisé
+Si VAN < 0 non-investissement
+VAN = 0 indifférence. 
+Deux projets concurrents. On va retenir celui qui as de la valeur VAN la plus grande.
+Si la VAN est négative, cvd que la somme consacrée à investissement peut être mieux utilisé pour des placements à l’extérieur ( placement financier ). Autre chose qu’en interne pour l’entreprise
+ Il existe un taux de critère qui est le taux de rendement interne ou efficacité marginale du capital.
+Au lieu de recherche le bénéfice actualisé, à l’aide d’un taux d’actualisation i, on cherche quel est le taux de rendement interne r  qui rend la valeur présente/actuelle de l’ investissement et de ses revenus net futurs = à 0.
+On cherche la valeur de r pour laquelle la VAN = 0. Une fois petit r trouvé, on va la comparé au tx d’intérêt.
+Soit r > i, on fait l’investissement.
+Soit r < i on ne fait pas l’investissement.
+Et si r = i cvd qu’il rapporte autant qu’il coûte. 
+Si on a plusieurs projets, on garde celui qui a le r le plus élevé.
+Keynes appele ça le taux d’efficacité marginal du capital.
+Il le note f.
+« F se définir comme le taux d’escompte, qui appliqué à la série d’annuité constitué par les rendements escomptés de ce capital pendant son existence entière rend la valeur actuelle des annuités égale au prix de l’offre de ce capital. »
+F correspond au taux interne de rentabilité. Pour lequel l’opération d’investissement se solde sans perte ni profit.
+
+Deux remarques :
+Le taux d’actualisation à une influence sur le résultat
+Toute modification de celui-ci modifie la structure du programme d’investissement de l’entreprise, cvd que des taux d’actualisation faible favorise les grands investissements capitalistes.
+
+Selon ces deux critères, il est possible qu’il y ai désaccords, les résultats de la VAN et de la trie peuvent diverger. La VAN projet B et le trie projet A.
+
+II 2 Efficacité marginale du capital à la fonction d’investissement. ( Keynes )
+
+Meilleure stratégie avec placement sur les marchés financier ou réaliser l’investissement.
+Comment évolue l’assiette global d’investissement.
+
+5 projets différents avec montant variable
+, réalisation uniquement si le taux marginal > taux intérêt.
+Si inférieur non-réalisation. S’ils sont égaux   indifférence.
+
+Si hausse des taux, réduction de l’investissement et décélération économique. Car certains investissements ne sont plus réalisés.
+Si hausse des taux, demande d’investissement de plus en plus faible.
+Lorsque on a additionné l’ensemble des demandes individuelles, il est alors possible de représenter pour toute les entreprises, une courbe d’efficacité marginale de l’investissement encore appelé fonction de demande d’investissement.
+
+Le fait qu’il existe de nombreuses entreprises font que la fonction d’investissement peut être approximé par une courbe continue. D’un point de vue macroéconomique. Il est envisageable que les firmes ont tendance à augmenter leur stock de capital. Tant que ça permet de réaliser des profits. Toute hausse du taux d’intérêts entraîne toute chose étant égales par ailleurs. ( Sans modification d’un autre élément ) la non-réalisation de projet d’investissement. Alors que sa baisse va permettre d’entraîner davantage de projet d’investissement. De ce fait, il est possible de se représenter la fonction d’investissement comme une fonction décroissante de manière linéaire au tx d’intérêt o encore à l’efficacité marginale du capital.
+ Sur le plan macroéconomique, on a bien le niveau d’investissement qui augmente quand le taux d’intérêt diminue.
+I = -e*i + I0
+i=taux d’intéret
+e=réel constante. -e parce que décroissante.
+I0=I lorsque le taux d’intérêt est nul si i = 0. 
+I0 il existe de l’investissement qui existe avec d’autre variable.
+On retrouve le fait que l’investissement ne dépend pas uniquement du taux d’intérêt mais s’explique également par d’autres variable.
+Petit e est une constante qui traduit l’intensité de la réaction de l’investissement aux variations du tx d’intérêt. C’est une variable qui est fondamentale puisqu’elle permet de mettre en évidence l’importance la modification de la variable d’investissement.
+Selon les firmes/secteurs d’activités, une même modification du taux d’intérêt va avoir des impacts différents sur la demande d’investissement. Plus cette courbe est proche de la verticale, moins les variations du tx d’intérêt auront un impact sur le montant de l’investissement. Plus elle se rapproche de l’horizontale. Plus elle sera impactantee.
+
+La relation entre l’investissement et le te taux d’intérêt détermine la forme de la courbe pour un état donnée des efficacités marginales de diverses projets d’investissements. 
+
+ON DOIT RETENIR QUE e EST IMPORTANT. DEPEND DU SECTEUR ON A MIS EN EVIDENCE QUE L’I EST DECROISSANTE DU TX d’INTERET. EFFICACIT
+
+II 3. Rôle et modalité de financement.
+
+Jusqu’à présent, le taux d’intérêt avait une seule et unique valeur, à la fois dans l’aspect coût d’opportunité, coût d’emprunt.
+Une entreprise pour se fiancer, il existe diddfétens modalités.
+
+
+Financement Interne : Autofinancement
+Financement exerce    Augmentation du capital social
+  Endettement
+
+Autofinancement qui exige qu’il existe des bénefs non distribués. Pas de problèmes de remboursement. Mais ils ne sont pas pour autant gratuits. Car l’immobilisation de ces ressources l’entreprise renonce dans ce cas à l’éventuel revenus qu’elle aurait pu avoir en les plaçant dans des actifs financiers pour une durée et un risque comparable. 
+
+Financement par augmentation du capital social par émissions d’actions. L’avantage, elle ne doit pas rembourser les fonds. Elle doit verser des dividendes aux actionnaires. Et donc le coût va être variable en fonction des résultats de l’entreprise. Risque de ne pas trouver des investisseurs. Parce que les dividendes sont trop faibles.
+
+Endettement, recours à différents types d’emprunt. Risque de ne pas être en mesure de rembourser sa dette.
+
+On s’aperçoit que quel que soit le mode de financement de l’entreprise il existe des coûts, ces différentes possibilités pour se financer influence le niveau global d’investissement à travers l’effet levier ( relation entre les fonds propres et l’endettement ) et le ratio « q » de Tobin ( relation entre investissement et marché boursier ). On 
+Une entreprise quand elle joue sur la structure de financement de ces investissements elle peut espérer réaliser des profits plus importants en misant sur l’effet levier.
+
+L’effet levier il montre l’effet de la structure financier sur la rentabilité des fonds propre.
+I = montant total d’investissement.
+A = Fonds propres.
+E = Capitaux empruntés au taux r.
+I = A + E
+Soit P = Taux de rentabilité de l’investissement qui est appelé taux de rentabilité économique.
+ PI/ A = Taux de rentabilité financier ou tx de rentabilité des fonds propres. Ce qui intéresse les actionnaires. Alors que E/A représenté le taux d’endettement d’une entreprise.
+SI P > r PI/A est une fonction croissante.
+Le taux de rentabilité financière augmente avec le taux d’endettement autrement dit PI/A est une fonction croissante de E/A tant que P > r. Sinon fonction négative.
+Dans ce cas l’entreprise à intérêt à s’endetter. On va donc avoir une hausse de l’investissement. Alors que si P < r. Elle a davantage intérêt à placer sur les marchés financiers. 
+TOBIN en 1969, vise à montrer comment l’investissement productif, acheté du capital fixe est influencé par la conjoncture boursière. Une entreprise quand elle veut augmenter ses capacités de productions il y a deux manières :
+- Soit elle achète des biens neufs ( Croissance interne )
+- Soit elle achète une ou plusieurs entreprises du même secteur ( Croissance externe ) Qui revient à acheter du capital/biens de production qui existe déjà.
+
+Une entreprise à le choix entre capital neuf/occasion dont le prix est déterminé sur le marché boursier ;
+
+« q » de Tobin rapport entre le capital existant et le prix du capital neuf. 
+Ratio si < 1  Valeur boursière inférieur à la valeur comptable, donc la firme ne va pas être tenté d’investir. Anticipation des cours boursiers. Et donc diminution de perspective de profits futurs.
+Ratio > 1 Plus dans l’investissement.
+
+Lorsqu’on est dans un bon climat financier, cela est favorable aux dépenses en biens d’équipements des entreprises.
+
+Pour conclure sur le chapitre : Retenir les variations de la demande des taux d’intérêts ont une influence sur le montant d’investissement, soit par l’intermédiaire d’un effet d’accélération, soit par l’intermédiaire de l’efficacité marginale du capital.
+
+CHAPITRE 3 : UNE VERSION MACRO ECONOMIQUE DU MODELE CLASSIQUE
+
+L’idée générale de l’approche classique en macro-économie peut être résumé de la manière suivante. Considérations de l’auto-régulation des marchés.
+On a une opposition à ce courant avec l’analyse keynésienne qui renvoie à une analyse économique en termes de marchés mais où il peut exister un équilibre de sous emplois.
+
+I.	Présentation du modèle
+I.1 Notions du modèle macroéconomique classique.
+Il existe entre les différents auteurs, un certain nombre de divergence qui sont d’avantages des nuances, et de manière assez générale, on peut noter qu’il existe un certain nombre d’idées centrale commune entre eux.
+Première idée repose sur la possibilité d’un plein emploi des facteurs de production :
+-	Capital 
+-	Travail
+S’il y a plein emploi du facteur travail, ( s’il existe du chômage, celui si est qualifié de volontaire ).
+Absence de crise de surproduction Ref à Say avec la loi des débouchés, ou encore Ricardo et l’état stationnaire.
+Résulte de l’approche et de la formation de l’équilibre sur le marché. En effet pour les libéraux, l’ajustement se réalise par les prix de manière automatique. Ça veut dire que les entreprises sont assurées d’écouler leur production. D’où le fait d’avoir une absence de crises de surproduction. 
+Troisième idée, dichotomie entre la sphère réelle  (marché des biens/services  marché qui détermine les quantités produites à l’équilibre en fonction de l’offre et de la demande ) et la sphère monétaire. Selon ces auteurs, l’accroissement de la monnaie en circulation ne peux pas avoir d’impact sur la sphère réelle. Autrement dit sur la production et donc sur le travail.
+
+La monnaie est un voile sur l’économie ( Un intermédiaire des échanges ).
+
+I.2 Généralités sur le modèle classique
+
+On sait qu’il existe un débat en ce qui concerne le rôle de l’Etat dans l’analyse classique et l’analyse keynésienne. Selon le courant libéral, l’Etat n’a pas ou très peu de rôle à jouer. Et cas extrême et de dire que l’intervention de l’Etat peu créer des déséquilibres. Autrement dit, le rôle de l’Etat se limite à un rôle de gendarme. Dans le modèle classique on va s’intéresser au modèle des marchés. On va chercher à comprendre les relations entre sphères réelle et sphère monétaire.
+Sphère réelle représentes par le marché des biens/services et marché du travail.
+Sphère monétaire s’intéressé au marché de la monnaie.
+
+Les relations qui vont exister entre ces trois marchés vont nous permettre de déterminer un revenu global le niveau d’emplois. Le taux d’intérêt et le niveau des prix. 
+
+Hypothèses du modèle ? 
+Absence de crises de surproduction = Tout bien produit va trouver un acheteur.
+Mécanismes d’ajustement qui sera le prix. Et donc l’analyse macro classique repose sur un modèle d’offre. Tout offre crée sa propre demande. Alors que chez Keynes c’est la demande qui engendre l’offre. On se situe dans un cadre de CPP. Cela sur tous les marchés, autrement dit sur le marché du travail. 
+
+Une heure d’électricien = Une heure de boulanger et information parfaite.
+
+II.	Secteur réel de l’économie  
+II.1 Marché des biens et services
+
+Sur le marché des biens et services on part de la loi de Say qui à pour origine le fait que la production réside dans l’offre. Et donc à partir du moment un bien est offert il trouvera un preneur. ( Absence des crises de surproduciton).
+Say se livre sur l’analyse du rôle de la monnaie pour établir son résultat. Il nous dit que la monnaie n’est qu’un intermédiaire des échanges. Elle n’est pas demander pour elle-même. Mais elle est demander pour les biens qu’elle permet de se procurer.
+
+Quand un bien est produit par une entreprise A. Cette entreprise à payé des ouvriers/salariés, qui avec le salaire reçu, vont acheter des biens à l’entreprise B et réciproquement.  La monnaie qui est disponible dans l’économie est dépensé et donc les crises de surproduction généralisée ne peuvent pas exister. 
+La monnaie n’est qu’un voile sur l’économie et donc aucune incidence réelle. Pas d’impact sur le marché des biens et services.
+
+II.2 Le marché du travail
+
+Il va nous permettre de déterminer le taux de salaire réel, le niveau d’emploi et le niveau de production. Les entreprises offrent des biens et services et vont donc demander du travail et du capital pour produire ces biens. Les ménages eux demandent des biens/services. Pour pouvoir les demander, ils leurs faut un revenu disponible. Soit de manière général un salaire. Et pour obtenir ce salaire, ils doivent offrir leurs travails. De ce fait la loi de l’offre et de la demande vont pouvoir s’appliquer de la même manière sur le marché du travail que sur le marché des biens et services. 
+On dit que la demande globale de travail est la somme de demande individuelle des entreprises. Sachant que la demande individuelle d’une entreprise c’est le nombre de quantité de travail demandé à chaque taux de salaire possible pour une entreprise, qui s’adressent à l’ensemble des agents économiques qui offrent leur travail ( les ménages ). 
+
+La demande collective de travail est la somme des demandes individuelles. C’est la même définition mais pour toutes les entreprises. De ce fait on a une fonction de demande de travail qui est décroissante du taux de salaire. 
+
+De manière parallèle, l’offre global de travail est la somme des offres individuelles de chaque ménage sachant que l’offre individuelle est le nombre de quantité de travail offerte à chaque taux de salaire possible pour un travailleur qui s’adressent à toutes les entreprises.
+
+DONC, l’offre de travail augmente en fonction du taux de salaire. Relation croissante.
+
+
+L’offre et la demande se rencontre sur un marché. Ce qui veut dire que ça implique un prix d’existence ( salaire ). 
+DONC sur le marché du travail il existe un couple prix, quantité, dans l’analyse classique le travail est vu comme une marchandise.
+
+ Fonction de production.
+K = capital
+L = Travail
+
+A court terme, seul le facteur travail varie. Autrement dit, le capital est fixe au moins à court termes. Il existe une relation univoque et croissante entre le niveau d’emplois et le niveau de production.
+Y = f(N ou L ) 
+
+On suppose que le marché des produits est un marché concurrentiel. Les prix s’imposent aux entreprises, ils décident uniquement des quantités qu’ils vont produire.
+
+Fonction de demande de travail se déduit de la maximisation de profit
+ Elle conduit à une égalité entre coût marginale et productivité marginale.
+( détail sur le producteur en micro )
+
+Ça revient à égaliser la marge du bénéfice attendu lors d’une utilisation d’une unité supplémentaire de travail, au coût marginal lié à cette unité supplémentaire. On égalise la productivité marginale physique du travail au taux de salaire réel unitaire. 
+
+W= salaire versé pour une unité de travail
+PI = p*Y – WN
+Maximisation du profit.
+P = constante
+
+F(x)  chercher un extremum on pose f’(x)=0.
+dérivée le profit par rapport au travail.
+dPI/dN= p*(dY/dN) – W = 0
+
+dY/dN = W/P
+Productivité marginale du travail = taux de salaire réel.
+W/P représente le taux de salaire réel. = coût marginal du travail.
+
+En supposant que la fonction de production est une fonction inversible, il est possible d’en déduire que la fonction de deux membres de travail est une fonction inverse du taux de salaire réel. Autrement dit c’est une fonction décroissante du fait de la décroissance de la productivité marginale du facteur variable qu’est le travail. 
+
+En ce qui concerne la fonction d’offre de travail. Les ménages vont faire un arbitrage entre la consommation et loisir. Les ménages cherchent à maximiser leur satisfaction. 
+C’est le taux de salaire réel qui intéresse les ménages, puisque préoccupé par le pouvoir d’achat. 
+Si le salaire réel augmente. Le coût de d’opportunité du loisir devient de plus en plus cher. En effet, chaque heure passer à ne pas travailler devient plus couteuse. Donc on va substituer son travail au loisir et donc augmenter son offre de travail. 
+
+Il existe donc un effet de substitution il peut également exister un effet revenu, lorsque le salaire réel augmente, cela veut dire que les heures qui sont déjà travaillées sont mieux rémunérées. Ça peut conduire à prendre davantage de temps de loisir. Et donc avoir une baisse du temps de travail.
+
+Théorie néoclassique va en faveur de l’effet de substitution, ce qui nous permet de dire que la fonction d’offre de travail est une fonction croissante du salaire réel. ( L’effet de substitution domine l’effet revenu)
+
+Equilibre sur le marché du travail
+L’offre de travail = Demande de travail.
+Variable commune est le taux de salaire réel avec une équation à une inconnue. Une fois le salaire réel d’équilibre déterminé, on va pouvoir sans difficulté déterminer le niveau d’emplois d’équilibre. Par l’intermédiaire de la fonction de production.
+
+On va trouver le taux de salaire réel d’équilibre (W/P)*.
+Le niveau d’emploi d’équilibre N*.
+ET par l’intermédiaire de la fonction de production. Y = f(N).
+
+On va pouvoir trouver la quantité offerte à l’équilibre.
+
+L’équilibre sur le marché du travail permet de déterminer de manière simultanée le taux de salaire réel d’équilibre, le niveau d’emplois d’équilibre ainsi que le niveau de production d'équilibre.
+Si le taux de salaire réel est inférieur au salaire d’équilibre.
+
+Si W1 < W* dans ce cas on a une demande de travail qui est supérieur à l’offre de travail.
+Dtravail > Otravail. Dans ce cas il existe un effet de concurrence entre les entreprises pour avoir les travailleurs, et les salaires monétaire vont donc augmenter ( salaire nominal ) le niveau des prix étant inchangé.
+
+Conduit à une augmentation de W. avec des prix qui sont constant.
+W/P augmente. Afin de réduire l’écart entre l’offre et la demande de travail. Le processus va se poursuivre jusqu’à ce que l’on retrouve l’équilibre entre l’offre et la demande de travail.
+
+Raisonnement similaire si on a W2>W*
+On a l’offre qui est supérieur à la demande.
+Otravail > Dtravail
+sous la CPP, l’ajustement va se réaliser par une baisse des salaires nominaux qui a prix inchangé va conduire à une baisse du salaire réel jusqu’à ce que on retrouve l’équilibre entre l’offre et la demande de travail. Les ménages vont accepter des salaires plus faibles.
+Quand on est en CPP. Le niveau d’emplois obtenu correspond au niveau de pleins emplois. ( néoclassiques ) autrement dit, aucun agent économique n’est rationné sur le marché du travail. Vu que tout s’ajuste par les prix.
+

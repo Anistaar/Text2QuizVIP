@@ -1,0 +1,419 @@
+=== HISTOIRE DES INSTITUTIONS ECONOMIQUES ===
+
+QCM || Premières institutions économiques antiquité || V:Organisation échanges et régulation monétaire|Banques modernes|Bourses actions|Corporations métiers
+
+QCM || Rôles principaux État époque romaine || V:Contrôle émission monétaire et gestion import|Politique sociale|Éducation publique|Santé publique
+
+QCM || Empire romain : objectif économique || Autarcie complète|V:Favoriser commerce au sein empire|Interdire échanges|Limiter marchés
+
+QCM || Conséquence commerce empire romain || Disparition marchés|V:Naissance marchés locaux|Centralisation totale|Planification étatique
+
+QCM || Moyen-Âge Europe : développements || V:Corporations métiers et guildes|Banques modernes|Marchés financiers|Assurances vie
+
+QCM || Moyen-Âge : création institutions || V:Banques et bourses primitives|Banques centrales|Marchés dérivés|Hedge funds
+
+QCM || Caractère institutions moyen-âge || Très structurées|V:Pas forcément structurées, règles informelles|Toujours formelles|Uniquement étatiques
+
+QCM || Exemples institutions informelles époque || V:BCE, FMI etc. mais informel|Seulement locales|Uniquement religieuses|Pas d'exemples
+
+QCM || Objectif guildes || Libéraliser accès|V:Réguler accès professions, interdire certains métiers|Faciliter commerce|Créer emplois
+
+QCM || Pouvoir corporation bouchers Paris || Économique uniquement|V:Fort pouvoir politique|Seulement local|Aucun pouvoir
+
+QCM || Fonctions banques époque vs aujourd'hui || Identiques|V:Pas mêmes fonctions qu'aujourd'hui, pas titres|Plus développées|Plus simples
+
+QCM || Rôle bourses primitives || Crédit personnel|V:Échanger devises, effets commerce, fixer cours marchandises|Assurance vie|Épargne retraite
+
+QCM || Conséquence fixation cours bourses || Concurrence pure|V:Oligopole|Monopole étatique|Marché parfait
+
+QCM || Rôle institution Église || Économique direct|V:Consultation|Réglementation|Production
+
+QCM || XVIe-XVIIIe : naissance || Cités-États|V:États modernes - monarchies centralisées|Républiques|Fédérations
+
+QCM || Exemples États modernes || Italie, Allemagne|V:France, Espagne, Angleterre|Russie, Pologne|Suède, Norvège
+
+QCM || Capacité États modernes || Régulation locale|V:Réguler économie manière structurée, plus règles, plus grand territoire|Moins de contrôle|Même capacité qu'avant
+
+QCM || Ordre chronologique développement || V:États modernes puis colonial|Colonial puis États modernes|Simultané|Inverse selon pays
+
+QCM || Premières institutions coloniales || Caritatives|V:But économique - Compagnie des Indes|Militaires|Religieuses
+
+QCM || Système colonial relie || Europe-Afrique|V:Asie et Europe|Amérique-Europe|Afrique-Asie
+
+QCM || Conséquence échanges coloniaux || Autarcie|V:Premiers débats économiques|Isolement|Uniformisation
+
+QCM || Débat économique époque || Libéraux vs socialistes|V:Mercantilistes vs physiocrates|Keynésiens vs monétaristes|Classiques vs néoclassiques
+
+=== FONDEMENTS THEORIQUES MODERNES ===
+
+QCM || Définition institution selon North (1991) || Organisation publique gérant économie|Ensemble règles formelles uniquement|V:Règles jeu société, contraintes conçues hommes structurant interaction|Entreprise grande taille
+
+QCM || Différence organisation vs institution || Organisations publiques, institutions privées|V:Organisations = joueurs, institutions = règles jeu|Organisations formelles, institutions informelles|Aucune différence
+
+QCM || Qui redéfinit institutions 1998 incluant organisations || Douglas North|V:Banque Mondiale|Dani Rodrik|Oliver Williamson
+
+QCM || Nombre types institutions Rodrik 2005 || 2|3|V:4|5
+
+QCM || Type 1 institutions Rodrik || Régulation marché|V:Création marché - droits propriété, système juridique|Stabilisation marché|Légitimation marché
+
+QCM || Type 2 institutions Rodrik || Création marché|V:Régulation marché - autorités régulation, agences contrôle|Stabilisation marché|Légitimation marché
+
+QCM || Type 3 institutions Rodrik || Création marché|Régulation marché|V:Stabilisation marché - institutions monétaires, budgétaires|Légitimation marché
+
+QCM || Type 4 institutions Rodrik || Création marché|Régulation marché|Stabilisation marché|V:Légitimation marché - protection sociale, redistribution
+
+QCM || Path dependence signifie || Dépendance aux importations|V:Dépendance au sentier, influence passé sur choix présents|Dépendance technologique|Dépendance financière
+
+QCM || Institutions formelles comprennent || Coutumes et traditions|V:Constitutions, lois, droits propriété|Codes conduite informels|Sanctions sociales
+
+QCM || Institutions informelles comprennent || Constitutions et lois|Droits de propriété|V:Sanctions, tabous, coutumes, traditions|Réglementations officielles
+
+QCM || Prix Nobel 1993 institutions || Ronald Coase|Oliver Williamson|V:Douglas North|George Akerlof
+
+QCM || Williamson 1975 contribution || Création institutions|V:Gouvernance et résolution conflits|Mesure corruption|Droits propriété
+
+QCM || Importance institutions selon théorie || Génèrent profits|V:Réduisent incertitude, structurent interactions|Créent emploi|Augmentent croissance automatiquement
+
+=== GOUVERNANCE MODERNE ===
+
+QCM || Caractéristique principale gouvernance moderne || Renforcement État central|V:Désengagement État central, pluralité acteurs|Centralisation décisions|Élimination secteur privé
+
+QCM || Mode décision gouvernance moderne || Verticalité hiérarchique|V:Décision en réseau vs verticalité traditionnelle|Autorité centralisée|Bureaucratie renforcée
+
+QCM || Type coordination gouvernance || Verticale|V:Coordination horizontale|Hiérarchique|Centralisée
+
+QCM || Méthode gouvernance moderne || Autorité|V:Négociation et compromis|Contrainte|Commandement
+
+QCM || Acteurs gouvernance moderne || Public uniquement|Privé uniquement|V:Pluralité - public, privé, société civile|Internationaux uniquement
+
+QCM || Premier principe bonne gouvernance || V:Efficacité - optimisation ressources|Autorité|Hiérarchie|Profit
+
+QCM || Deuxième principe bonne gouvernance || Efficacité|V:Responsabilisation - accountability acteurs|Contrôle|Croissance
+
+QCM || Troisième principe bonne gouvernance || Efficacité|Responsabilisation|V:Transparence - accès information|Simplicité
+
+QCM || Autres principes gouvernance || V:Participation, État de droit|Profit, compétitivité|Stabilité, sécurité|Autorité, contrôle
+
+QCM || Position France corruption Transparency International || 15ème sur 180|V:25ème sur 180|35ème sur 180|45ème sur 180
+
+QCM || Nombre critères Transparency International || 3|4|V:5|6
+
+QCM || Critère 1 Transparency International || V:Accès à la justice|Niveau PIB|Croissance économique|Taille population
+
+QCM || Critère 2 Transparency International || Accès justice|V:Transparence budgétaire|Stabilité politique|Développement humain
+
+QCM || Critère 3 Transparency International || Accès justice|Transparence budgétaire|V:Application effective des lois|Éducation
+
+QCM || Critère 4 Transparency International || Accès justice|Transparence budgétaire|Application lois|V:Capacité de sanctions
+
+QCM || Critère 5 Transparency International || Accès justice|Transparence budgétaire|Application lois|V:Liberté d'expression
+
+QCM || Accountability en gouvernance || Transparence financière|V:Responsabilisation des acteurs|Efficacité économique|Participation citoyenne
+
+QCM || État de droit signifie || Domination État|V:Respect des règles établies|Autorité judiciaire|Réglementation excessive
+
+=== ASYMETRIES D'INFORMATION ===
+
+QCM || Développeur théorie sélection adverse 1970 || Kenneth Arrow|Michael Spence|V:George Akerlof|Oliver Williamson
+
+QCM || Marché "lemons" Akerlof concerne || Marché fruits|V:Marché voitures occasion mauvaise qualité|Marché immobilier|Marché travail
+
+QCM || Timing information cachée sélection adverse || V:Avant la transaction|Après transaction|Pendant transaction|Pas information cachée
+
+QCM || Mécanisme sélection adverse || Information révélée|V:Information cachée avant transaction|Information parfaite|Information symétrique
+
+QCM || Conséquence sélection adverse || Augmentation prix|V:Produits mauvaise qualité chassent bons du marché|Amélioration qualité|Disparition vendeurs
+
+QCM || Rôle prix sélection adverse || Fonctionne normalement|V:Prix ne joue plus son rôle de signal qualité|Prix augmente|Prix diminue
+
+QCM || Conséquence extrême sélection adverse || Augmentation prix|Amélioration qualité|V:Effondrement complet du marché|Régulation automatique
+
+QCM || Aléa moral définition || Problème éthique entreprise|V:Modification comportement après engagement contractuel|Risque marché financier|Asymétrie avant contrat
+
+QCM || Timing information cachée aléa moral || Avant transaction|V:Après la transaction|Pendant négociation|Pas information cachée
+
+QCM || Exemple classique aléa moral || Achat voiture occasion|V:Conduite plus risquée après souscription assurance auto|Négociation salariale|Vente bien immobilier
+
+QCM || Aléa moral assurance santé || Sélection meilleurs risques|V:Consommation médicale excessive|Augmentation primes automatique|Réduction offre
+
+QCM || Développeurs théorie signaux || George Akerlof|V:Arrow et Spence|Douglas North|Oliver Williamson
+
+QCM || Fonction signal selon Spence || Cacher information|V:Communiquer qualité de manière coûteuse|Réduire prix|Éliminer concurrence
+
+QCM || Condition signal efficace || Gratuit|V:Coût du signal corrélé à la qualité|Obligatoire|Permanent
+
+QCM || Exemple signal marché travail || Expérience professionnelle|V:Diplôme comme signal productivité|Âge candidat|Lieu résidence
+
+QCM || Relation diplôme/chômage observée || Corrélation positive|V:Corrélation négative (plus diplôme, moins chômage)|Aucune corrélation|Corrélation variable
+
+QCM || Signaux coûteux Spence || V:Signaux coûteux pour communiquer qualité|Signaux gratuits plus efficaces|Signaux inutiles|Signaux trompeurs
+
+=== DROITS DE PROPRIETE ET BIENS COMMUNS ===
+
+QCM || Formalisation tragédie biens communs 1968 || Ronald Coase|Elinor Ostrom|V:Garrett Hardin|Oliver Williamson
+
+QCM || Origine tragédie biens communs || Excès réglementation|V:Surexploitation due absence incitation conservation|Privatisation excessive|Nationalisation
+
+QCM || Logique tragédie biens communs || Collective optimale|V:Logique individuelle vs collective|Coordination parfaite|Altruisme
+
+QCM || Critères classification biens || Prix et qualité|V:Rivalité et excluabilité|Public et privé|National et international
+
+QCM || Bien rival définition || Bien cher|V:Consommation par agent réduit disponibilité pour autres|Bien rare|Bien réglementé
+
+QCM || Bien excluable définition || Bien interdit|Bien exporté|V:Possibilité empêcher certains agents de consommer|Bien mauvaise qualité
+
+QCM || Nombre types biens rivalité/excluabilité || 2|3|V:4|5
+
+QCM || Types biens selon classification || Public, privé|V:Privé, public, club, commun|National, international|Matériel, immatériel
+
+QCM || Solution 1 tragédie biens communs || Laisser faire marché|V:Privatisation - attribution droits propriété|Augmenter accès libre|Réduire demande
+
+QCM || Solution 2 tragédie biens communs || Privatisation|V:Gestion collective - règles communautaires|Nationalisation|Libéralisation
+
+QCM || Solution 3 tragédie biens communs || Privatisation|Gestion collective|V:Régulation publique - intervention État|Dérégulation
+
+QCM || Pourcentage stocks halieutiques surexploités || 50%|60%|V:70%|80%
+
+QCM || Gestion pêcheries méthodes || Accès libre total|V:Quotas, sanctions, surveillance|Privatisation individuelle uniquement|Interdiction complète
+
+QCM || OPEP gisements pétroliers illustre || Tragédie pure|V:Solution par cartel et quotas production|Échec coordination|Bien public pur
+
+QCM || Théorème Coase allocation optimale || Intervention État|V:Droits propriété définis et coûts transaction nuls|Concurrence parfaite|Réglementation stricte
+
+QCM || Coase 1960 énonce || Marchés toujours efficients|V:Si droits propriété définis et coûts transaction nuls, allocation optimale|État doit toujours intervenir|Firmes dominent marchés
+
+=== COUTS DE TRANSACTION ===
+
+QCM || Développeur théorie coûts transaction || Douglas North|V:Ronald Coase|George Akerlof|Michael Spence
+
+QCM || Coase 1937 existence firmes || Maximiser profits|V:Organisation interne moins coûteuse que marché|Créer emploi|Innover
+
+QCM || École théorique coûts transaction || Keynésienne|V:École néo-institutionnelle|Monétariste|Classique
+
+QCM || Williamson facteurs coûts transaction || Taille entreprises|V:Spécificité actifs, incertitude, opportunisme|Concurrence|Réglementation
+
+QCM || Spécificité actifs selon Williamson || Actifs très chers|V:Investissements spécialisés difficiles à redéployer|Actifs publics|Actifs étrangers
+
+QCM || Incertitude facteur coûts || Certitude parfaite|V:Imprévisibilité de l'environnement|Stabilité totale|Information parfaite
+
+QCM || Opportunisme Williamson || Saisir bonnes affaires|V:Comportement intéressé avec ruse|Innovation|Flexibilité
+
+QCM || Rationalité limitée || Irrationalité agents|Rationalité parfaite|V:Capacités cognitives bornées individus|Rationalité collective
+
+QCM || Privilégier firme vs marché quand || Coûts transaction faibles|V:Coûts transaction élevés|Concurrence parfaite|Information parfaite
+
+QCM || Prix Nobel Williamson || 1993|2001|V:2009|2015
+
+=== INSEE ET IPC ===
+
+QCM || Année création INSEE || 1945|V:1946|1947|1950
+
+QCM || Tutelle INSEE || Ministère intérieur|V:Ministère économie|Ministère éducation|Premier ministre
+
+QCM || Année ère numérique INSEE || 2001|2002|V:2003|2004
+
+QCM || Innovation 2003 INSEE || Modernisation|V:Ère numérique et gratuité données|Réorganisation|Expansion
+
+QCM || Effectifs INSEE || 4400 agents|V:5400 agents|6400 agents|7400 agents
+
+QCM || Mission INSEE || Production uniquement|V:Collecte, production, diffusion statistiques|Collecte uniquement|Diffusion uniquement
+
+QCM || Prix collectés mensuellement IPC || 290 000|V:390 000|490 000|590 000
+
+QCM || Postes élémentaires IPC || 163|V:263|363|463
+
+QCM || Catégories COICOP IPC || 11|12|V:13|14
+
+QCM || COICOP signification || Committee Individual Consumption Products|V:Classification Individual Consumption by Purpose|Council International Consumer Price|Commission Individual Consumer Protection
+
+QCM || Problème poste logement IPC || Surévalué|V:6% dans IPC vs 25% budget réel ménages|Pas mesuré du tout|Varie trop
+
+QCM || Shrinkflation définition || Baisse générale prix|V:Réduction quantité sans changement prix|Inflation très faible|Déflation structurelle
+
+QCM || Effet qualité IPC || Bien capté|V:Amélioration produits non captée|Surévalué|Ignoré volontairement
+
+QCM || Ajustements hédoniques || Correction saisonnière|V:Décomposition prix selon attributs produit|Pondération géographique|Lissage temporel
+
+QCM || Défi économie numérique INSEE || Coût collecte|V:Gratuité apparente et nouveaux modèles économiques|Rapidité évolutions|Complexité technique seule
+
+QCM || Limite principale IPC || Trop volatile|V:Décalage entre inflation perçue et mesurée|Couvre pas assez produits|Publié trop tard
+
+QCM || Biais substitution IPC || Bien géré|V:Difficulté avec changements habitudes consommation|Inexistant|Surestimé
+
+=== EUROSTAT ===
+
+QCM || Création Eurostat || V:1952 avec la CECA|1957|1973|1979
+
+QCM || Adoption nom Eurostat || 1952|1957|V:1973|1979
+
+QCM || Siège Eurostat || Bruxelles|Strasbourg|V:Luxembourg|Francfort
+
+QCM || Effectifs Eurostat || 600 agents|700 agents|V:800 agents|900 agents
+
+QCM || Rôle crucial Eurostat euro || Fixer taux change|V:Vérification critères convergence|Gérer politique monétaire|Contrôler inflation directement
+
+QCM || Surveillance budgétaire Eurostat || Politique monétaire|V:Déficit et dette publique|Politique commerciale|Politique agricole uniquement
+
+QCM || Mission principale Eurostat || Définir politique économique européenne|V:Harmonisation statistiques européennes|Contrôler banques centrales|Gérer budget européen
+
+QCM || Coordination Eurostat || Politiques fiscales nationales|V:Instituts statistiques nationaux|Banques centrales nationales|Parlements nationaux
+
+QCM || Support politiques UE || Une seule politique|V:Support aux politiques UE générales|Politique agricole uniquement|Politique commerciale uniquement
+
+QCM || Indicateurs harmonisés || Nationaux uniquement|V:Production indicateurs européens|Locaux uniquement|Sectoriels uniquement
+
+=== INED ===
+
+QCM || Année création INED || V:1945|1946|1947|1950
+
+QCM || Fondateur INED || Jean Monnet|V:Alfred Sauvy|Pierre Mendès France|René Cassin
+
+QCM || Terme inventé Alfred Sauvy || Économie sociale marché|V:Tiers-Monde|État-providence|Développement durable
+
+QCM || Statut INED depuis 1986 || Ministère|V:EPST - Établissement Public Scientifique et Technologique|Association|Entreprise publique
+
+QCM || EPST signification || Établissement Public Spécialisé Technique|V:Établissement Public Scientifique et Technologique|Établissement Public Supérieur Technique|Établissement Public Service Territorial
+
+QCM || Tutelles INED || Économie uniquement|V:Ministères recherche et affaires sociales|Intérieur uniquement|Éducation uniquement
+
+QCM || Mission 1 INED || Statistiques économiques|V:Recherche démographique|Politique économique|Régulation financière
+
+QCM || Mission 2 INED || Formation générale|V:Expertise pour politiques publiques|Contrôle qualité|Audit public
+
+QCM || Mission 3 INED || Recherche privée|V:Diffusion connaissances|Collecte taxes|Réglementation
+
+QCM || Mission 4 INED || Contrôle entreprises|V:Formation chercheurs|Inspection|Certification
+
+QCM || Type institution INED (Rodrik) || Création marché|Régulation marché|Stabilisation marché|V:Légitimation marché
+
+QCM || Fonction légitimation INED || Contrôle|V:Fournit expertise pour justifier politiques publiques|Sanction|Réglementation
+
+=== NORMES COMPTABLES IFRS ===
+
+QCM || Année création IASC || 1971|1972|V:1973|1974
+
+QCM || Lieu création IASC || Paris|Bruxelles|V:Londres|Francfort
+
+QCM || Transformation IASC en IASB || 2000|V:2001|2002|2003
+
+QCM || IASC signification || International Accounting Standards Council|V:International Accounting Standards Committee|International Accounting Systems Committee|International Accounting Services Committee
+
+QCM || IASB signification || International Accounting Standards Bureau|V:International Accounting Standards Board|International Accounting Standards Base|International Accounting Standards Bank
+
+QCM || Application obligatoire IFRS UE || 2003|2004|V:2005|2006
+
+QCM || Pays adoptant IFRS || 100 pays|125 pays|V:150 pays|175 pays
+
+QCM || Pourcentage PNB mondial IFRS || 95%|96%|97%|V:98%
+
+QCM || Modèle comptable continental principe || Juste valeur|V:Principe de prudence|Transparence maximale|Réactivité
+
+QCM || Modèle continental protection || Investisseurs|V:Protection des créanciers|Managers|État
+
+QCM || Financement modèle continental || Marchés financiers|V:Banques et État|Fonds privés|Crowdfunding
+
+QCM || Caractéristique modèle continental || Volatilité|V:Stabilité et conservatisme|Spéculation|Innovation
+
+QCM || Base évaluation continental || Juste valeur|V:Coût historique|Valeur marché|Valeur liquidative
+
+QCM || Modèle anglo-saxon objectif || Protection créanciers|V:Aide décision investisseurs|Stabilité|Prudence
+
+QCM || Financement anglo-saxon || Banques|V:Marchés financiers|État|Coopératives
+
+QCM || Caractéristiques anglo-saxon || Prudence, stabilité|V:Transparence et réactivité|Conservatisme|Discrétion
+
+QCM || Base évaluation anglo-saxon || Coût historique|V:Juste valeur|Coût remplacement|Valeur comptable
+
+QCM || Création ANC France || 2007|2008|V:2009|2010
+
+QCM || ANC résulte fusion || INSEE + Eurostat|V:CNC + CRC|AMF + ACPR|CNIL + CSA
+
+QCM || CNC signification || Conseil National Commerce|V:Conseil National Comptabilité|Conseil National Crédit|Conseil National Communication
+
+QCM || CRC signification || Comité Régional Comptabilité|V:Comité Réglementation Comptable|Comité Régional Commerce|Comité Régional Crédit
+
+QCM || Mission double ANC || Contrôle + audit|V:Normes françaises + participation IFRS|Formation + recherche|Collecte + diffusion
+
+QCM || Nombre principes comptables français || 5|6|V:7|8
+
+QCM || Principe 1 comptable français || Régularité|V:Image fidèle|Prudence|Continuité
+
+QCM || Principe 2 comptable français || Image fidèle|V:Régularité et sincérité|Prudence|Continuité
+
+QCM || Principe 3 comptable français || Image fidèle|Régularité|V:Continuité d'exploitation|Prudence
+
+QCM || Principe 4 comptable français || Image fidèle|Régularité|Continuité|V:Permanence des méthodes
+
+QCM || Principe 5 comptable français || Image fidèle|Régularité|Continuité|V:Coût historique
+
+QCM || Principe 6 comptable français || Image fidèle|Régularité|Continuité|V:Indépendance des exercices
+
+QCM || Principe 7 comptable français || Image fidèle|Régularité|Continuité|V:Prudence
+
+QCM || Image fidèle signifie || Beauté comptes|V:Reflet de la réalité économique|Simplicité|Clarté formelle
+
+QCM || Régularité et sincérité || Innovation|V:Conformité aux règles établies|Créativité|Flexibilité
+
+QCM || Continuité exploitation || Arrêt activité|V:Entreprise poursuit son activité|Changement activité|Pause activité
+
+QCM || Permanence méthodes || Changement constant|V:Stabilité dans le temps|Innovation continue|Adaptation permanente
+
+QCM || Coût historique || Valeur actuelle|V:Valeur d'acquisition|Valeur de marché|Valeur liquidative
+
+QCM || Indépendance exercices || Mélange périodes|V:Rattachement à la période concernée|Globalisation|Lissage
+
+QCM || Prudence comptable || Optimisme|V:Anticipation des pertes, non des gains|Neutralité|Témérité
+
+QCM || Nombre caractéristiques qualitatives IFRS || 3|V:4|5|6
+
+QCM || Caractéristique 1 IFRS || Pertinence|V:Compréhensibilité immédiate|Fiabilité|Comparabilité
+
+QCM || Caractéristique 2 IFRS || Compréhensibilité|V:Pertinence|Fiabilité|Comparabilité
+
+QCM || Caractéristique 3 IFRS || Compréhensibilité|Pertinence|V:Fiabilité|Comparabilité
+
+QCM || Caractéristique 4 IFRS || Compréhensibilité|Pertinence|Fiabilité|V:Comparabilité
+
+QCM || Compréhensibilité IFRS || Expert uniquement|V:Utilisateur averti comprend immédiatement|Spécialiste uniquement|Formation longue requise
+
+QCM || Pertinence IFRS || Information inutile|V:Influence les décisions, importance relative|Information technique|Information historique
+
+QCM || Fiabilité IFRS || Forme sur substance|V:Substance sur forme, neutralité|Apparence|Formalisme
+
+QCM || Comparabilité IFRS || Une entreprise|V:Entre entreprises et dans le temps|Une période|Un secteur
+
+QCM || Juste valeur IFRS || Coût acquisition|V:Réévaluation à chaque clôture|Valeur historique|Coût amorti
+
+QCM || Prix marché juste valeur || Ignoré|V:Utilisé si disponible|Interdit|Déconseillé
+
+QCM || Conséquence juste valeur || Stabilité|V:Volatilité accrue des résultats|Simplicité|Prévisibilité
+
+QCM || Réactivité juste valeur || Retard|V:Réactivité aux évolutions|Inertie|Lenteur
+
+QCM || Coût historique France || Réévaluation|V:Coût d'acquisition initial|Valeur marché|Juste valeur
+
+QCM || Avantage coût historique || Volatilité|V:Stabilité des comptes|Complexité|Opacité
+
+QCM || Amortissement coût historique || Interdit|V:Amortissement systématique|Facultatif|Rare
+
+QCM || Théorie Casta 2003 || 2 déterminants|V:3 déterminants adoption IFRS|4 déterminants|5 déterminants
+
+QCM || Facteur 1 Casta || Économique|V:Facteurs politiques|Stratégique|Technique
+
+QCM || Facteur 2 Casta || Politique|V:Facteurs économiques|Stratégique|Social
+
+QCM || Facteur 3 Casta || Politique|Économique|V:Facteurs stratégiques|Culturel
+
+QCM || Facteurs politiques Casta || Indépendance|V:Pression internationale, appartenance UE|Isolement|Neutralité
+
+QCM || Facteurs économiques Casta || Fermeture|V:Développement marchés financiers, ouverture|Protection|Autarcie
+
+QCM || Facteurs stratégiques Casta || Discrétion|V:Recherche légitimité, attractivité investisseurs|Isolement|Conservation
+
+QCM || Limite 1 IFRS || Simplicité excessive|V:Absence prise compte risques climatiques/environnementaux|Trop prudent|Trop stable
+
+QCM || Limite 2 IFRS || Équilibre parfait|V:Avantage excessif investisseurs vs autres parties|Trop protecteur|Trop conservateur
+
+QCM || Limite 3 IFRS || Simplicité|V:Complexité d'application|Facilité|Évidence
+
+QCM || Limite 4 IFRS || Gratuité|V:Coût de mise en œuvre|Économie|Profit

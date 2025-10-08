@@ -23,6 +23,10 @@ const $$ = (sel: string, root: Document | HTMLElement = document) =>
 const els = {
   selectMatiere: $('#matiere') as HTMLSelectElement | null,
   selectCours: $('#cours') as HTMLSelectElement,
+  multiCoursCheckboxes: $('#cours-multi-checkboxes') as HTMLDivElement,
+  coursCheckboxList: $('#cours-checkbox-list') as HTMLDivElement,
+  selectAllCours: $('#select-all-cours') as HTMLInputElement,
+  multiCoursToggle: $('#multi-cours-toggle') as HTMLInputElement,
   selectThemes: $('#themes') as HTMLSelectElement,
   inputNombre: $('#nombre') as HTMLInputElement,
   radiosMode: $$('input[name="mode"]') as HTMLInputElement[],
@@ -48,6 +52,7 @@ const elsExtra = {
 type State = {
   mode: Mode;
   file: string;
+  files: string[]; // Pour la sélection multiple
   n: number;
 
   questions: Question[];
@@ -69,6 +74,7 @@ type State = {
 const state: State = {
   mode: 'entrainement',
   file: '',
+  files: [], // Nouveau: pour gérer plusieurs fichiers
   n: 10,
   questions: [],
   userAnswers: [],
@@ -132,6 +138,110 @@ function populateMatiereAndCourseSelects() {
   populateCourseSelect('');
 }
 
+// Logique de basculement entre sélection simple et multiple
+els.multiCoursToggle?.addEventListener('change', () => {
+  const isMulti = els.multiCoursToggle.checked;
+  
+  if (isMulti) {
+    // Passer en mode multi
+    els.selectCours.style.display = 'none';
+    els.multiCoursCheckboxes.style.display = 'block';
+    
+    // Créer les checkboxes pour tous les cours
+    createCoursCheckboxes();
+  } else {
+    // Passer en mode simple
+    els.selectCours.style.display = 'block';
+    els.multiCoursCheckboxes.style.display = 'none';
+  }
+});
+
+function createCoursCheckboxes() {
+  if (!els.coursCheckboxList) return;
+  
+  els.coursCheckboxList.innerHTML = '';
+  
+  // Récupérer les cours filtrés selon la matière sélectionnée
+  const folderFilter = els.selectMatiere?.value || '';
+  const filtered = folderFilter ? courses.filter((c) => c.folder === folderFilter) : courses;
+  
+  // Grouper par dossier pour un affichage plus clair
+  const groupedCourses = new Map<string, typeof courses>();
+  for (const course of filtered) {
+    const folder = course.folder;
+    if (!groupedCourses.has(folder)) {
+      groupedCourses.set(folder, []);
+    }
+    groupedCourses.get(folder)!.push(course);
+  }
+  
+  // Créer les checkboxes groupées par dossier
+  for (const [folder, courseList] of groupedCourses) {
+    // Afficher le nom du dossier si on montre plusieurs dossiers
+    if (groupedCourses.size > 1) {
+      const folderHeader = document.createElement('div');
+      folderHeader.style.fontWeight = '600';
+      folderHeader.style.fontSize = '12px';
+      folderHeader.style.color = 'var(--muted)';
+      folderHeader.style.marginTop = '8px';
+      folderHeader.style.marginBottom = '4px';
+      folderHeader.textContent = folder;
+      els.coursCheckboxList.appendChild(folderHeader);
+    }
+    
+    for (const course of courseList) {
+      const item = document.createElement('div');
+      item.className = 'cours-checkbox-item';
+      
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.value = course.path;
+      checkbox.id = `cours-${course.path.replace(/[^a-zA-Z0-9]/g, '_')}`;
+      
+      const label = document.createElement('label');
+      label.htmlFor = checkbox.id;
+      label.textContent = course.label;
+      label.style.flex = '1';
+      label.style.cursor = 'pointer';
+      
+      // Ajouter un tag pour le dossier si on affiche plusieurs dossiers
+      if (groupedCourses.size > 1) {
+        const folderTag = document.createElement('span');
+        folderTag.className = 'folder-tag';
+        folderTag.textContent = folder;
+        item.appendChild(folderTag);
+      }
+      
+      // Event listener pour mettre à jour les thèmes
+      checkbox.addEventListener('change', () => {
+        loadMultiCoursesForThemes();
+      });
+      
+      item.appendChild(checkbox);
+      item.appendChild(label);
+      els.coursCheckboxList.appendChild(item);
+    }
+  }
+}
+
+// Gestionnaire pour "Tout sélectionner"
+els.selectAllCours?.addEventListener('change', () => {
+  const checkboxes = $$('#cours-checkbox-list input[type="checkbox"]') as HTMLInputElement[];
+  const isChecked = els.selectAllCours.checked;
+  
+  checkboxes.forEach(cb => {
+    cb.checked = isChecked;
+  });
+  
+  // Mettre à jour les thèmes
+  loadMultiCoursesForThemes();
+});
+
+function syncCoursSelectors() {
+  // Cette fonction n'est plus nécessaire avec les checkboxes
+  // mais on la garde pour éviter les erreurs
+}
+
 function populateCourseSelect(folderFilter: string) {
   if (!els.selectCours) return;
   els.selectCours.innerHTML = '';
@@ -154,12 +264,41 @@ function populateCourseSelect(folderFilter: string) {
   els.selectCours.value = filtered[0].path;
   state.file = filtered[0].path;
   loadCourseForThemes(state.file);
+  
+  // Si on est en mode multi, recréer les checkboxes avec les nouveaux cours
+  if (els.multiCoursToggle?.checked) {
+    createCoursCheckboxes();
+  }
 }
 
 els.selectCours?.addEventListener('change', () => {
   state.file = els.selectCours.value;
   loadCourseForThemes(state.file);
 });
+
+function loadMultiCoursesForThemes() {
+  // Récupérer les checkboxes cochées
+  const checkedBoxes = $$('#cours-checkbox-list input[type="checkbox"]:checked') as HTMLInputElement[];
+  const selectedFiles = checkedBoxes.map(cb => cb.value).filter(Boolean);
+  
+  if (selectedFiles.length === 0) {
+    fillThemes([]);
+    return;
+  }
+  
+  const allThemes = new Set<string>();
+  
+  for (const filename of selectedFiles) {
+    const course = courses.find((c) => c.path === filename || c.file === filename);
+    if (course) {
+      const parsed = parseQuestions(course.content);
+      const unique = dedupeQuestions(parsed);
+      unique.forEach((q) => (q.tags ?? []).forEach((t) => allThemes.add(t)));
+    }
+  }
+  
+  fillThemes(Array.from(allThemes).sort((a, b) => a.localeCompare(b)));
+}
 
 function loadCourseForThemes(filename: string) {
   const course = courses.find((c) => c.path === filename || c.file === filename);
@@ -422,30 +561,70 @@ async function start() {
   state.selectedThemes = getSelectedThemes();
 
   const normalizePath = (s: string) => s.replace(/\\/g, '/');
-  const want = normalizePath(state.file || '');
-  let course = courses.find((c) => normalizePath(c.path) === want || normalizePath(c.file) === want);
-  if (!course) {
-    // try fuzzy match: endsWith
-    course = courses.find((c) => normalizePath(c.path).endsWith(want) || want.endsWith(normalizePath(c.file)));
-  }
-  if (!course) {
-    console.warn('Available course paths:', courses.map(c => c.path));
-    return renderError(`Cours introuvable : ${state.file}`);
+  
+  // Déterminer les fichiers à utiliser (mode simple ou multiple)
+  let selectedFiles: string[] = [];
+  
+  if (els.multiCoursToggle.checked) {
+    // Mode multiple : récupérer les checkboxes cochées
+    const checkedBoxes = $$('#cours-checkbox-list input[type="checkbox"]:checked') as HTMLInputElement[];
+    selectedFiles = checkedBoxes.map(cb => cb.value).filter(Boolean);
+    
+    if (selectedFiles.length === 0) {
+      return renderError('Veuillez sélectionner au moins un cours en mode multi-fichiers.');
+    }
+  } else {
+    // Mode simple : utiliser le fichier sélectionné
+    selectedFiles = [state.file || els.selectCours.value];
   }
 
-  // Parse, dédup, filtre thèmes
-  let pool = dedupeQuestions(parseQuestions(course.content));
-  // filter by selected themes
+  // Collecter toutes les questions de tous les fichiers sélectionnés
+  let allQuestions: Question[] = [];
+  let courseLabels: string[] = [];
+  
+  for (const filePath of selectedFiles) {
+    const want = normalizePath(filePath);
+    let course = courses.find((c) => normalizePath(c.path) === want || normalizePath(c.file) === want);
+    if (!course) {
+      // try fuzzy match: endsWith
+      course = courses.find((c) => normalizePath(c.path).endsWith(want) || want.endsWith(normalizePath(c.file)));
+    }
+    if (!course) {
+      console.warn('Available course paths:', courses.map(c => c.path));
+      return renderError(`Cours introuvable : ${filePath}`);
+    }
+    
+    courseLabels.push(course.label);
+    
+    // Parse et ajoute les questions de ce cours
+    const questionsFromCourse = parseQuestions(course.content);
+    // Ajouter une propriété pour tracer l'origine du cours
+    questionsFromCourse.forEach(q => {
+      (q as any).sourceCourse = course!.label;
+    });
+    allQuestions.push(...questionsFromCourse);
+  }
+
+  // Déduplication globale
+  let pool = dedupeQuestions(allQuestions);
+  
+  // Filtrer par thèmes sélectionnés
   if (state.selectedThemes.length > 0) {
     pool = pool.filter((q) => (q.tags ?? []).some((t) => state.selectedThemes.includes(t)));
     pool = dedupeQuestions(pool);
   }
-  // filter by selected question types (if user unchecked some types)
+  
+  // Filtrer par types de questions sélectionnés
   const selectedTypes = getSelectedTypes();
   if (selectedTypes.length > 0 && selectedTypes.length < 4) {
     pool = pool.filter((q) => selectedTypes.includes(q.type));
   }
-  if (pool.length === 0) return renderError('Aucune question ne correspond aux thèmes sélectionnés.');
+  
+  if (pool.length === 0) return renderError('Aucune question ne correspond aux critères sélectionnés.');
+
+  // Mettre à jour l'état avec les informations multi-cours
+  state.files = selectedFiles;
+  state.file = selectedFiles.length === 1 ? selectedFiles[0] : courseLabels.join(' + ');
 
   // Priorité aux cartes "dûes" (Leitner)
   const due = pool.filter(isDue);
@@ -536,14 +715,21 @@ function render() {
 }
 
 function helperText(q: Question): string {
-  if (q.type === 'VF') return 'Choisis Vrai ou Faux.';
-  if (q.type === 'DragMatch') return 'Glisse les réponses dans les bonnes cases.';
-  const nb = countCorrect(q);
-  if (q.type === 'QR') return 'Sélectionne la bonne réponse.';
-  if (q.type === 'QCM') return nb > 1
-    ? 'Plusieurs réponses possibles — coche toutes les bonnes.'
-    : 'Une ou plusieurs réponses possibles.';
-  return '';
+  let text = '';
+  if (q.type === 'VF') text = 'Choisis Vrai ou Faux.';
+  else if (q.type === 'DragMatch') text = 'Glisse les réponses dans les bonnes cases.';
+  else if (q.type === 'QR') text = 'Sélectionne la bonne réponse.';
+  else if (q.type === 'QCM') {
+    const nb = countCorrect(q);
+    text = nb > 1 ? 'Plusieurs réponses possibles — coche toutes les bonnes.' : 'Une ou plusieurs réponses possibles.';
+  }
+  
+  // Ajouter la source si en mode multi-cours
+  if (els.multiCoursToggle.checked && (q as any).sourceCourse) {
+    text += ` <span style="color: var(--muted); font-style: italic;">[${(q as any).sourceCourse}]</span>`;
+  }
+  
+  return text;
 }
 
 /* ---------- écrans questions ---------- */

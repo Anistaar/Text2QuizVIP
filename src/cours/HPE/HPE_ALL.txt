@@ -1,0 +1,371 @@
+=== INTRODUCTION - STATUT DE L'ECONOMIE ===
+
+QCM || Trois arguments faisant penser que l'économie est une science || V:On parle de sciences économiques, prix Nobel depuis 1969, modélisation mathématique|Seulement le prix Nobel|Uniquement la modélisation|Seulement le nom "sciences économiques"
+
+QCM || Prix Nobel d'économie vrai nom || Prix Nobel d'économie|V:Prix de la banque de Suède en sciences économiques en mémoire d'Alfred Nobel|Prix Nobel de la paix économique|Prix européen d'économie
+
+QCM || Année création prix Nobel économie || 1967|1968|V:1969|1970
+
+QCM || Différence économie vs sciences naturelles || Même méthode|V:En économie on peut revenir aux théories passées, pas en sciences naturelles|Économie plus rigoureuse|Aucune différence
+
+QCM || Connaissances en économie vs sciences naturelles || V:Connaissances passées continuent d'influencer le futur en économie|Remplacement systématique comme en sciences|Évolution identique|Pas d'évolution
+
+QCM || Histoire sciences naturelles selon le cours || Utile pour pratique actuelle|V:Musée de théories dépassées|Guide pour recherche|Base théorique
+
+QCM || Thomas Kuhn ouvrage principal || V:La structure des révolutions scientifiques|L'origine des espèces|Théorie générale|Principes d'économie
+
+QCM || Concept clé de Kuhn || Révolution|V:Paradigme|Évolution|Progrès
+
+QCM || Paradigme selon Kuhn || Théorie isolée|V:Modèle commun, cadre d'analyse d'une communauté scientifique|Méthode unique|Outil mathématique
+
+QCM || Caractéristique communauté scientifique Kuhn || Désaccord permanent|V:Cohésion, consensus autour principes base et méthodes|Individualisme|Compétition
+
+QCM || Révolution scientifique Kuhn || Évolution lente|V:Changement de paradigme face aux anomalies|Amélioration continue|Retour en arrière
+
+QCM || Analogie construction puzzle Kuhn || V:Science normale résout problèmes dans cadre établi|Science révolutionnaire|Création de nouveaux puzzles|Destruction paradigmes
+
+QCM || Révolution keynésienne année || 1929|1935|V:1936|1937
+
+QCM || Paradigme avant Keynes || Keynésien|V:Classique - marché et non-intervention État|Marginaliste|Marxiste
+
+QCM || Position Keynes sur rôle État || État ne doit pas intervenir|V:État doit jouer un rôle dans l'économie|État doit tout contrôler|État inexistant
+
+QCM || Cohésion économistes selon cours || V:N'a jamais véritablement existé autour d'un paradigme|Parfaite cohésion|Cohésion temporaire|Cohésion croissante
+
+QCM || Coexistence en économie || Un seul paradigme|V:Coexistence d'écoles de pensées qui dominent une période|Chaos théorique|Uniformité
+
+QCM || Karl Popper nationalité || Américain|Français|Allemand|V:Britannique
+
+QCM || Critère démarcation Popper conditions || Une seule condition|V:Cohérence logique ET testabilité|Seulement cohérence|Seulement testabilité
+
+QCM || Proposition scientifique Popper || Toujours vraie|V:Réfutable par événement concevable|Irréfutable|Évidente
+
+QCM || Exemple tous cygnes blancs || V:Rentre dans champ science (cohérent et testable)|Non scientifique|Partiellement scientifique|Impossible à déterminer
+
+QCM || Transitivité microéconomie exemple || Pierre papier ciseaux|V:A>B, B>C donc A>C sauf pierre-feuille-ciseaux|A=B=C|Aucun ordre
+
+QCM || Problème propositions économiques || Toujours testables|V:Nombreuses propositions non testables par nature|Facilement testables|Testabilité parfaite
+
+QCM || Concurrence pure parfaite réalité || Correspond parfaitement|V:Aucune hypothèse ne correspond à la réalité|Partiellement réaliste|Proche réalité
+
+QCM || Lois tendancielles caractéristique || Absolues|V:Évolution variable sauf si facteurs l'empêchent|Précises|Immuables
+
+QCM || Expérimentation économie vs laboratoire || Identique|V:Très difficile conditions pratiques|Plus facile|Impossible
+
+QCM || Validation théories économiques || Facilement validées|V:Très difficile d'infirmer en économie|Systématiquement validées|Rapidement invalidées
+
+QCM || Coexistence paradigmes économie || Impossible|V:Fragilité expérimentation explique coexistence possible|Temporaire seulement|Inadmissible
+
+QCM || Chômage paradigme libéral/classique || Insuffisance demande|V:Salaires trop élevés par rapport productivité|Manque formation|Problème technologique
+
+QCM || Chômage paradigme keynésien || Salaires trop élevés|V:Insuffisance de la demande|Surproduction|Problème offre
+
+=== ECOLE CLASSIQUE - VALEUR TRAVAIL ===
+
+QCM || École classique période || XVIIe siècle|V:XVIIIe siècle|XIXe siècle|XXe siècle
+
+QCM || Questions centrales école classique || Prix et utilité|V:Création richesse, formation valeur, répartition équitable|Consommation et production|Marché et concurrence
+
+QCM || Critère appartenance école classique || Utilité marginale|V:Valeur d'un bien repose sur le travail|Préférences individuelles|Équilibre marché
+
+QCM || Économistes appartenant école classique || Walras, Jevons, Menger|V:Adam Smith, David Ricardo, Robert Malthus, Karl Marx|Marshall, Pareto|Keynes, Friedman
+
+QCM || Opposition idéologique classiques || Tous libéraux|V:Smith libéral, Marx socialiste/communiste|Tous socialistes|Tous conservateurs
+
+QCM || Sous-catégorie école classique anglaise || Marx et Ricardo|V:Smith et Ricardo - libéralisme économique|Malthus et Marx|Smith et Malthus
+
+QCM || Être libéral signifie || État interventionniste|V:Croire en efficacité marché, État ne doit pas intervenir directement|État planificateur|État propriétaire
+
+QCM || Trois piliers libéralisme || État, marché, société|V:Individualisme, liberté économique, équilibre économique|Solidarité, égalité, fraternité|Ordre, autorité, tradition
+
+QCM || Rôle État pour libéraux || Actif et interventionniste|V:Arbitre qui encadre et garantit liberté économique|Propriétaire moyens production|Planificateur central
+
+QCM || Aristote conception valeur || Une seule valeur|V:Deux valeurs - usage et échange|Trois valeurs|Valeur unique
+
+QCM || Valeur d'usage définition || Capacité d'échange|V:Utilité du bien|Prix du bien|Rareté du bien
+
+QCM || Valeur d'échange définition || Utilité du bien|V:Nombre d'unités d'autres biens obtenus en échange|Coût de production|Travail incorporé
+
+QCM || Lien valeurs usage/échange selon Smith || Toujours proportionnelles|V:Non liées selon Smith|Inversement proportionnelles|Parfaitement corrélées
+
+QCM || Paradoxe eau/diamant eau || Valeur usage faible, échange élevée|V:Valeur usage max, échange minimale|Valeurs équilibrées|Valeur usage nulle
+
+QCM || Paradoxe eau/diamant diamant || V:Valeur usage minimale, échange max|Valeur usage max, échange faible|Valeurs équilibrées|Aucune valeur
+
+QCM || Condition valeur d'échange || Valeur usage nulle|V:Certaine valeur usage nécessaire mais pas proportionnelle|Valeur usage max|Parfaite proportionnalité
+
+QCM || Recherche étalon mesure Smith || Qui varie dans temps|V:Ne varie ni temps ni espace|Variable selon lieu|Flexible
+
+QCM || Étalon choisi par Smith || Métaux précieux|V:Effort humain, travail|Monnaie|Blé
+
+QCM || Valeur travail pour Smith || Variable selon personne|V:Même pour tout monde - coût renoncement repos|Différente par classe|Dépend du bien
+
+QCM || Société primitive Smith || Classes sociales|V:Pas de classes sociales, chaque travailleur récupère intégralement produit|Inégalités|Propriété privée
+
+QCM || Exemple société primitive castor/daim || Castor 1h, daim 2h|V:Castor 2h, daim 1h|Castor 3h, daim 1h|Temps égal
+
+QCM || Échange société primitive 1 daim || 2 castors|V:1/2 castor|1 castor|3 castors
+
+QCM || Société avancée Smith classes || Deux classes|V:Trois classes - travailleurs, propriétaires moyens production, propriétaires terriens|Quatre classes|Une classe
+
+QCM || Double déduction société avancée || Une seule déduction|V:Profit (propriétaires moyens production) et rente (propriétaires terriens)|Impôts seulement|Taxes diverses
+
+QCM || Profit Smith définition || Salaire élevé|V:Part aux propriétaires moyens de production|Bénéfice travailleur|Revenu État
+
+QCM || Rente Smith définition || Loyer immobilier|V:Part aux propriétaires terriens|Profit agricole|Salaire foncier
+
+QCM || Conséquence double déduction || Salaire augmente|V:Valeur d'échange augmente avec intermédiaires|Prix diminue|Stabilité
+
+QCM || Critique Ricardo contre Smith || Approche correcte|V:Pourquoi valeur double avec propriétaire foncier alors qu'efforts identiques|Méthode insuffisante|Calcul erroné
+
+QCM || Solution Ricardo || Travail commandé|V:Travail incorporé|Travail abstrait|Travail concret
+
+QCM || Travail incorporé Ricardo || V:Quantité travail nécessaire pour être produit|Travail commandé|Travail payé|Travail social
+
+QCM || Composition travail incorporé || Travail direct seulement|V:Travail direct + travail indirect|Travail indirect seulement|Travail abstrait
+
+QCM || Avantage théorie Ricardo || Dépend société|V:Plus d'interférence entre valeur bien et société|Complexité sociale|Subjectivité
+
+QCM || Limite pratique Ricardo || Facilité calcul|V:Difficultés pratiques prise en compte travail indirect|Simplicité|Évidence
+
+QCM || Marx critique Ricardo || Accord total|V:Travail trop différent par nature, compare incomparable|Méthode parfaite|Calcul correct
+
+QCM || Travail concret Marx || Travail homogène|V:Tâches propres chaque production, non comparables|Travail mesurable|Travail abstrait
+
+QCM || Travail abstrait Marx || Travail spécialisé|V:Travail impersonnel, homogène et mesurable|Travail concret|Travail individuel
+
+QCM || Fondement valeur Marx || Travail concret|V:Travail abstrait seul comparable|Utilité|Prix marché
+
+QCM || Valeur représentation Marx || Réalité objective|V:Représentation sociale, image commune|Mesure physique|Donnée naturelle
+
+QCM || Unité mesure travail abstrait Marx || Travail complexe|V:Travail simple - force physique homme ordinaire|Travail spécialisé|Travail intellectuel
+
+QCM || Travail simple Marx || Travail qualifié|V:Force physique tout homme ordinaire possède|Travail technique|Travail artistique
+
+QCM || Travail complexe Marx || Travail simple|V:Multiple du travail simple|Travail différent|Travail supérieur
+
+QCM || Travail socialement nécessaire || Travail individuel|V:Quantité travail nécessaire production dans conditions sociales normales|Travail minimum|Travail maximum
+
+QCM || Effet progrès technique Marx || Augmente valeur|V:Diminue temps travail socialement nécessaire|Stabilise valeur|Complexifie production
+
+QCM || Conséquence non-adoption progrès || Avantage compétitif|V:Valeur travail divisée, activité peut devenir non rentable|Stabilité|Profit supplémentaire
+
+QCM || Valeur bien société avancée Smith || Travail seulement|V:Travail + rente + profit|Profit seulement|Rente seulement
+
+QCM || Profit légitimité Smith || Arbitraire|V:Contrepartie risque prise, proportionnel au risque|Exploitation|Hasard
+
+QCM || Taux profit naturel Smith || Variable|V:Taux correspondant conditions normales d'investissement|Fixe|Aléatoire
+
+QCM || Rente justification Smith || Travail foncier|V:Contrepartie mise disposition terres aux travailleurs|Profit agricole|Investissement
+
+QCM || Salaire détermination Smith || Fixe|V:Résiduel - valeur bien moins profit et rente|Principal|Prioritaire
+
+QCM || Rapport de force Smith || Équilibré|V:Travailleurs position faiblesse sans moyens production|Travailleurs dominants|Capitalistes faibles
+
+QCM || Justification inégalité Smith || Injuste|V:Nécessaire pour croissance via investissement financé par profit|Temporaire|Évitable
+
+QCM || Logique Smith pauvreté || Pauvreté absolue seule compte|V:Mieux être pauvre société riche que riche société pauvre|Égalité nécessaire|Pauvreté relative importante
+
+QCM || Ricardo profit définition || Principal revenu|V:Ce qui reste après paiement rente et salaire|Salaire déguisé|Rente industrielle
+
+QCM || Rente Ricardo domaine || Tous secteurs|V:Uniquement agriculture|Industrie seulement|Services seulement
+
+QCM || Rente Ricardo principe || Fixe pour toutes terres|V:Proportionnelle fertilité du sol|Inversement proportionnelle|Aléatoire
+
+QCM || Salaire Ricardo niveau || Variable|V:Niveau naturel minimal de subsistance|Élevé|Négocié
+
+QCM || Production travail Ricardo || Formation|V:Permettre travailleur capable autre journée et trouver remplaçant|Loisir|Consommation
+
+QCM || Baisse tendancielle profit Ricardo || Théorie fausse|V:Taux profit diminue fil du temps|Taux augmente|Taux stable
+
+QCM || État stationnaire Ricardo || Croissance infinie|V:Production n'augmente plus, se répète période en période|Décroissance|Stagnation temporaire
+
+QCM || Solution baisse profit Ricardo || Aucune solution|V:Importation produits agricoles coût production plus faible|Augmenter salaires|Réduire production
+
+QCM || Marx force travail || Travail même|V:Ensemble facultés physiques et intellectuelles pour créer choses utiles|Capacité physique|Énergie
+
+QCM || Salaire Marx rémunère || Travail effectué|V:Force de travail|Productivité|Résultat
+
+QCM || Valeur force travail Marx || Production réelle|V:Quantité travail socialement nécessaire à sa production|Utilité|Prix marché
+
+QCM || Subsistance Marx || Travailleur seul|V:Travailleur et sa famille|Individu isolé|Groupe large
+
+QCM || Mode production capitaliste Marx || Échanges directs|V:Mode de production salarial|Troc|Autarcie
+
+QCM || Exploitation capitaliste Marx || Mythe|V:Appropriation plus-value du travail|Coopération|Partenariat
+
+QCM || Plus-value Marx || Bonus|V:Différence entre valeur créée et salaire versé|Profit normal|Rémunération
+
+QCM || Malthus point départ || Ses propres idées|V:Richesse des Nations d'Adam Smith|Théories Ricardo|Pensée Marx
+
+QCM || Critique Malthus Smith || Accord total|V:Richesse peut croître sans amélioration situation individuelle|Théorie parfaite|Calcul correct
+
+QCM || Loi naturelle Malthus || Croissance identique|V:Population géométrique, production arithmétique|Production plus rapide|Équilibre naturel
+
+QCM || Rendements terre Malthus || Croissants|V:Décroissants car meilleures terres utilisées avant|Constants|Variables
+
+QCM || Triple paupérisation Malthus || Enrichissement|V:Appauvrissement tous, travailleurs plus, conditions vie plus pauvres|Stabilité|Amélioration
+
+QCM || Régulateur croissance démographique || Politique nataliste|V:Dégradation conditions de vie|Progrès médical|Éducation
+
+=== ECOLE MARGINALISTE - PRIX ET MARCHE ===
+
+QCM || Apparition marginalisme || 1860|V:1870|1880|1890
+
+QCM || Concept origine marginalisme || Valeur travail|V:Utilité marginale|Prix naturel|Coût production
+
+QCM || Fondateurs marginalisme || Smith, Ricardo, Marx|V:Carl Menger, William Jevons, Léon Walras|Marshall, Pareto|Keynes, Schumpeter
+
+QCM || Autre nom marginalistes || Classiques|V:Néoclassiques|Post-keynésiens|Monétaristes
+
+QCM || Justification terme néoclassique || Continuité directe|V:Non justifiée - changement radical perspective|Évolution naturelle|Amélioration
+
+QCM || Différence 1 analyse || V:Classiques ancrés réel/société, marginalistes agents marché|Même approche|Marginalistes plus réalistes|Classiques abstraits
+
+QCM || Vocabulaire marginalistes || Capitaliste, travailleur|V:Producteur, offreur de travail|Bourgeois, prolétaire|Propriétaire, locataire
+
+QCM || Différence 2 objet étude || Même science|V:Classiques science richesse, marginalistes science choix individuels|Marginalistes plus larges|Classiques plus précis
+
+QCM || Différence 3 expression || Même méthode|V:Classiques littéraire, marginalistes mathématique|Classiques mathématiques|Marginalistes littéraires
+
+QCM || Premier mathématiques || Smith|V:Malthus avec géométrique|Ricardo|Marx
+
+QCM || Différence 4 valeur || Même théorie|V:Classiques valeur travail, marginalistes utilité marginale|Inversé|Complémentaires
+
+QCM || Paradoxe eau/diamant Smith || Résolu par Smith|V:Rejeté par Smith|Ignoré|Expliqué différemment
+
+QCM || Réponse marginalistes paradoxe || Travail incorporé|V:Rareté relative influence valeur|Utilité absolue|Coût production
+
+QCM || Exemple Jevons valeur || Diamant|V:Pourquoi perles ont valeur|Eau|Or
+
+QCM || Approche classique perles || Rareté|V:Valeur élevée car incorporent grande quantité travail|Utilité|Beauté
+
+QCM || Contre-exemple Jevons || Perles chères|V:Nacre ne vaut rien malgré même travail|Plongée difficile|Rareté perles
+
+QCM || Conclusion marginaliste valeur || Déterminée par travail|V:Non déterminée par travail|Subjective seulement|Objective seulement
+
+QCM || Perles valeur élevée car || Travail incorporé|V:Recherchées (utiles) et rares|Belles|Chères
+
+QCM || Bien économique Menger conditions || Utilité seulement|V:Utilité reconnue ET rareté|Rareté seulement|Prix élevé
+
+QCM || Rareté notion || Absolue|V:Relative - besoin excède quantité disponible|Physique|Temporaire
+
+QCM || Bien utilité max rareté nulle || Diamant|V:Air qu'on respire|Eau|Pain
+
+QCM || Valeur caractère Menger || Objectif|V:Subjectif|Mesurable|Absolu
+
+QCM || Exemple ordinateur cours || Valeur constante|V:Valeur varie selon utilité perçue et quantité|Prix fixe|Utilité fixe
+
+QCM || Raisonnement Menger || Utilité totale|V:Utilité marginale|Coût moyen|Prix absolu
+
+QCM || Utilité marginale rapport quantité || Proportionnelle|V:Plus quantité augmente, moins utilité augmente|Indépendante|Inverse
+
+QCM || Menger expression utilité || Exprimable mathématiquement|V:Non exprimable - conscience mais incapable exprimer|Facilement mesurable|Toujours chiffrée
+
+QCM || Jevons utilité définition || Propriété concrète|V:Qualité abstraite objet sert desseins|Mesure physique|Caractéristique tangible
+
+QCM || Jevons utilité devient || Subjective seulement|V:Propriété abstraite du bien|Psychologique|Individuelle
+
+QCM || Utilité Jevons || Non mesurable|V:Quantité mesurable|Qualitative|Relative
+
+QCM || Loi générale Jevons || Utilité croissante|V:Degré utilité décroît avec augmentation quantité|Utilité constante|Utilité variable
+
+QCM || Valeur bien marginalistes || Indépendante besoin|V:Plus élevée si besoin prioritaire et quantité faible|Fonction travail|Objective
+
+QCM || Utilité premiers marginalistes || Ordinale|V:Cardinale et mesurable|Non mesurable|Relative
+
+QCM || Conséquence 1 cardinalité || Pas de différence|V:Différence entre utilités a signification|Ordre seulement|Comparaison impossible
+
+QCM || Conséquence 2 cardinalité || Comparaisons impossibles|V:Comparaisons interpersonnelles possibles|Subjectivité totale|Isolation individuelle
+
+QCM || Doutes cardinalité depuis || 1890|V:1900|1910|1920
+
+QCM || Premier critique cardinalité || Jevons|V:Vilfredo Pareto|Walras|Marshall
+
+QCM || Pareto capacité humaine || Mesurer précisément|V:Incapable mesurer utilité précisément|Calculer parfaitement|Quantifier exactement
+
+QCM || Pareto alternative || Mesure cardinale|V:Classement préférences|Calcul précis|Quantification
+
+QCM || Pareto utilité devient || Cardinale|V:Ordinale|Non mesurable|Absolue
+
+QCM || Utilité ordinale signification || Valeur importante|V:Valeur aucune signification en elle-même|Mesure précise|Comparaison directe
+
+QCM || Conséquence 1 ordinalité || Valeur absolue|V:Valeur aucune signification en elle-même|Mesure directe|Comparaison simple
+
+QCM || Conséquence 2 ordinalité || Comparaisons possibles|V:Exclut comparaisons interpersonnelles|Facilite comparaisons|Permet moyennes
+
+QCM || Prix naturel classiques || Prix marché|V:Dépend quantité travail, déterminé hors échange|Prix courant|Valeur subjective
+
+QCM || Prix marché classiques || Prix naturel|V:Dépend confrontation offre/demande|Coût production|Travail incorporé
+
+QCM || Relation prix naturel/marché || Identiques toujours|V:Différence temporaire, convergence via concurrence|Toujours différents|Indépendants
+
+QCM || Profit supérieur normal || Baisse offre|V:Attire producteurs, hausse offre, baisse prix|Stabilité|Hausse prix
+
+QCM || Profit inférieur normal || Hausse offre|V:Sortie producteurs, baisse offre, hausse prix|Stabilité|Baisse prix
+
+QCM || Marginalistes prix || Naturel et marché|V:Un seul prix - marché est naturel|Trois prix|Prix subjectifs
+
+QCM || Prix marché marginalistes || Coût production|V:Révèle utilités marginales perçues|Travail incorporé|Valeur objective
+
+QCM || Négociation prix exemple || Prix fixe|V:Négociation jusqu'accord reflétant utilités marginales|Imposé|Aléatoire
+
+QCM || Prix d'équilibre marginalistes || Prix naturel différent|V:Prix naturel équivaut prix équilibre marché|Prix coût|Prix travail
+
+QCM || Demande utilité marginale || Croissante|V:Décroissante - baisse propension payer|Constante|Variable
+
+QCM || Marshall contribution || Demande seulement|V:Symétrie offre/demande via productivité marginale|Offre seulement|Prix seulement
+
+QCM || Productivité marginale || Croissante|V:Décroissante comme utilité marginale|Constante|Indépendante
+
+QCM || Offre coût marginal || Décroissante|V:Croissante par rapport prix|Constante|Variable
+
+QCM || Unicité équilibre || Plusieurs équilibres|V:Un et un seul équilibre marché|Aucun équilibre|Équilibre variable
+
+QCM || Marshall raisonnement || Équilibre général|V:Équilibre partiel|Déséquilibre|Dynamique
+
+QCM || Équilibre partiel || Tous marchés|V:Marché particulier, autres constants|Aucun marché|Plusieurs marchés
+
+QCM || Limite équilibre partiel || Réaliste|V:Restrictif - interactions entre marchés|Complet|Parfait
+
+QCM || Walras raisonnement || Équilibre partiel|V:Équilibre général|Déséquilibre|Statique
+
+QCM || Équilibre général || Un marché|V:Tous marchés et agents en équilibre|Quelques marchés|Aucun marché
+
+QCM || Optimum Pareto || Égalité parfaite|V:Impossible augmenter bien-être un sans diminuer autre|Maximum individuel|Profit maximum
+
+QCM || Équilibre concurrence parfaite || Sous-optimal|V:Optimum maximisant bien-être collectif|Inefficace|Injuste
+
+QCM || Unicité prix équilibre || Prix différents|V:Prix unique s'impose tous agents|Prix variables|Prix négociables
+
+QCM || Processus marshallien || Prix s'ajustent|V:Quantités s'ajustent selon écart prix|Simultané|Aléatoire
+
+QCM || Excès demande Marshall || Baisse prix production|V:Hausse prix et production|Stagnation|Baisse production
+
+QCM || Stabilité équilibre || Instable|V:Capacité atteindre et rejoindre après perturbation|Fragile|Temporaire
+
+QCM || Tâtonnement walrassien inspiration || Théorie pure|V:Bourse de Paris|Marché agricole|Modèle abstrait
+
+QCM || Commissaire-priseur rôle || Fixe prix final|V:Crie prix, agents annoncent quantités|Impose échanges|Régule marché
+
+QCM || Échanges tâtonnement || Immédiats|V:Seulement quand quantités identiques|Permanents|Interdits
+
+QCM || Interdépendance ajustements || Indépendants|V:Ajustement un bien impacte tous autres|Séquentiels|Isolés
+
+QCM || Convergence tâtonnement || Impossible|V:Processus converge vers équilibre général|Aléatoire|Divergente
+
+QCM || Concurrence Smith || Inefficace|V:Condition efficacité et harmonie sociale|Dangereuse|Inutile
+
+QCM || Main invisible || Intervention État|V:Intérêt personnel assure intérêt société|Planification|Régulation
+
+QCM || Concurrence selon marginalistes || À tout va|V:Pas souhaitable dans certains cas|Toujours bonne|Interdite
+
+QCM || Monopoles moraux Walras || Rentables privé|V:Non rentables privé mais améliorent bien-être société|Interdits|Temporaires
+
+QCM || Exemple monopole moral || Entreprise privée|V:Musée du Louvre|Banque|Usine
+
+QCM || Monopoles naturels || Coûts variables élevés|V:Coûts fixes élevés|Coûts nuls|Coûts faibles
+
+QCM || Effet nombre entreprises monopole naturel || Prix diminuent|V:Plus entreprises, prix plus élevés|Prix constants|Prix variables
+
+QCM || Solution monopole naturel || Concurrence libre|V:Une seule entreprise encadrée par État|Interdiction|Nationalisation

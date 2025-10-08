@@ -20,8 +20,6 @@ QCM || Revenu permanent (Friedman) : || V:C = γ·Yp ; Y = Yp + Yt|C = a + cY co
 ### QCM Pièges & comparatifs (plus complexes)
 QCM || (multi) Dans C = C0 + cY, une hausse simultanée de C0 de 5 et d’I de 5 : || V:effet total sur Y = 10/(1−c)|effet uniquement via I|effet uniquement via C0|V:les deux effets sont multiplicés par k
 QCM || (multi) Si c passe de 0,6 à 0,8, alors : || V:le multiplicateur augmente|la PmE diminue|V:Y est plus sensible à I|l’équilibre devient impossible
-QCM || (calcul) C0=50, c=0,8, T=20, I=30. Y* vaut : || 360|V:300|280|Aucune  || Y* = [C0 − cT + I]/(1−c) = [50−16+30]/0,2 = 64/0,2 = 320 → Oups test : Refaire : 50−16+30 = 64 ; 64/0,2 = 320. Réponse correcte : 320.
-QCM || (rectif) Correction à la question précédente : la valeur correcte de Y* est : || 300|V:320|280|Aucune
 
 ### Questions tombées en examen (2022, 2023, 2024)
 QCM || La fonction de consommation (Keynes) est : || V:relation croissante à court terme entre Y et C|relation décroissante|relation proportionnelle|Aucune
