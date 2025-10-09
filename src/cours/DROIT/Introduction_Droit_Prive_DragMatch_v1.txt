@@ -1,0 +1,80 @@
+QCM || Quels sont les symboles traditionnels de la Justice ? || V:Thémis|V:Diké|V:Balance|V:Glaive|Baguette magique
+QCM || Que symbolisent les yeux bandés de Thémis ? || V:L’impartialité|L’indifférence|La cécité volontaire|Le secret
+QCM || Qui a dit : “La vie est un océan de droit où émergent des îlots de non-droit” ? || V:Jean Carbonnier|Jean Domat|Voltaire|Montesquieu
+QCM || Quel auteur est à l’origine de la théorie du contrat social ? || V:Rousseau|Kant|Weber|Kelsen
+QCM || Que symbolise le glaive ? || V:La puissance de l’État|L’autorité publique|La sanction|L’indépendance du juge
+QCM || Le droit objectif désigne : || V:L’ensemble des règles régissant la société|Un droit individuel|Une morale personnelle|Un usage coutumier
+QCM || Les droits subjectifs sont : || V:Des prérogatives individuelles reconnues par le droit objectif|Des sanctions pénales|Des devoirs collectifs|Des lois constitutionnelles
+QCM || Une règle impérative : || V:Ne peut être écartée par contrat|Est d’ordre public|S’applique à tous|Peut être modifiée librement
+QCM || Une règle supplétive : || V:S’applique seulement si les parties n’ont rien prévu|Est d’ordre public|S’applique toujours|Impose un comportement
+QCM || Quelle phrase est vraie concernant l’équité ? || V:Elle vise une solution juste même hors du texte|Elle est prévue à l’art. 12 CPC|Elle peut être demandée par les parties|Elle est obligatoire pour tout juge
+QCM || Qui a proposé la hiérarchie des normes ? || V:Hans Kelsen|Max Weber|Portalis|Rousseau
+QCM || La Constitution de 1958 : || V:Installe la Ve République|Fait partie du bloc de constitutionnalité|Date du 4 octobre 1958|Établit la IIIe République
+QCM || Quels textes composent le bloc de constitutionnalité ? || V:DDHC 1789|V:Préambule 1946|V:Charte 2004|V:PFRLR
+QCM || Que signifie PFRLR ? || V:Principes fondamentaux reconnus par les lois de la République|Principes fédéraux de la République|Principes français des règles légales|Parti français républicain légal
+QCM || Quelle décision a reconnu la valeur constitutionnelle du Préambule de 1958 ? || V:Liberté d’association (1971)|Décision sur la QPC (2010)|Révision constitutionnelle (2004)|Abolition des privilèges (1789)
+QCM || Quelles personnes peuvent saisir le Conseil constitutionnel avant promulgation ? || V:Président de la République|V:Premier ministre|V:Président du Sénat|V:60 députés ou sénateurs
+QCM || La QPC permet : || V:À tout justiciable de contester la constitutionnalité d’une loi|D’interrompre le procès en cours|D’obtenir une abrogation éventuelle|De juger une affaire pénale
+QCM || Quels auteurs ont participé à la rédaction du Code civil ? || V:Portalis|V:Tronchet|V:Maleville|V:Bigot de Préameneu
+QCM || Quelle est la date du Code civil ? || 1789|1791|V:1804|1810
+QCM || Quelle phrase est correcte concernant l’ancien droit ? || V:Le Nord appliquait le droit coutumier|V:Le Sud suivait le droit écrit|La France était unifiée juridiquement avant 1789|Le clergé rédigeait la Constitution
+QCM || Quels éléments appartiennent à la pyramide de Kelsen ? || V:Constitution|V:Loi|V:Règlement|Décision individuelle
+QCM || Quel article du Code civil définit la responsabilité pour faute ? || V:Art. 1240|Art. 6|Art. 700 CPC|Art. 12 CPC
+QCM || Quelle règle prévoit que les contrats tiennent lieu de loi aux parties ? || V:Art. 1103 C. civ.|Art. 6 C. civ.|Art. 700 CPC|Art. 73-74 C°
+QCM || Que prévoit l’art. 73-74 de la Constitution ? || V:Des adaptations pour les DOM-TOM-COM|Des sanctions pénales|Des contrats civils|Des règles de morale
+QCM || Quelle affirmation est correcte sur le droit intermédiaire ? || V:Il correspond à la période révolutionnaire (1789-1804)|Il introduit l’égalité juridique|Il conserve des privilèges|Il suit le Code civil
+QCM || Quelle loi marque l’abolition des privilèges ? || V:4 août 1789|26 août 1789|21 mars 1804|4 octobre 1958
+QCM || Quelle est la hiérarchie correcte des normes ? || V:Constitution > Traités > Lois > Règlements|Traités > Constitution > Lois > Règlements|Constitution > Lois > Traités > Règlements|Lois > Constitution > Règlements
+VF || Le droit est un ensemble de règles qui régulent les comportements entre individus. || V
+VF || La justice correspond à la mise en pratique du droit. || V
+VF || Jean Carbonnier décrit le droit comme un océan où émergent des îlots de non-droit. || V
+VF || Le juriste est celui qui crée les lois. || F
+VF || Rousseau affirme que l’État résulte d’un contrat social où les individus délèguent leur puissance. || V
+VF || Max Weber définit l’État comme seul détenteur de la violence légitime. || V
+VF || Le glaive symbolise la neutralité du juge. || F
+VF || La balance symbolise la pondération entre les arguments des parties. || V
+VF || Les yeux bandés de Thémis représentent l’impartialité. || V
+VF || Diké est la déesse de l’ordre juridique. || F
+VF || Le droit objectif regroupe toutes les règles applicables à une société donnée. || V
+VF || Les droits subjectifs désignent les prérogatives individuelles reconnues à chacun. || V
+VF || Un droit absolu est opposable uniquement à certaines personnes. || F
+VF || Le droit relatif est opposable à tous. || F
+VF || L’art. 1240 du Code civil consacre la responsabilité pour faute. || V
+VF || L’art. 6 du Code civil interdit de déroger aux règles d’ordre public. || V
+VF || Une règle supplétive s’impose en toute circonstance. || F
+VF || Les règles impératives ne peuvent être écartées par contrat. || V
+VF || “Nul n’est censé ignorer la loi” est une fiction juridique. || V
+VF || L’équité permet au juge de statuer au-delà d’une règle rigide pour atteindre une solution juste. || V
+VF || L’art. 12 du Code de procédure civile autorise les juges à statuer en équité si les parties le demandent. || V
+VF || L’art. 700 du Code de procédure civile prévoit la sanction pénale en cas de parjure. || F
+VF || Hans Kelsen est à l’origine de la théorie de la hiérarchie des normes. || V
+VF || La Constitution est inférieure à la loi dans la pyramide de Kelsen. || F
+VF || Le bloc de constitutionnalité comprend la DDHC de 1789. || V
+VF || Le préambule de 1946 fait partie du bloc de constitutionnalité. || V
+VF || La Charte de l’environnement de 2004 n’a aucune valeur constitutionnelle. || F
+VF || La décision “Liberté d’association” date de 1971. || V
+VF || Le contrôle a priori du Conseil constitutionnel se fait avant la promulgation d’une loi. || V
+VF || La QPC permet à tout justiciable de contester une loi déjà promulguée. || V
+VF || Le Conseil constitutionnel peut être saisi par un particulier directement avant l’adoption d’une loi. || F
+VF || La Constitution du 4 octobre 1958 a instauré la Ve République. || V
+VF || Les normes inférieures doivent respecter les normes supérieures selon Kelsen. || V
+VF || Le droit révolutionnaire (1789-1804) correspond à une période d’égalité juridique. || V
+VF || Portalis, Tronchet, Maleville et Bigot de Préameneu sont les rédacteurs du Code civil. || V
+VF || Le Code civil est entré en vigueur le 21 mars 1804. || V
+VF || Le Code pénal de 1810 est toujours en vigueur. || F
+VF || Le Conseil constitutionnel a été créé en 1958. || V
+VF || Les traités internationaux priment toujours sur la Constitution française. || F
+VF || La révision de la Constitution est possible pour permettre la ratification d’un traité contraire. || V
+VF || L’ancien droit avant 1789 était uniforme sur tout le territoire. || F
+VF || Voltaire écrivait qu’on changeait de loi aussi souvent que de chevaux en voyageant. || V
+VF || Au Sud, la France d’ancien droit suivait une tradition de droit écrit. || V
+VF || Le Nord de la France appliquait surtout le droit coutumier. || V
+VF || Les règles de droit ont toujours une dimension morale. || F
+VF || L’art. 73-74 de la Constitution prévoit des adaptations pour les DROM-COM. || V
+VF || Hans Kelsen et Max Weber appartiennent à la même école économique. || F
+VF || Le droit intermédiaire correspond à la période révolutionnaire (1789-1804). || V
+VF || La DDHC de 1789 a été rédigée en un mois. || V
+DragMatch || Associe les auteurs et leurs idées || Jean Carbonnier:"La vie est un océan de droit…", Rousseau:Contrat social, Max Weber:Monopole de la violence légitime, Hans Kelsen:Hiérarchie des normes, Portalis:Rédacteur du Code civil
+DragMatch || Associe symboles et sens || Thémis:Déesse de l’ordre et du droit, Diké:Déesse de la parole et de la mise en pratique, Glaive:Symbole de la puissance de l’État, Balance:Pondération des arguments, Yeux bandés:Impartialité, Jugement de Salomon:Recherche de la vérité par la réaction
+DragMatch || Associe articles et contenu || Art. 6 C. civ.:Ordre public (règle impérative), Art. 12 CPC:Amiable composition (équité), Art. 700 CPC:Frais irrépétibles, Art. 1240 C. civ.:Responsabilité délictuelle, Art. 73-74 Constitution:Adaptations DROM-COM
+DragMatch || Associe dates et événements || 4 août 1789:Abolition des privilèges, 26 août 1789:Déclaration des droits de l’homme, 21 mars 1804:Code civil, 4 octobre 1958:Constitution de la Ve République, 16 juillet 1971:Décision Liberté d’association

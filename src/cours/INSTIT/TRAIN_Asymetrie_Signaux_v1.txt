@@ -6,5 +6,5 @@ QCM || Exemples de signal || V:Diplôme|V:Garantie vendeur|Subvention universell
 QCM || Arrow (santé) : mécanismes || V:Certification/reputation|V:Assurances|Absence de contrats|Suppression de l’éthique médicale
 QCM || Piège : laquelle est FAUSSE ? || V:L’aléa moral précède la signature|Diplôme peut trier|Labels informent|Réputation réduit l’incertitude
 QCM || Quand privilégier un contrat avec franchise ? || V:Quand l’aléa moral est élevé|Quand info parfaite|Toujours inutile|Quand le risque est nul
-QCM || Which is TRUE? || V:Signalling complements screening|Screening = same as signalling|Costless signals are more credible|All labels eliminate risk
+
 QCM || Plateformes de seconde main : quels outils réduisent la sélection adverse ? || V:Scores/réclamations publics|V:Garantie acheteur|Anonymat total|Suppression des avis

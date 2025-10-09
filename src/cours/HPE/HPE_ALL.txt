@@ -4,7 +4,7 @@ QCM || Trois arguments faisant penser que l'économie est une science || V:On pa
 
 QCM || Prix Nobel d'économie vrai nom || Prix Nobel d'économie|V:Prix de la banque de Suède en sciences économiques en mémoire d'Alfred Nobel|Prix Nobel de la paix économique|Prix européen d'économie
 
-QCM || Année création prix Nobel économie || 1967|1968|V:1969|1970
+VF || Le "prix Nobel d'économie" fait partie des prix créés par Alfred Nobel. || F || Prix financé par la Banque de Suède en mémoire d'Alfred Nobel, distinct des prix originels.
 
 QCM || Différence économie vs sciences naturelles || Même méthode|V:En économie on peut revenir aux théories passées, pas en sciences naturelles|Économie plus rigoureuse|Aucune différence
 
@@ -12,11 +12,11 @@ QCM || Connaissances en économie vs sciences naturelles || V:Connaissances pass
 
 QCM || Histoire sciences naturelles selon le cours || Utile pour pratique actuelle|V:Musée de théories dépassées|Guide pour recherche|Base théorique
 
-QCM || Thomas Kuhn ouvrage principal || V:La structure des révolutions scientifiques|L'origine des espèces|Théorie générale|Principes d'économie
+QCM || Quel est l'ouvrage principal de Thomas Kuhn ? || V:La structure des révolutions scientifiques|L'origine des espèces|Théorie générale|Principes d'économie
 
-QCM || Concept clé de Kuhn || Révolution|V:Paradigme|Évolution|Progrès
+QCM || Quel concept clé associe-t-on à Kuhn ? || Révolution|V:Paradigme|Évolution|Progrès
 
-QCM || Paradigme selon Kuhn || Théorie isolée|V:Modèle commun, cadre d'analyse d'une communauté scientifique|Méthode unique|Outil mathématique
+QCM || Qu'entend-on par « paradigme » chez Kuhn ? || Théorie isolée|V:Modèle commun, cadre d'analyse d'une communauté scientifique|Méthode unique|Outil mathématique
 
 QCM || Caractéristique communauté scientifique Kuhn || Désaccord permanent|V:Cohésion, consensus autour principes base et méthodes|Individualisme|Compétition
 
@@ -24,7 +24,7 @@ QCM || Révolution scientifique Kuhn || Évolution lente|V:Changement de paradig
 
 QCM || Analogie construction puzzle Kuhn || V:Science normale résout problèmes dans cadre établi|Science révolutionnaire|Création de nouveaux puzzles|Destruction paradigmes
 
-QCM || Révolution keynésienne année || 1929|1935|V:1936|1937
+QR || La révolution keynésienne met surtout en avant : || V:La demande effective|La neutralité de la monnaie|La loi de Say|La valeur-travail || Accent sur la demande globale et le rôle stabilisateur de l'État.
 
 QCM || Paradigme avant Keynes || Keynésien|V:Classique - marché et non-intervention État|Marginaliste|Marxiste
 
@@ -34,11 +34,11 @@ QCM || Cohésion économistes selon cours || V:N'a jamais véritablement existé
 
 QCM || Coexistence en économie || Un seul paradigme|V:Coexistence d'écoles de pensées qui dominent une période|Chaos théorique|Uniformité
 
-QCM || Karl Popper nationalité || Américain|Français|Allemand|V:Britannique
+QCM || Quelle est la nationalité de Karl Popper ? || Américain|Français|Allemand|V:Britannique
 
-QCM || Critère démarcation Popper conditions || Une seule condition|V:Cohérence logique ET testabilité|Seulement cohérence|Seulement testabilité
+QCM || Selon Popper, quel est le critère de démarcation d'une proposition scientifique ? || Une seule condition|V:Cohérence logique ET testabilité|Seulement cohérence|Seulement testabilité
 
-QCM || Proposition scientifique Popper || Toujours vraie|V:Réfutable par événement concevable|Irréfutable|Évidente
+QCM || Pour Popper, une proposition scientifique est-elle réfutable ? || Toujours vraie|V:Réfutable par événement concevable|Irréfutable|Évidente
 
 QCM || Exemple tous cygnes blancs || V:Rentre dans champ science (cohérent et testable)|Non scientifique|Partiellement scientifique|Impossible à déterminer
 
@@ -60,9 +60,11 @@ QCM || Chômage paradigme libéral/classique || Insuffisance demande|V:Salaires 
 
 QCM || Chômage paradigme keynésien || Salaires trop élevés|V:Insuffisance de la demande|Surproduction|Problème offre
 
+DragMatch || Associez chaque auteur à l'idée centrale de son apport || Adam Smith:Main invisible et rôle de la concurrence, David Ricardo:Rente différentielle et terres de qualité, Thomas Malthus:Population géométrique et rendements décroissants, Karl Marx:Plus-value et travail abstrait, Carl Menger:Utilité marginale subjective, William Jevons:Utilité marginale mesurable, Léon Walras:Équilibre général et tâtonnement, Alfred Marshall:Équilibre partiel et productivité marginale, Vilfredo Pareto:Optimum de Pareto || Cartographier les apports sans retenir des dates.
+
 === ECOLE CLASSIQUE - VALEUR TRAVAIL ===
 
-QCM || École classique période || XVIIe siècle|V:XVIIIe siècle|XIXe siècle|XXe siècle
+QCM || L'école classique apparaît principalement à quelle période ? || XVIIe siècle|V:XVIIIe siècle|XIXe siècle|XXe siècle
 
 QCM || Questions centrales école classique || Prix et utilité|V:Création richesse, formation valeur, répartition équitable|Consommation et production|Marché et concurrence
 
@@ -74,15 +76,15 @@ QCM || Opposition idéologique classiques || Tous libéraux|V:Smith libéral, Ma
 
 QCM || Sous-catégorie école classique anglaise || Marx et Ricardo|V:Smith et Ricardo - libéralisme économique|Malthus et Marx|Smith et Malthus
 
-QCM || Être libéral signifie || État interventionniste|V:Croire en efficacité marché, État ne doit pas intervenir directement|État planificateur|État propriétaire
+QCM || Dans le sens économique historique, « être libéral » signifie plutôt : || État interventionniste|V:Croire en l'efficacité du marché, avec un État non interventionniste direct|État planificateur|État propriétaire
 
 QCM || Trois piliers libéralisme || État, marché, société|V:Individualisme, liberté économique, équilibre économique|Solidarité, égalité, fraternité|Ordre, autorité, tradition
 
 QCM || Rôle État pour libéraux || Actif et interventionniste|V:Arbitre qui encadre et garantit liberté économique|Propriétaire moyens production|Planificateur central
 
-QCM || Aristote conception valeur || Une seule valeur|V:Deux valeurs - usage et échange|Trois valeurs|Valeur unique
+QCM || Selon Aristote, combien de notions de valeur distingue-t-on ? || Une seule valeur|V:Deux valeurs - usage et échange|Trois valeurs|Valeur unique
 
-QCM || Valeur d'usage définition || Capacité d'échange|V:Utilité du bien|Prix du bien|Rareté du bien
+QCM || La valeur d'usage renvoie à : || Capacité d'échange|V:Utilité du bien|Prix du bien|Rareté du bien
 
 QCM || Valeur d'échange définition || Utilité du bien|V:Nombre d'unités d'autres biens obtenus en échange|Coût de production|Travail incorporé
 
@@ -210,7 +212,7 @@ QCM || Régulateur croissance démographique || Politique nataliste|V:Dégradati
 
 === ECOLE MARGINALISTE - PRIX ET MARCHE ===
 
-QCM || Apparition marginalisme || 1860|V:1870|1880|1890
+VF || Le marginalisme rompt avec la valeur-travail des classiques en plaçant l'utilité marginale au centre de la valeur. || V || Changement de perspective: de la valeur-travail à l'utilité marginale.
 
 QCM || Concept origine marginalisme || Valeur travail|V:Utilité marginale|Prix naturel|Coût production
 
@@ -278,7 +280,7 @@ QCM || Conséquence 1 cardinalité || Pas de différence|V:Différence entre uti
 
 QCM || Conséquence 2 cardinalité || Comparaisons impossibles|V:Comparaisons interpersonnelles possibles|Subjectivité totale|Isolation individuelle
 
-QCM || Doutes cardinalité depuis || 1890|V:1900|1910|1920
+VF || Pour Pareto, on ne peut pas mesurer l'utilité de façon précise; il propose de raisonner en termes d'ordres de préférence. || V || L'utilité devient ordinale, ce qui exclut les comparaisons interpersonnelles.
 
 QCM || Premier critique cardinalité || Jevons|V:Vilfredo Pareto|Walras|Marshall
 
@@ -299,6 +301,8 @@ QCM || Prix naturel classiques || Prix marché|V:Dépend quantité travail, dét
 QCM || Prix marché classiques || Prix naturel|V:Dépend confrontation offre/demande|Coût production|Travail incorporé
 
 QCM || Relation prix naturel/marché || Identiques toujours|V:Différence temporaire, convergence via concurrence|Toujours différents|Indépendants
+
+DragMatch || Associez chaque école à sa caractéristique principale || Classiques:Valeur-travail et prix naturel, Marginalistes:Utilité marginale et choix individuels, Keynésiens:Demande effective et intervention de l'État, Néoclassiques:Modélisation mathématique et équilibre, Walrassiens:Tâtonnement et commissaire-priseur || Repérer les axes conceptuels par école.
 
 QCM || Profit supérieur normal || Baisse offre|V:Attire producteurs, hausse offre, baisse prix|Stabilité|Hausse prix
 
@@ -349,6 +353,8 @@ QCM || Tâtonnement walrassien inspiration || Théorie pure|V:Bourse de Paris|Ma
 QCM || Commissaire-priseur rôle || Fixe prix final|V:Crie prix, agents annoncent quantités|Impose échanges|Régule marché
 
 QCM || Échanges tâtonnement || Immédiats|V:Seulement quand quantités identiques|Permanents|Interdits
+
+DragMatch || Associez chaque concept à sa description || Valeur d'usage:Utilité du bien pour l'individu, Valeur d'échange:Quantité d'autres biens obtenus en échange, Prix naturel:Déterminé par les conditions de production hors échange, Prix de marché:Résulte de la confrontation de l'offre et de la demande || Clarifier les définitions sans lister numériquement.
 
 QCM || Interdépendance ajustements || Indépendants|V:Ajustement un bien impacte tous autres|Séquentiels|Isolés
 
